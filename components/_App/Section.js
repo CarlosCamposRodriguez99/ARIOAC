@@ -13,7 +13,7 @@ const Section = () => {
         <div style={{padding: "0", margin: "0"}}>
           <div style={{padding: "0", margin: "0"}}>
             <div style={{padding: "0", marginBottom: "auto"}}>
-              <Image width={960} height={680} src='/img/section/ari.png' alt='fabricamos-suplementos-maquilas-y-suplementos' loading='lazy'/>
+              <Image width={960} height={680} src='/img/section/ari.png' alt='arioac' loading='lazy'/>
             </div>
           </div>
         </div>
@@ -51,18 +51,18 @@ const Section = () => {
         <div style={{marginLeft: "40px", marginTop: "30px", marginRight: "40px"}}>
           <div className='seccionTitle'>
             <div>
-              <h1 style={{fontFamily: 'Montserrat, sans-serif', color: "#000", fontSize: "40px", textAlign: "left" }}>NUESTRAS MEMBRESIAS</h1>
+              <h1 style={{fontFamily: 'Montserrat, sans-serif', color: "#000", fontSize: "40px", textAlign: "left" }}>¡MOTIVOS PARA NO PERDÉRTELO!</h1>
               <div style={{borderBottom: "3px solid #696969", width: "57px", marginBottom: "25px", marginTop: "15px"}}></div>
-              <h3 style={{fontFamily: 'Roboto, sans-serif', fontSize: "24px", color: "#00BFFF"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+              <h3 style={{fontFamily: 'Roboto, sans-serif', fontSize: "24px", color: "#00BFFF"}}>10 Conferencias Magistrales, Workshop estratégico de implementación, Conferencia Mejor Práctica, Panel de discusión con especialistas.</h3>
               <div style={{borderBottom: "3px solid #808080", marginBottom: "25px", marginTop: "25px"}}></div>
             </div>
             <div>
-              <p style={{fontFamily: 'Roboto, sans-serif', fontSize: "17px", textAlign: "justify"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+              <p style={{fontFamily: 'Roboto, sans-serif', fontSize: "17px", textAlign: "justify"}}>Networking con especialistas y ejecutivos de RH, Conoce las tendencias e innovaciones en la Gestión de la Compensación Total, Escucha en voz de los expertos y especialistas las mejores prácticas en Capital Humano y Compensaciones.</p>
             </div>
             <div className='botonSeccionTop' style={{marginTop: "30px"}}>
               <Link href="/servicios" passHref={true} legacyBehavior>
                 <a className="default-btn">
-                  VER MEMBRESIAS
+                  VER EVENTO
                 </a>
               </Link>
             </div>

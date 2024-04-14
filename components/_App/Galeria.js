@@ -6,7 +6,7 @@ const Galeria = () => {
   return (
     <React.Fragment>
          <div id="portfolio-all" className="row container" style={{padding: "30px", margin: "0 auto"}}>
-		 <h1 style={{color: "#000", textAlign: "center", fontFamily: "Montserrat, sans-serif", marginBottom: "40px", marginTop: "-60px"}}>SERVICIOS</h1>
+		 <h1 style={{color: "#000", textAlign: "center", fontFamily: "Montserrat, sans-serif", marginBottom: "40px", marginTop: "-60px"}}>CONFERENCIAS MAGISTRALES</h1>
 			
 			<div className="col-xs-12 col-sm-6 col-md-4 portfolio-item filter-print imagen">
 				<div className="portfolio--img">
@@ -16,7 +16,7 @@ const Galeria = () => {
 						<div>
 							<div className="pos-vertical-center">
 								<div className="portfolio--title">
-									<h4><a>FABRICACIÓN</a></h4>
+									<h4><a>EVENTO EN</a></h4>
 								</div>
 							</div>
 						</div>
@@ -33,7 +33,7 @@ const Galeria = () => {
 						<div>
 							<div className="pos-vertical-center">
 								<div className="portfolio--title">
-									<h4><a>ENVASADO</a></h4>
+									<h4><a>EVENTO EN </a></h4>
 								</div>
 							</div>
 						</div>

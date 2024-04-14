@@ -46,7 +46,7 @@ const Footer = () => {
                                                                 onMouseEnter={() => handleMouseEnter('/')}
                                                                 onMouseLeave={handleMouseLeave}
                                                             >
-                                                                INICIO
+                                                                HR WEEK
                                                             </a>
                                                         </h3>
                                                     </Link>
@@ -59,7 +59,7 @@ const Footer = () => {
                                                                     onMouseEnter={() => handleMouseEnter('/empresa')}
                                                                     onMouseLeave={handleMouseLeave}
                                                                 >
-                                                                    EMPRESA
+                                                                    CONFERENCIAS
                                                                 </a>
                                                             </h3>
                                                         </Link>
@@ -73,7 +73,21 @@ const Footer = () => {
                                                                     onMouseEnter={() => handleMouseEnter('/servicios')}
                                                                     onMouseLeave={handleMouseLeave}
                                                                 >
-                                                                    EVENTOS
+                                                                    PROGRAMA
+                                                                </a>
+                                                            </h3>
+                                                        </Link>
+                                                    </div>
+
+                                                    <div className="d-flex">
+                                                        <Link href="/servicios" passHref={true} legacyBehavior>
+                                                            <h3 className='nomargin' style={{ color: activeLink === '/servicios' ? "#1C9CD9" : "#fff", marginRight: "40px", fontSize: "18px", fontWeight: "600" }}>
+                                                                <a
+                                                                    style={{ cursor: "pointer" }}
+                                                                    onMouseEnter={() => handleMouseEnter('/servicios')}
+                                                                    onMouseLeave={handleMouseLeave}
+                                                                >
+                                                                    PATROCINADORES
                                                                 </a>
                                                             </h3>
                                                         </Link>
@@ -87,7 +101,7 @@ const Footer = () => {
                                                                     onMouseEnter={() => handleMouseEnter('/contact')}
                                                                     onMouseLeave={handleMouseLeave}
                                                                 >
-                                                                    CONTACTO
+                                                                    REGíSTRATE
                                                                 </a>
                                                             </h3>
                                                         </Link>
@@ -104,20 +118,25 @@ const Footer = () => {
 
                 {/* Segundo código */}
                 <div className="container">
-                    <div className="row align-items-end">
+                    <div className="row align-items-center">
                         <div className="col-xs-12 col-md-12" style={{ backgroundColor: "#333333", margin: "0 auto" }}>
                             <div className="row" style={{ padding: "0 auto", margin: "0 auto", alignItems: "center" }}>
-                                <div className="col-xs-12 col-md-6 redes" style={{ marginTop: "10px", display: "flex", justifyContent: "space-between" }}>
-                                    <span style={{color: "#fff", letterSpacing: "1px", fontSize: "16px", fontFamily: "Montserrat, sans-serif"}}>&copy; {currentYear} ARIOAC - Asociación de Recursos Humanos </span>
-                                    <div style={{ display: 'flex', alignItems: 'center' }}>
-                                        <a href="https://www.facebook.com/maquilasysuplementos" target='_blank' style={{ margin: '0 -13px' }}>
+                                <div className="col-xs-12 col-md-6 redes" style={{ marginTop: "10px", display: "flex", flexDirection: "column", alignItems: "center" }}>
+                                    <span style={{ color: "#fff", letterSpacing: "1px", fontSize: "16px", fontFamily: "Montserrat, sans-serif", marginBottom: "20px", textAlign: "center"}}>
+                                        &copy; {currentYear} ARIOAC - Asociación de Recursos Humanos. Manuel Acuña #2760 Esq. Rubén Darío Piso 2 Despacho 204, Col. Prados Providencia C.P. 44670 Guadalajara, Jalisco Tels. (01-33)38-11-2221 Fax.(01.33)31-24-6991
+                                    </span>
+                                    <div style={{ position: 'absolute', left: '10px', bottom: '-45px', display: 'flex', alignItems: 'flex-end', marginBottom: '10px' }}>
+                                        <a href="https://www.facebook.com/arioacgdl?mibextid=ZbWKwL" target='_blank' style={{ margin: '0 10px' }}>
                                             <Image src="/img/redes-sociales/face-02.svg" alt="Facebook" width={35} height={35} />
                                         </a>
-                                        <a href="https://www.instagram.com/maquilasysuplementos.mx/" target='_blank' style={{ margin: '0 25px' }}>
+                                        <a href="https://www.instagram.com/arioacgdl?igsh=Z2YxemFpcTc2d3Zn" target='_blank' style={{ margin: '0 10px' }}>
                                             <Image src="/img/redes-sociales/insta-02.svg" alt="Instagram" width={35} height={35} />
                                         </a>
-                                        <a href="https://www.youtube.com/@maquilasysuplementos" target='_blank' style={{ margin: '0 -13px' }}>
-                                            <Image src="/img/redes-sociales/you-02.svg" alt="YouTube" width={35} height={35} />
+                                        <a href="https://www.linkedin.com/company/arioac/mycompany/" target='_blank' style={{ margin: "-5px 5px"}}>
+                                            <Image src="/img/redes-sociales/link-02.svg" alt="Linkedin" width={45} height={45} />
+                                        </a>
+                                        <a href="https://www.linkedin.com/company/arioac/mycompany/" target='_blank' style={{ margin: '0 10px' }}>
+                                            <Image src="/img/redes-sociales/tik-02.svg" alt="Linkedin" width={35} height={35} />
                                         </a>
                                     </div>
                                 </div>
@@ -125,6 +144,8 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
+
+
             </footer>
         </React.Fragment>
     );

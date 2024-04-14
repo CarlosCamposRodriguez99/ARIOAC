@@ -52,7 +52,7 @@ const ContactForm = () => {
                         <div className="section-title">
                             <h2 style={{ fontFamily: "Montserrat, sans-serif", textAlign: "left", textTransform: "uppercase", fontSize: "24px" }}>Enviar mensaje</h2>
                             <div style={{ borderBottom: '2px solid #0880B6', marginBottom: "10px", width: "40%" }}></div>
-                            <p style={{ textAlign: "justify", fontFamily: "Montserrat, sans-serif", color: "#000", fontWeight: 400 }}>Si está interesado en nuestros servicios, eventos, conferencias y desea conocer más detalles, deje un mensaje aquí, le responderemos lo antes posible.</p>
+                            <p style={{ textAlign: "justify", fontFamily: "Montserrat, sans-serif", color: "#000", fontWeight: 400 }}>Si está interesado en nuestros servicios, eventos, promociones, conferencias y desea conocer más detalles, deje un mensaje aquí, le responderemos lo antes posible.</p>
                         </div>
                         <form action="https://formsubmit.co/05498644fc0a192b12eee8fe081f1a95" method="POST" onSubmit={handleSubmit}>
                             <div className="row">
@@ -82,6 +82,49 @@ const ContactForm = () => {
                                         />
                                     </div>
                                 </div>
+                                {/*aqui puedes editar diferentes iconos */}
+                                <div className="col-lg-12">
+                                    <div className="form-group" style={{ position: "relative", lineHeight: 1 }}>
+                                        <i style={{ position: 'absolute', left: '5px', top: '50%', transform: 'translateY(-50%)' }}>☎︎</i>
+                                        <input
+                                            type="text" // Cambié el tipo de entrada a "text"
+                                            name="phone"
+                                            placeholder="Número de celular o teléfono"
+                                            className="form-control"
+                                            required
+                                            style={{ borderRadius: "15px", paddingLeft: '25px' }} // Añadí paddingLeft para dar espacio al icono
+                                        />
+                                    </div>
+                                </div>
+
+                                <div className="col-lg-12">
+                                    <div className="form-group" style={{ position: "relative", lineHeight: 1 }}>
+                                        <i style={{ position: 'absolute', left: '5px', top: '50%', transform: 'translateY(-50%)' }}>𖠿</i>
+                                        <input
+                                            type="text" // Cambié el tipo de entrada a "text"
+                                            name="empresa"
+                                            placeholder="Nombre de la empresa"
+                                            className="form-control"
+                                            required
+                                            style={{ borderRadius: "15px", paddingLeft: '25px' }} // Añadí paddingLeft para dar espacio al icono
+                                        />
+                                    </div>
+                                </div>
+
+                                <div className="col-lg-12">
+                                    <div className="form-group" style={{ position: "relative", lineHeight: 1 }}>
+                                        <i style={{ position: 'absolute', left: '5px', top: '50%', transform: 'translateY(-50%)' }}>✎</i>
+                                        <input
+                                            type="text" // Cambié el tipo de entrada a "text"
+                                            name="puesto"
+                                            placeholder="Puesto en la empresa"
+                                            className="form-control"
+                                            required
+                                            style={{ borderRadius: "15px", paddingLeft: '25px' }} // Añadí paddingLeft para dar espacio al icono
+                                        />
+                                    </div>
+                                </div>
+
                                 <div className="col-lg-12">
                                     <div className="form-group">
                                         <textarea
@@ -136,13 +179,13 @@ const ContactForm = () => {
 			{/* Contenido */}
 			<div className="content">
 			  <div className="title-container">
-				<h3 className="title">MAQUILA Y ENVASADO DE SUPLEMENTOS</h3>
+				<h3 className="title">Asociación de Recursos Humanos</h3>
 			  </div>
 			  <div className="subheading">
-				<h1 className="subheading-text">INICIA CON NOSOTROS</h1>
+				<h1 className="subheading-text">Contáctanos</h1>
 			  </div>
 			  <div className="description">
-				<p className="description-text">Solicita información y obtén una solución para la maquila de tus suplementos o productos. Contamos con las herramientas necesarias para el envasado de cremas y maquila de lotificado.</p>
+				<p className="description-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 			  </div>
 			</div>
 		  </div>

@@ -63,7 +63,7 @@ const Navbar = () => {
                             <div className="container">
                                 <Link href="/" passHref={true} legacyBehavior>
                                     <a onClick={toggleNavbar} className="navbar-brand">
-                                        <img src={scrollLogo ? '/img/logoarioac.png' : '/img/logoarioac.png'} alt="maquilas-y-suplementos" />
+                                        <img src={scrollLogo ? '/img/logoarioac.png' : '/img/logoarioac.png'} alt="ARIOAC" />
                                     </a>
                                 </Link>
 
@@ -85,27 +85,33 @@ const Navbar = () => {
                                     <ul className="navbar-nav m-auto">
                                         <li className="nav-item">
                                             <Link href="/" activeClassName="active-link" passHref={true} legacyBehavior>
-                                                <a className="nav-link">INICIO</a>
+                                                <a className="nav-link">HR WEEK</a>
                                             </Link>
                                         </li>
 
                                         <li className="nav-item">
                                             <Link href="/empresa" activeClassName="active-link" passHref={true} legacyBehavior>
-                                                <a onClick={toggleNavbar} className="nav-link">EMPRESA</a>
+                                                <a onClick={toggleNavbar} className="nav-link">CONFERENCIAS</a>
                                             </Link>
                                         </li>
 
                                         <li className="nav-item">
                                             <Link href="/servicios" activeClassName="active-link" passHref={true} legacyBehavior>
                                                 <a onClick={toggleNavbar} className="nav-link">
-                                                    EVENTOS
+                                                    PROGRAMA
                                                 </a>
                                             </Link>
                                         </li>
 
                                         <li className="nav-item">
+                                            <Link href="/patrocinadores" activeClassName="active-link" passHref={true} legacyBehavior>
+                                                <a onClick={toggleNavbar} className="nav-link">PATROCINADORES</a>
+                                            </Link>
+                                        </li>
+
+                                        <li className="nav-item">
                                             <Link href="/contact" activeClassName="active-link" passHref={true} legacyBehavior>
-                                                <a onClick={toggleNavbar} className="nav-link">CONTACTO</a>
+                                                <a onClick={toggleNavbar} className="nav-link">REGíSTRATE</a>
                                             </Link>
                                         </li>
                                     </ul>
@@ -113,14 +119,22 @@ const Navbar = () => {
 
                                 <div className="others-option">
                                     <div style={{ display: 'flex', alignItems: 'center', marginRight: "30px" }}>
-                                        <a href="https://www.facebook.com/maquilasysuplementos" target='_blank' style={{ margin: '0 10px' }}>
+                                        <a href="https://www.facebook.com/arioacgdl?mibextid=ZbWKwL" target='_blank' style={{ margin: '0 10px' }}>
                                             <Image src="/img/redes-sociales/facebook.png" alt="Facebook" width={35} height={35} />
                                         </a>
-                                        <a href="https://www.instagram.com/maquilasysuplementos.mx/" target='_blank' style={{ margin: '0 10px' }}>
+                                        <a href="https://www.instagram.com/arioacgdl?igsh=Z2YxemFpcTc2d3Zn" target='_blank' style={{ margin: '0 10px' }}>
                                             <Image src="/img/redes-sociales/instagram.png" alt="Instagram" width={35} height={35} />
                                         </a>
+                                   {/* Este es un comentario para borrar Youtube
                                         <a href="https://www.youtube.com/@maquilasysuplementos" target='_blank' style={{ margin: '0 10px' }}>
                                             <Image src="/img/redes-sociales/youtube.png" alt="YouTube" width={35} height={35} />
+                                        </a>
+                                    */}
+                                        <a href="https://www.linkedin.com/company/arioac/mycompany/" target='_blank' style={{ margin: '0 10px' }}>
+                                            <Image src="/img/redes-sociales/linkedin.png" alt="Linkedin" width={35} height={35} />
+                                        </a>
+                                        <a href="https://www.tiktok.com/@arioac" target='_blank' style={{ margin: '0 10px' }}>
+                                            <Image src="/img/redes-sociales/tiktok.png" alt="Tiktok" width={35} height={35} />
                                         </a>
                                     </div>
                                 </div>

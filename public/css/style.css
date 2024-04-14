@@ -220,6 +220,52 @@ textarea.form-control {
   background-color: #eefbfc;
 }
 
+/* PATROCINADORES */
+/* Estilo para la sección de clientes */
+
+.clients {
+  padding: 80px 0;
+}
+
+.clients-2 {
+  background-color: #ffffff;
+}
+
+.clients .heading {
+  margin-bottom: 60px;
+}
+
+.clients .heading--subtitle {
+  font-size: 18px;
+  color: #333333;
+}
+
+.clients .heading--title {
+  font-size: 36px;
+  color: #333333;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center; /* Añadido */
+}
+
+.clients .heading--desc {
+  font-size: 16px;
+  color: #666666;
+  line-height: 26px;
+  text-align: center; /* Añadido */
+}
+
+.clients .row-clients {
+  margin-top: 30px;
+}
+
+.clients .client img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
 /* Default Btn Area Style */
 .default-btn {
   font-size: 16px;
@@ -1045,10 +1091,133 @@ textarea.form-control {
           animation: rotation 0.5s linear infinite;
 }
 
+/* conferencistas */
+
+/* Estilos para la sección de equipo */
+.team {
+  padding: 100px 0;
+}
+
+.team-2 {
+  background-color: #ffffff;
+}
+
+/* Estilos para el encabezado */
+.heading {
+  margin-bottom: 50px;
+}
+
+.heading-2 {
+  text-align: center;
+}
+
+.heading--subtitle {
+  font-size: 24px;
+}
+
+.heading--title {
+  font-size: 36px;
+}
+
+.divider--line {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.divider {
+  width: 20px;
+  height: 3px;
+  background-color: #000000;
+  margin: 0 10px;
+}
+
+.divider--1, .divider--2, .divider--3, .divider--4 {
+  background-color: #000000;
+}
+
+/* Estilos para los miembros del equipo */
+.member {
+  margin-bottom: 30px;
+}
+
+.member-img img {
+  max-width: 100%;
+}
+
+.member-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  transition: opacity 0.3s ease;
+}
+
+.member:hover .member-overlay {
+  opacity: 1;
+}
+
+.member-social {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.member-social a {
+  display: inline-block;
+  margin-right: 10px;
+  color: #ffffff;
+}
+
+/* Estilos para la sección de conferencistas */
+.number {
+  padding-bottom: 100px;
+}
+
+.number-1 {
+  background-color: #ffffff;
+}
+
+.number-panel {
+  margin-bottom: 30px;
+}
+
+.number--img img {
+  max-width: 100%;
+}
+
+.number--content {
+  text-align: center;
+}
+
+.heading--title {
+  font-size: 36px;
+}
+
+.heading--desc {
+  font-size: 24px;
+}
+
+.espacio {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
 /* Footer personalizado */
 
 .footer {
-  padding-bottom: 30px !important;
+  padding-bottom: 60px !important;
 }
 
 

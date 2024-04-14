@@ -23,19 +23,21 @@ const ServiciosPage = () => {
           <div style={{marginLeft: "40px", marginTop: "30px", marginRight: "40px"}}>
             <div className='seccionTitle'>
               <div>
-                <h1 style={{fontFamily: 'Montserrat, sans-serif', color: "#000", fontSize: "40px", textAlign: "left" }}>FABRICACIÓN</h1>
+                <h1 style={{fontFamily: 'Montserrat, sans-serif', color: "#000", fontSize: "40px", textAlign: "left" }}>Conferencias Magistrales</h1>
                 <div style={{borderBottom: "3px solid #696969", width: "57px", marginBottom: "25px", marginTop: "15px"}}></div>
-                <h3 style={{fontFamily: 'Roboto, sans-serif', fontSize: "24px", color: "#00BFFF"}}>ENVASADO DE SUPLEMENTOS ALIMENTICIOS</h3>
+                <h3 style={{fontFamily: 'Roboto, sans-serif', fontSize: "24px", color: "#00BFFF"}}>Tendencias globales de bienestar financiero
+</h3>
                 <div style={{borderBottom: "3px solid #808080", marginBottom: "25px", marginTop: "25px"}}></div>
               </div>
               <div>
-                <p style={{fontFamily: 'Roboto, sans-serif', fontSize: "17px", textAlign: "justify"}}>Contamos con una amplia experiencia en el desarrollo y fabricación de suplementos alimenticios.<br/>Desarrolla tu proyecto con herramientas modernas que te ayudan a dar carácter a tu marca.<br/>Te apoyamos desde la creación hasta el envasado de tu producto.</p>
+                <p style={{fontFamily: 'Roboto, sans-serif', fontSize: "17px", textAlign: "justify"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum, turpis quis tincidunt consequat, eros arcu tempor orci, non ultrices ex purus at nunc. Nullam tristique libero ac augue congue, eget bibendum lacus lobortis.  vitae magna eu tortor varius aliquet nec ac mauris. Integer volutpat quam vitae justo aliquet, vitae fermentum orci laoreet. Vivamus ullamcorper risus ut fermentum fringilla. Integer sit amet mauris id odio ultrices elementum. In hac habitasse platea
+                    <br/>Vivamus vitae magna eu tortor varius aliquet nec ac mauris. Integer volutpat quam vitae justo aliquet, vitae fermentum orci laoreet.<br/>Te apoyamos desde la creación hasta el envasado de tu producto.</p>
               </div>
 
               <div className='botonSeccionBottom' style={{marginTop: "30px"}}>
                 <Link href="/contact" passHref={true} legacyBehavior>
                     <a className="default-btn">
-                        INICIA CON NOSOTROS
+                        PARTICIPA Y GANA
                     </a>
                 </Link>
               </div>
@@ -50,18 +52,19 @@ const ServiciosPage = () => {
         <div style={{marginLeft: "40px", marginTop: "30px", marginRight: "40px"}}>
           <div className='seccionTitle'>
             <div>
-              <h1 style={{fontFamily: 'Montserrat, sans-serif', color: "#000", fontSize: "40px", textAlign: "left" }}>ENVASADO DE PRODUCTOS</h1>
+              <h1 style={{fontFamily: 'Montserrat, sans-serif', color: "#000", fontSize: "40px", textAlign: "left" }}>EQUILIBRIO SOSTENIBLE</h1>
               <div style={{borderBottom: "3px solid #696969", width: "57px", marginBottom: "25px", marginTop: "15px"}}></div>
-              <h3 style={{fontFamily: 'Roboto, sans-serif', fontSize: "24px", color: "#00BFFF"}}>ENVASADO DE PRODUCTOS Y SUPLEMENTOS</h3>
+              <h3 style={{fontFamily: 'Roboto, sans-serif', fontSize: "24px", color: "#00BFFF"}}>Equilibrio sostenible en la compensación: puestos, personas y medio ambiente</h3>
               <div style={{borderBottom: "3px solid #808080", marginBottom: "25px", marginTop: "25px"}}></div>
             </div>
             <div>
-              <p style={{fontFamily: 'Roboto, sans-serif', fontSize: "17px", textAlign: "justify"}}>Contamos con la tecnología necesaria para la maquila de productos de todo tipo. Envasamos liquidos, polvos, viscosos, granulados y tubos depresibles.<br/>Somos especialistas en la maquila de tus productos cosmeticos y suplementos alimenticios.<br/>Nuestra producción cuida la calidad de tu producto siguiendo las medidas de inocuidad para cumplir los estándares que necesitas.</p>
+              <p style={{fontFamily: 'Roboto, sans-serif', fontSize: "17px", textAlign: "justify"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum, turpis quis tincidunt consequat, eros arcu tempor orci, non ultrices ex purus at nunc.
+                     <br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
             <div className='botonSeccionBottom' style={{marginTop: "30px"}}>
               <Link href="/contact" passHref={true} legacyBehavior>
                 <a className="default-btn">
-                  INICIA CON NOSOTROS
+                  CONCURSA
                 </a>
               </Link>
             </div>
@@ -98,19 +101,21 @@ const ServiciosPage = () => {
           <div style={{marginLeft: "40px", marginTop: "30px", marginRight: "40px"}}>
             <div className='seccionTitle'>
               <div>
-                <h1 style={{fontFamily: 'Montserrat, sans-serif', color: "#000", fontSize: "40px", textAlign: "left" }}>CERRADO DE ENVASES</h1>
+                <h1 style={{fontFamily: 'Montserrat, sans-serif', color: "#000", fontSize: "40px", textAlign: "left" }}>El futuro de las compensaciones y su transformación digital</h1>
                 <div style={{borderBottom: "3px solid #696969", width: "57px", marginBottom: "25px", marginTop: "15px"}}></div>
-                <h3 style={{fontFamily: 'Roboto, sans-serif', fontSize: "24px", color: "#00BFFF"}}>SELLADO Y CERRADO DE TUS ENVASES</h3>
+                <h3 style={{fontFamily: 'Roboto, sans-serif', fontSize: "24px", color: "#00BFFF"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum, turpis quis tincidunt consequat, eros arcu tempor orci, non ultrices ex purus at nunc
+                </h3>
                 <div style={{borderBottom: "3px solid #808080", marginBottom: "25px", marginTop: "25px"}}></div>
               </div>
               <div>
-                <p style={{fontFamily: 'Roboto, sans-serif', fontSize: "17px", textAlign: "justify"}}>Contamos con la mejor opción para el sellado y cerrado de tus envases. Automatiza tu proceso con una solución moderna que garantiza la seguridad de tus productos.</p>
+                <p style={{fontFamily: 'Roboto, sans-serif', fontSize: "17px", textAlign: "justify"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum, turpis quis tincidunt consequat, eros arcu tempor orci, non ultrices ex purus at nunc.
+                </p>
               </div>
 
               <div className='botonSeccionBottom' style={{marginTop: "30px"}}>
                 <Link href="/contact" passHref={true} legacyBehavior>
                     <a className="default-btn">
-                        INICIA CON NOSOTROS
+                        CONTÁCTANOS
                     </a>
                 </Link>
               </div>
@@ -125,13 +130,15 @@ const ServiciosPage = () => {
         <div style={{marginLeft: "40px", marginTop: "30px", marginRight: "40px"}}>
           <div className='seccionTitle'>
             <div>
-              <h1 style={{fontFamily: 'Montserrat, sans-serif', color: "#000", fontSize: "40px", textAlign: "left" }}>ETIQUETADO</h1>
+              <h1 style={{fontFamily: 'Montserrat, sans-serif', color: "#000", fontSize: "40px", textAlign: "left" }}>Desafíos y beneficios laborales en materia de compensaciones de cara al 2024</h1>
               <div style={{borderBottom: "3px solid #696969", width: "57px", marginBottom: "25px", marginTop: "15px"}}></div>
-              <h3 style={{fontFamily: 'Roboto, sans-serif', fontSize: "24px", color: "#00BFFF"}}>ETIQUETADO CON INFORMACIÓN NORMATIVA Y DE MARCA</h3>
+              <h3 style={{fontFamily: 'Roboto, sans-serif', fontSize: "24px", color: "#00BFFF"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum, turpis quis tincidunt consequat, eros arcu tempor orci, non ultrices ex purus at nunc
+              </h3>
               <div style={{borderBottom: "3px solid #808080", marginBottom: "25px", marginTop: "25px"}}></div>
             </div>
             <div>
-              <p style={{fontFamily: 'Roboto, sans-serif', fontSize: "17px", textAlign: "justify"}}>Personalizamos la presentación de tus envases con la información normativa y de marca para tus productos. Etiqueta tus productos con la información nutrimental y dale caracter a la imagen de tus productos gracias a nuestra maquila de etiquetado.</p>
+              <p style={{fontFamily: 'Roboto, sans-serif', fontSize: "17px", textAlign: "justify"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum, turpis quis tincidunt consequat, eros arcu tempor orci, non ultrices ex purus at nunc.
+              </p>
             </div>
             <div className='botonSeccionBottom' style={{marginTop: "30px"}}>
               <Link href="/contact" passHref={true} legacyBehavior>
@@ -173,19 +180,22 @@ const ServiciosPage = () => {
           <div style={{marginLeft: "40px", marginTop: "30px", marginRight: "40px"}}>
             <div className='seccionTitle'>
               <div>
-                <h1 style={{fontFamily: 'Montserrat, sans-serif', color: "#000", fontSize: "40px", textAlign: "left" }}>IMPRESIÓN DE CADUCIDAD Y LOTE</h1>
+                <h1 style={{fontFamily: 'Montserrat, sans-serif', color: "#000", fontSize: "40px", textAlign: "left" }}>Compensación flexible y tokenización</h1>
                 <div style={{borderBottom: "3px solid #696969", width: "57px", marginBottom: "25px", marginTop: "15px"}}></div>
-                <h3 style={{fontFamily: 'Roboto, sans-serif', fontSize: "24px", color: "#00BFFF"}}>MAQUILA DE LOTIFICADO Y CODIFICADO</h3>
+                <h3 style={{fontFamily: 'Roboto, sans-serif', fontSize: "24px", color: "#00BFFF"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum, turpis quis tincidunt consequat, eros arcu tempor orci, non ultrices ex purus at nunc
+                </h3>
                 <div style={{borderBottom: "3px solid #808080", marginBottom: "25px", marginTop: "25px"}}></div>
               </div>
               <div>
-                <p style={{fontFamily: 'Roboto, sans-serif', fontSize: "17px", textAlign: "justify"}}>Nos encargamos de la impresión del lote y fecha de caducidad de tus productos.<br/>Contamos con equipamiento que facilita la producción de tu proyecto utilizando maquila de lotificado y codificado moderna que se encarga de los detalles de tu producto.</p>
+                <p style={{fontFamily: 'Roboto, sans-serif', fontSize: "17px", textAlign: "justify"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum, turpis quis tincidunt consequat, eros arcu tempor orci, non ultrices ex purus at nunc.
+                <br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum, turpis quis tincidunt consequat, eros arcu tempor orci, non ultrices ex purus at nunc.
+                </p>
               </div>
 
               <div className='botonSeccionBottom' style={{marginTop: "30px"}}>
                 <Link href="/contact" passHref={true} legacyBehavior>
                     <a className="default-btn">
-                        INICIA CON NOSOTROS
+                        ESCRÍBENOS
                     </a>
                 </Link>
               </div>
@@ -200,18 +210,21 @@ const ServiciosPage = () => {
         <div style={{marginLeft: "40px", marginTop: "30px", marginRight: "40px"}}>
           <div className='seccionTitle'>
             <div>
-              <h1 style={{fontFamily: 'Montserrat, sans-serif', color: "#000", fontSize: "40px", textAlign: "left" }}>ENCAPSULADO</h1>
+              <h1 style={{fontFamily: 'Montserrat, sans-serif', color: "#000", fontSize: "40px", textAlign: "left" }}>6 retos de compensaciones en el nearshoring</h1>
               <div style={{borderBottom: "3px solid #696969", width: "57px", marginBottom: "25px", marginTop: "15px"}}></div>
-              <h3 style={{fontFamily: 'Roboto, sans-serif', fontSize: "24px", color: "#00BFFF"}}>ENVASADOS DE LÍQUIDOS, POLVOS Y MÁS</h3>
+              <h3 style={{fontFamily: 'Roboto, sans-serif', fontSize: "24px", color: "#00BFFF"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum, turpis quis tincidunt consequat, eros arcu tempor orci, non ultrices ex purus at nunc
+              </h3>
               <div style={{borderBottom: "3px solid #808080", marginBottom: "25px", marginTop: "25px"}}></div>
             </div>
             <div>
-              <p style={{fontFamily: 'Roboto, sans-serif', fontSize: "17px", textAlign: "justify"}}>Contamos con el equipo necesario para el envasado de cápsulas.<br/>Encapsulamos todo tipo de insumos naturales ya sean harinas,  extractos secos, productos micropulverizados y aceites vegetales.</p>
+              <p style={{fontFamily: 'Roboto, sans-serif', fontSize: "17px", textAlign: "justify"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum, turpis quis tincidunt consequat, eros arcu tempor orci, non ultrices ex purus at nunc.
+              <br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum, turpis quis tincidunt consequat, eros arcu tempor orci, non ultrices ex purus at nunc.
+              </p>
             </div>
             <div className='botonSeccionBottom' style={{marginTop: "30px"}}>
               <Link href="/contact" passHref={true} legacyBehavior>
                 <a className="default-btn">
-                  INICIA CON NOSOTROS
+                ÚNETE
                 </a>
               </Link>
             </div>
@@ -246,16 +259,16 @@ const ServiciosPage = () => {
     {/* Contenido */}
     <div className="content">
       <div className="title-container">
-        <h3 className="title">MAQUILA Y ENVASADO DE SUPLEMENTOS</h3>
+        <h3 className="title">ARIOAC</h3>
       </div>
       <div className="subheading">
-        <h1 className="subheading-text">CREA TU PROYECTO</h1>
+        <h1 className="subheading-text">¡INSCRÍBETE AHORA!</h1>
       </div>
       <div className="description">
-        <p className="description-text">Inicia con nosotros hoy y maquila tu proyecto con una empresa confiable. Seguimos las medidas más importantes de inocuidad y calidad que te garantizan resultados profesionales.</p>
+        <p className="description-text">Cupo limitado. Aparta tu lugar antes y aprovecha nuestra promoción.</p>
       </div>
       <div className="button">
-        <a href="/contact" className="button-link">Contáctanos</a>
+        <a href="/contact" className="button-link">Inscribirse</a>
       </div>
     </div>
   </div>

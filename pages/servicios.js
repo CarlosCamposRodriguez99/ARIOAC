@@ -13,7 +13,7 @@ const servicios = () => {
                 homePageUrl="/"
                 imgClass="bg-2"
                 pageTitle="EVENTOS"
-                parrafo="Conoce los servicios especializados con los que contamos para el desarrollo de tus productos. Nos dedicamos a la fabricación, envasado y maquila de productos. Contamos con las instalaciones para cumplir con los requerimientos de tu producto."
+                parrafo="Participa en todos nuestros giveaways o sorteos del año."
             />
 
             <ServiciosPage />

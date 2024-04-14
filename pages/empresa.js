@@ -12,8 +12,10 @@ const empresa = () => {
             <PageBanner
                 homePageUrl="/"
                 imgClass="bg-1"
-                pageTitle="EMPRESA"
-                parrafo="Somos una empresa que desarrolla soluciones integrales de fabricación, envasado, maquila y etiquetado de productos. Contamos con instalaciones que cumplen con todos los requerimientos para tu proyecto."
+                pageTitle="PROGRAMA"
+                parrafo="Aplica estrategias y herramientas que impacten los resultados del negocio.
+                Vive la experiencia con más de 200 empresas y especialistas en Recursos Humanos reunidos en un mismo lugar.
+                Dirigido a todo profesional de Recursos Humanos y Compensaciones."
             />
 
             <Empresa />
