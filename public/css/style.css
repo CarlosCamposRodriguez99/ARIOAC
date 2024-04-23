@@ -2247,34 +2247,32 @@ Nav Area Style
 
 
 
-/* Portfolio Item */
-/* Estilos para las columnas */
-.portfolio-item {
-  width: calc(20% - 30px); /* Ancho de cada columna para 5 columnas */
-  padding: 0 15px; /* Espacio entre las columnas */
-  box-sizing: border-box;
-  margin-bottom: 30px;
-}
-
 /* Estilos para el contenedor de la cartera */
-#portfolio-all {
-  display: flex; /* Usar un contenedor flexible */
-  flex-wrap: wrap; /* Permitir que los elementos se envuelvan en varias filas */
-  justify-content: space-between; /* Espacio uniforme entre las columnas */
+/* Estilos para el contenedor de la cartera */
+.portfolio-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; /* Alinear las filas a la izquierda */
 }
 
 /* Estilos para los contenedores de las imágenes */
+.portfolio-item {
+  width: calc(20% - 30px); /* Ajusta el ancho para que haya 5 columnas */
+  box-sizing: border-box; /* Para incluir el padding y el borde en el ancho */
+  padding: 0 15px; /* Espacio entre las columnas */
+  margin-bottom: 30px; /* Espacio entre las filas */
+}
+
 .portfolio--img {
-  position: relative;
   overflow: hidden;
-  border-radius: 5px; /* Agregar bordes redondeados */
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Agregar sombra */
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transiciones suaves */
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .portfolio-item:hover .portfolio--img {
-  transform: scale(1.05); /* Escala ligeramente al hacer hover */
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2); /* Aumenta la sombra al hacer hover */
+  transform: scale(1.05);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
 }
 
 .portfolio--img img {
