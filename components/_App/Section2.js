@@ -16,7 +16,7 @@ const Section2 = () => {
         {/* Contenido */}
         <div className="content">
           <div className="title-container">
-            <h3 className="title">ARIOAC</h3>
+            <h3 className="title">HR WEEK</h3>
           </div>
           <div className="subheading">
             <h1 className="subheading-text">¡INSCRÍBETE AHORA!</h1>

@@ -38,9 +38,7 @@ const ContactForm = () => {
             console.error('Error al enviar el formulario', error);
         }
     };
-    
-
-    
+        
     return (
 	<React.Fragment>
     <div className="contact-area ptb-100">
@@ -52,7 +50,7 @@ const ContactForm = () => {
                         <div className="section-title">
                             <h2 style={{ fontFamily: "Montserrat, sans-serif", textAlign: "left", textTransform: "uppercase", fontSize: "24px" }}>Enviar mensaje</h2>
                             <div style={{ borderBottom: '2px solid #0880B6', marginBottom: "10px", width: "40%" }}></div>
-                            <p style={{ textAlign: "justify", fontFamily: "Montserrat, sans-serif", color: "#000", fontWeight: 400 }}>Si está interesado en nuestros servicios, eventos, promociones, conferencias y desea conocer más detalles, deje un mensaje aquí, le responderemos lo antes posible.</p>
+                            <p style={{ textAlign: "justify", fontFamily: "Montserrat, sans-serif", color: "#000", fontWeight: 400 }}>Si está interesado en nuestros eventos, promociones, conferencias y desea conocer más detalles, deje un mensaje aquí, le responderemos lo antes posible.</p>
                         </div>
                         <form action="https://formsubmit.co/05498644fc0a192b12eee8fe081f1a95" method="POST" onSubmit={handleSubmit}>
                             <div className="row">
@@ -144,9 +142,9 @@ const ContactForm = () => {
                                     </button>
                                 </div>
 
-                                <input type="hidden" name="_next" value="https://maquilasysuplementos.mx/"/>
+                                <input type="hidden" name="_next" value=""/>
                                 <input type="hidden" name="_captcha" value="false"/>
-                                <input type="hidden" name="_subject" value="¡Nuevo Mensaje! | Maquilas & Suplementos"/>
+                                <input type="hidden" name="_subject" value="¡Nuevo Mensaje! | Arioac"/>
                                 <input type="hidden" name="_autoresponse" value="Tienes un nuevo mensaje. A continuación, encontrarás los datos del usuario:"/>
                             </div>
                         </form>
@@ -158,11 +156,9 @@ const ContactForm = () => {
               <img className='borderImageContact' src="/img/contacto2.jpg" alt="contacto-maquilas-y-suplementos" loading='lazy' style={{ borderRadius: "10px" }} />
             </div>
 
-
         </div>
     </div>
 </div>
-
 
 		  {/* VIDEO SECTION */}
 

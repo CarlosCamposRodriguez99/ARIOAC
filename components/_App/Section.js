@@ -45,7 +45,6 @@ const Section = () => {
   </div>
 </div>
 
-
   <div className="row gutter-lg" style={{marginBottom: "50px", backgroundColor: "#fff"}}>
       <div className="col-md-7 col-sm-12">
         <div style={{marginLeft: "40px", marginTop: "30px", marginRight: "40px"}}>
@@ -74,7 +73,7 @@ const Section = () => {
           <div>
             <div>
               <div>
-                <Image width={960} height={680} src='/img/section/zac.jpg' alt='envasado-de-productos-maquilas-y-suplementos' loading='lazy'/>
+                <Image width={960} height={680} src='/img/section/zac.jpg' alt='arioac' loading='lazy'/>
               </div>
             </div>
           </div>

@@ -33,7 +33,7 @@ const Footer = () => {
                                                 <div>
                                                     <Link href="/" passHref={true} legacyBehavior>
                                                         <a className="footer-brand">
-                                                            <img src='/img/logoarioac.png' alt="maquilas y suplementos" />
+                                                            <img src='/img/hrlogo2.png' alt="arioac" />
                                                         </a>
                                                     </Link>
                                                 </div>
@@ -80,11 +80,11 @@ const Footer = () => {
                                                     </div>
 
                                                     <div className="d-flex">
-                                                        <Link href="/servicios" passHref={true} legacyBehavior>
-                                                            <h3 className='nomargin' style={{ color: activeLink === '/servicios' ? "#1C9CD9" : "#fff", marginRight: "40px", fontSize: "18px", fontWeight: "600" }}>
+                                                        <Link href="/patrocinadores" passHref={true} legacyBehavior>
+                                                            <h3 className='nomargin' style={{ color: activeLink === '/patrocinadores' ? "#1C9CD9" : "#fff", marginRight: "40px", fontSize: "18px", fontWeight: "600" }}>
                                                                 <a
                                                                     style={{ cursor: "pointer" }}
-                                                                    onMouseEnter={() => handleMouseEnter('/servicios')}
+                                                                    onMouseEnter={() => handleMouseEnter('/patrocinadores')}
                                                                     onMouseLeave={handleMouseLeave}
                                                                 >
                                                                     PATROCINADORES
@@ -135,8 +135,8 @@ const Footer = () => {
                                         <a href="https://www.linkedin.com/company/arioac/mycompany/" target='_blank' style={{ margin: "-5px 5px"}}>
                                             <Image src="/img/redes-sociales/link-02.svg" alt="Linkedin" width={45} height={45} />
                                         </a>
-                                        <a href="https://www.linkedin.com/company/arioac/mycompany/" target='_blank' style={{ margin: '0 10px' }}>
-                                            <Image src="/img/redes-sociales/tik-02.svg" alt="Linkedin" width={35} height={35} />
+                                        <a href="https://www.tiktok.com/@arioac?_t=8lTOZbPZmB4&_r=1" target='_blank' style={{ margin: '0 10px' }}>
+                                            <Image src="/img/redes-sociales/tik-02.svg" alt="Tiktok" width={35} height={35} />
                                         </a>
                                     </div>
                                 </div>
@@ -151,4 +151,4 @@ const Footer = () => {
     );
 }
 
-export default Footer;
+export default Footer

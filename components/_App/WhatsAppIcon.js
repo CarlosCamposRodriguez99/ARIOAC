@@ -17,7 +17,7 @@ const WhatsAppIcon = () => {
   }, []);
 
   const handleWhatsAppClick = () => {
-    const phoneNumber = '+523321928621';
+    const phoneNumber = '+523315194508';
     const message = 'Hola, quiero más información.';
     const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(whatsappLink, '_blank');
@@ -86,8 +86,6 @@ const WhatsAppIcon = () => {
             borderRadius: "5px",
           }}></div>
         </div>
-
-
 
       )}
     </div>

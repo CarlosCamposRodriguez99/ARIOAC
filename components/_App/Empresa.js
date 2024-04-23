@@ -4,6 +4,18 @@ import Image from 'next/image';
 
 const Empresa = () => {
 
+  const [currentSlide, setCurrentSlide] = useState(0);
+  const totalSlides = 6; // Actualiza esto con el número total de miembros del equipo
+
+  const handleGoLeft = () => {
+    setCurrentSlide(currentSlide === 0 ? totalSlides - 1 : currentSlide - 1);
+  };
+
+  const handleGoRight = () => {
+    setCurrentSlide(currentSlide === totalSlides - 1 ? 0 : currentSlide + 1);
+  };
+
+
   const [imageIndex, setImageIndex] = useState(0);
   const images = [
     '/img/section/1.jpg',
@@ -66,43 +78,57 @@ const Empresa = () => {
         </div>
       </div>
     </div>
+  
 
   <section id="team2" className="team team-2 bg-white">
 	<div className="container">
 		<div className="row">
 			<div className="col-xs-12 col-sm-12 col-md-12">
 				<div className="heading heading-2 text-center mb-50">
-					<p className="heading--subtitle">Creative & Talented</p>
-					<h2 className="heading--title">Meet The Team</h2>
+					<p className="heading--subtitle"></p>
+					<h2 className="heading--title">CONFERENCISTAS</h2>
 					<div className="divider--line">
-						<i className="divider divider--1"></i>
-						<i className="divider divider--2"></i>
-						<i className="divider divider--3"></i>
-						<i className="divider divider--4"></i>
-					</div>
+        </div>
 				</div>
 			</div>
 		</div>
 		<div className="row">
 			<div className="col-xs-12 col-sm-12 col-md-12">
-				<div id="team-carousel" className="carousel-dots">
+				<div id="team-carousel" className="carousel-dots" style={{ position: 'relative', color: "blue" }}>
+        
 					<div className="member">
 							<div className="member-img">
 								<img src="/img/conferencistas/1.jpg" alt="member"/>
 								<div className="member-overlay">
 									<div className="member-social">
 										<div className=" pos-vertical-center">
-										<a href="#"><i className="fa fa-facebook"></i></a>
-										<a href="#"><i className="fa fa-twitter"></i></a>
-										<a href="#"><i className="fa fa-google-plus"></i></a>
-										<a href="#"><i className="fa fa-linkedin"></i></a>
+                    <p style={{ color: 'white', fontFamily: 'Palatino, serif', fontSize: '15px' }}>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut eleifend nulla. Vivamus id commodo velit. Vestibulum eu justo consequat, pulvinar justo nec, convallis ligula. Morbi dignissim tortor in posuere feugiat. Integer gravida, ante eget volutpat fermentum, tortor risus maximus sem, id lobortis nulla libero non ex. "</p>
 										</div>
 									</div>
 								</div>
 							</div>
 							<div className="member-info">
-								<h5>Ahmed Abd Alhaleem</h5>
-								<h6>Graphic Designer</h6>
+								<h5>Dunnia Vargas González</h5>
+								<h6>Top Career Counseling Voice LinkedIn</h6>
+                <h7>Especialista en Linkedin y Mentora de Carrera</h7>
+							</div>
+						</div>
+
+        <div className="member">
+							<div className="member-img">
+								<img src="/img/conferencistas/1.jpg" alt="member"/>
+								<div className="member-overlay">
+									<div className="member-social">
+										<div className=" pos-vertical-center">
+										<p style={{ color: 'white', fontFamily: 'Palatino, serif', fontSize: '15px' }}>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut eleifend nulla. Vivamus id commodo velit. Vestibulum eu justo consequat, pulvinar justo nec, convallis ligula. Morbi dignissim tortor in posuere feugiat. Integer gravida, ante eget volutpat fermentum, tortor risus maximus sem, id lobortis nulla libero non ex. "</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div className="member-info">
+								<h5>Juan David Gómez</h5>
+								<h6>Fundador de la Multinacional THT</h6>
+                <h7>Mentor de Carrera</h7>
 							</div>
 						</div>
 
@@ -112,17 +138,15 @@ const Empresa = () => {
 								<div className="member-overlay">
 									<div className="member-social">
 										<div className=" pos-vertical-center">
-										<a href="#"><i className="fa fa-facebook"></i></a>
-										<a href="#"><i className="fa fa-twitter"></i></a>
-										<a href="#"><i className="fa fa-google-plus"></i></a>
-										<a href="#"><i className="fa fa-linkedin"></i></a>
+										<p style={{ color: 'white', fontFamily: 'Palatino, serif', fontSize: '15px' }}>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut eleifend nulla. Vivamus id commodo velit. Vestibulum eu justo consequat, pulvinar justo nec, convallis ligula. Morbi dignissim tortor in posuere feugiat. Integer gravida, ante eget volutpat fermentum, tortor risus maximus sem, id lobortis nulla libero non ex. "</p>
 										</div>
 									</div>
 								</div>
 							</div>
 							<div className="member-info">
-								<h5>Ahmed Hassan</h5>
-								<h6>Web Developer</h6>
+								<h5>Héctor Munguía</h5>
+								<h6>Coach, Conferencista, Entrenador Ejecutivo y Escritor</h6>
+                <h7>Héctor Munguía</h7>
 							</div>
 						</div>
 
@@ -132,40 +156,17 @@ const Empresa = () => {
 								<div className="member-overlay">
 									<div className="member-social">
 										<div className=" pos-vertical-center">
-										<a href="#"><i className="fa fa-facebook"></i></a>
-										<a href="#"><i className="fa fa-twitter"></i></a>
-										<a href="#"><i className="fa fa-google-plus"></i></a>
-										<a href="#"><i className="fa fa-linkedin"></i></a>
+										<p style={{ color: 'white', fontFamily: 'Palatino, serif', fontSize: '15px' }}>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut eleifend nulla. Vivamus id commodo velit. Vestibulum eu justo consequat, pulvinar justo nec, convallis ligula. Morbi dignissim tortor in posuere feugiat. Integer gravida, ante eget volutpat fermentum, tortor risus maximus sem, id lobortis nulla libero non ex. "</p>
 										</div>
 									</div>
 								</div>
 							</div>
 							<div className="member-info">
-								<h5>Mohamed Habaza</h5>
-								<h6>Lead Dev Ops</h6>
+								<h5>Angel Adrián Dávalos Granados</h5>
+								<h6>Asesor de servicio en materia de Condiciones Generales de Trabajo, Capacitación y Adiestramiento</h6>
+                <h7>CICADEHP</h7>
 							</div>
-						</div>
-
-
-					<div className="member">
-							<div className="member-img">
-								<img src="/img/conferencistas/1.jpg" alt="member"/>
-								<div className="member-overlay">
-									<div className="member-social">
-										<div className=" pos-vertical-center">
-										<a href="#"><i className="fa fa-facebook"></i></a>
-										<a href="#"><i className="fa fa-twitter"></i></a>
-										<a href="#"><i className="fa fa-google-plus"></i></a>
-										<a href="#"><i className="fa fa-linkedin"></i></a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div className="member-info">
-								<h5>Amr Gamal Sadeq</h5>
-								<h6>Design expert</h6>
-							</div>
-						</div>
+          </div>
 			
 					<div className="member">
 							<div className="member-img">
@@ -173,17 +174,15 @@ const Empresa = () => {
 								<div className="member-overlay">
 									<div className="member-social">
 										<div className=" pos-vertical-center">
-										<a href="#"><i className="fa fa-facebook"></i></a>
-										<a href="#"><i className="fa fa-twitter"></i></a>
-										<a href="#"><i className="fa fa-google-plus"></i></a>
-										<a href="#"><i className="fa fa-linkedin"></i></a>
+										<p style={{ color: 'white', fontFamily: 'Palatino, serif', fontSize: '15px' }}>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut eleifend nulla. Vivamus id commodo velit. Vestibulum eu justo consequat, pulvinar justo nec, convallis ligula. Morbi dignissim tortor in posuere feugiat. Integer gravida, ante eget volutpat fermentum, tortor risus maximus sem, id lobortis nulla libero non ex. "</p>
 										</div>
 									</div>
 								</div>
 							</div>
 							<div className="member-info">
-								<h5>Ahmed Hassan</h5>
-								<h6>Web Developer</h6>
+								<h5>Adriana Acalá Ruíz</h5>
+								<h6></h6>
+                <h7></h7>
 							</div>
 						</div>
 
@@ -193,76 +192,338 @@ const Empresa = () => {
 								<div className="member-overlay">
 									<div className="member-social">
 										<div className=" pos-vertical-center">
-										<a href="#"><i className="fa fa-facebook"></i></a>
-										<a href="#"><i className="fa fa-twitter"></i></a>
-										<a href="#"><i className="fa fa-google-plus"></i></a>
-										<a href="#"><i className="fa fa-linkedin"></i></a>
+										<p style={{ color: 'white', fontFamily: 'Palatino, serif', fontSize: '15px' }}>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut eleifend nulla. Vivamus id commodo velit. Vestibulum eu justo consequat, pulvinar justo nec, convallis ligula. Morbi dignissim tortor in posuere feugiat. Integer gravida, ante eget volutpat fermentum, tortor risus maximus sem, id lobortis nulla libero non ex. "</p>
 										</div>
 									</div>
 								</div>
 							</div>
 							<div className="member-info">
-								<h5>Mohamed Habaza</h5>
-								<h6>Lead Dev Ops</h6>
+								<h5>Marcos Alonso</h5>
+								<h6></h6>
+                <h7></h7>
 							</div>
 						</div>
+
+            <div className="member">
+							<div className="member-img">
+								<img src="/img/conferencistas/1.jpg" alt="member"/>
+								<div className="member-overlay">
+									<div className="member-social">
+										<div className=" pos-vertical-center">
+										<p style={{ color: 'white', fontFamily: 'Palatino, serif', fontSize: '15px' }}>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut eleifend nulla. Vivamus id commodo velit. Vestibulum eu justo consequat, pulvinar justo nec, convallis ligula. Morbi dignissim tortor in posuere feugiat. Integer gravida, ante eget volutpat fermentum, tortor risus maximus sem, id lobortis nulla libero non ex. "</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div className="member-info">
+								<h5>PENDIENTE</h5>
+								<h6></h6>
+                <h7></h7>
+							</div>
+						</div>
+
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
 
-  <section id="number1" className="number number-1 bg-white pb-100">
-      <div className="container">
-      <div style={{textAlign: "center", display: "flex", justifyContent: "center", marginTop: "30px", marginBottom: "30px"}}>
-          <div className="col-xs-12 col-sm-12 col-md-8 col-md-offset-2">
-            <div className="text--center heading heading--2 mb-40 heading--desc">
-              <h1 className="heading--title">CONFERENCISTAS</h1>
-              <div style={{borderBottom: "3px solid #1C9CD9", width: "50px", margin: "0 auto"}}></div>
-              <p className="heading--desc espacio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum.</p>
-            </div>
-          </div>
+<section id="team2" className="team team-2 bg-white">
+	<div className="container">
+		<div className="row">
+			<div className="col-xs-12 col-sm-12 col-md-12">
+				<div className="heading heading-2 text-center mb-50">
+					<p className="heading--subtitle"></p>
+					<h2 className="heading--title"></h2>
+					<div className="divider--line">
         </div>
-        <div className="row">
-          <div className="col-xs-12 col-sm-4 col-md-4">
-            <div className="number-panel">
-              <div className="number--img">
-                <Image width={356} height={356} className='border4' src="/img/new-section/1.jpg" alt="suplementos-maquila-y-suplementos" loading='lazy'/>
-              </div>
-              <div className="number--content heading--desc">
-                <h3 style={{textAlign: "center", color: "#1C9CD9"}}>Ana Maria Márquez</h3>
-                <p style={{textAlign: "justify", fontSize: "17px"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum, turpis quis tincidunt consequat, eros arcu tempor orci, non ultrices ex purus at nunc.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="col-xs-12 col-sm-4 col-md-4">
-            <div className="number-panel">
-              <div className="number--img">
-                <Image width={356} height={356} className='border4' src="/img/new-section/2.jpg" alt="cosmeticos-maquilas-y-suplementos" loading='lazy'/>
-              </div>
-              <div className="number--content heading--desc">
-                <h3 style={{textAlign: "center", color: "#1C9CD9"}}>Juan Pablo Rodríguez</h3>
-                <p style={{textAlign: "justify", fontSize: "17px"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum, turpis quis tincidunt consequat, eros arcu tempor orci, non ultrices ex purus at nunc.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="col-xs-12 col-sm-4 col-md-4">
-            <div className="number-panel">
-              <div className="number--img">
-                <Image width={356} height={356} className='border4' src="/img/new-section/3.jpg" alt="sachet-maquilas-y-suplementos" loading='lazy'/>
-              </div>
-              <div className="number--content heading--desc">
-                <h3 style={{textAlign: "center", color: "#1C9CD9"}}>Sebastián Hurtado Gómez</h3>
-                <p style={{textAlign: "justify", fontSize: "17px"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum, turpis quis tincidunt consequat, eros arcu tempor orci, non ultrices ex purus at nunc.
-                </p>
-              </div>
-            </div>
-          </div>
+				</div>
+			</div>
+		</div>
+		<div className="row">
+			<div className="col-xs-12 col-sm-12 col-md-12">
+				<div id="team-carousel" className="carousel-dots" style={{ position: 'relative', color: "blue" }}>
+        
+            <div className="member">
+							<div className="member-img">
+								<img src="/img/conferencistas/1.jpg" alt="member"/>
+								<div className="member-overlay">
+									<div className="member-social">
+										<div className=" pos-vertical-center">
+										<p style={{ color: 'white', fontFamily: 'Palatino, serif', fontSize: '15px' }}>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut eleifend nulla. Vivamus id commodo velit. Vestibulum eu justo consequat, pulvinar justo nec, convallis ligula. Morbi dignissim tortor in posuere feugiat. Integer gravida, ante eget volutpat fermentum, tortor risus maximus sem, id lobortis nulla libero non ex. "</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div className="member-info">
+								<h5>UVM</h5>
+								<h6></h6>
+                <h7></h7>
+							</div>
+						</div>
+
+            <div className="member">
+							<div className="member-img">
+								<img src="/img/conferencistas/1.jpg" alt="member"/>
+								<div className="member-overlay">
+									<div className="member-social">
+										<div className=" pos-vertical-center">
+										<p style={{ color: 'white', fontFamily: 'Palatino, serif', fontSize: '15px' }}>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut eleifend nulla. Vivamus id commodo velit. Vestibulum eu justo consequat, pulvinar justo nec, convallis ligula. Morbi dignissim tortor in posuere feugiat. Integer gravida, ante eget volutpat fermentum, tortor risus maximus sem, id lobortis nulla libero non ex. "</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div className="member-info">
+								<h5>PENDIENTE</h5>
+								<h6></h6>
+                <h7></h7>
+							</div>
+						</div>
+
+            <div className="member">
+							<div className="member-img">
+								<img src="/img/conferencistas/1.jpg" alt="member"/>
+								<div className="member-overlay">
+									<div className="member-social">
+										<div className=" pos-vertical-center">
+										<p style={{ color: 'white', fontFamily: 'Palatino, serif', fontSize: '15px' }}>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut eleifend nulla. Vivamus id commodo velit. Vestibulum eu justo consequat, pulvinar justo nec, convallis ligula. Morbi dignissim tortor in posuere feugiat. Integer gravida, ante eget volutpat fermentum, tortor risus maximus sem, id lobortis nulla libero non ex. "</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div className="member-info">
+								<h5>Alberto Murillo</h5>
+								<h6>Fundador</h6>
+                <h7>CONSIGNEA</h7>
+							</div>
+						</div>
+
+            <div className="member">
+							<div className="member-img">
+								<img src="/img/conferencistas/1.jpg" alt="member"/>
+								<div className="member-overlay">
+									<div className="member-social">
+										<div className=" pos-vertical-center">
+										<p style={{ color: 'white', fontFamily: 'Palatino, serif', fontSize: '15px' }}>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut eleifend nulla. Vivamus id commodo velit. Vestibulum eu justo consequat, pulvinar justo nec, convallis ligula. Morbi dignissim tortor in posuere feugiat. Integer gravida, ante eget volutpat fermentum, tortor risus maximus sem, id lobortis nulla libero non ex. "</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div className="member-info">
+								<h5>Andrea Vega</h5>
+								<h6>L&D Global Program Manager</h6>
+                <h7>DIRSCOLLS</h7>
+							</div>
+						</div>
+
+            <div className="member">
+							<div className="member-img">
+								<img src="/img/conferencistas/1.jpg" alt="member"/>
+								<div className="member-overlay">
+									<div className="member-social">
+										<div className=" pos-vertical-center">
+										<p style={{ color: 'white', fontFamily: 'Palatino, serif', fontSize: '15px' }}>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut eleifend nulla. Vivamus id commodo velit. Vestibulum eu justo consequat, pulvinar justo nec, convallis ligula. Morbi dignissim tortor in posuere feugiat. Integer gravida, ante eget volutpat fermentum, tortor risus maximus sem, id lobortis nulla libero non ex. "</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div className="member-info">
+								<h5>Emilio Maldonado Quevedo</h5>
+								<h6>Director General</h6>
+                <h7>Factor Diverso</h7>
+							</div>
+						</div>
+
+            <div className="member">
+							<div className="member-img">
+								<img src="/img/conferencistas/1.jpg" alt="member"/>
+								<div className="member-overlay">
+									<div className="member-social">
+										<div className=" pos-vertical-center">
+										<p style={{ color: 'white', fontFamily: 'Palatino, serif', fontSize: '15px' }}>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut eleifend nulla. Vivamus id commodo velit. Vestibulum eu justo consequat, pulvinar justo nec, convallis ligula. Morbi dignissim tortor in posuere feugiat. Integer gravida, ante eget volutpat fermentum, tortor risus maximus sem, id lobortis nulla libero non ex. "</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div className="member-info">
+								<h5>UP sí vale</h5>
+								<h6></h6>
+                <h7></h7>
+							</div>
+						</div>
+
+            <div className="member">
+							<div className="member-img">
+								<img src="/img/conferencistas/1.jpg" alt="member"/>
+								<div className="member-overlay">
+									<div className="member-social">
+										<div className=" pos-vertical-center">
+										<p style={{ color: 'white', fontFamily: 'Palatino, serif', fontSize: '15px' }}>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut eleifend nulla. Vivamus id commodo velit. Vestibulum eu justo consequat, pulvinar justo nec, convallis ligula. Morbi dignissim tortor in posuere feugiat. Integer gravida, ante eget volutpat fermentum, tortor risus maximus sem, id lobortis nulla libero non ex. "</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div className="member-info">
+								<h5>Daniel Garza Leal</h5>
+								<h6>Director de Relaciones y Negocios de MEJORAR MÉXICO</h6>
+                <h7>MEJORAR MÉXICO</h7>
+							</div>
+						</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="team2" className="team team-2 bg-white">
+	<div className="container">
+		<div className="row">
+			<div className="col-xs-12 col-sm-12 col-md-12">
+				<div className="heading heading-2 text-center mb-50">
+					<p className="heading--subtitle"></p>
+					<h2 className="heading--title"></h2>
+					<div className="divider--line">
         </div>
-      </div>
-  </section>
+				</div>
+			</div>
+		</div>
+		<div className="row">
+			<div className="col-xs-12 col-sm-12 col-md-12">
+				<div id="team-carousel" className="carousel-dots" style={{ position: 'relative', color: "blue" }}>
+
+            <div className="member">
+							<div className="member-img">
+								<img src="/img/conferencistas/1.jpg" alt="member"/>
+								<div className="member-overlay">
+									<div className="member-social">
+										<div className=" pos-vertical-center">
+										<p style={{ color: 'white', fontFamily: 'Palatino, serif', fontSize: '15px' }}>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut eleifend nulla. Vivamus id commodo velit. Vestibulum eu justo consequat, pulvinar justo nec, convallis ligula. Morbi dignissim tortor in posuere feugiat. Integer gravida, ante eget volutpat fermentum, tortor risus maximus sem, id lobortis nulla libero non ex. "</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div className="member-info">
+								<h5>Yami Hagg</h5>
+								<h6>Responsable de Transformación Digital y Ciberseguridad para Latinoamérica</h6>
+                <h7>Mondelēz</h7>
+							</div>
+						</div>
+
+            <div className="member">
+							<div className="member-img">
+								<img src="/img/conferencistas/1.jpg" alt="member"/>
+								<div className="member-overlay">
+									<div className="member-social">
+										<div className=" pos-vertical-center">
+										<p style={{ color: 'white', fontFamily: 'Palatino, serif', fontSize: '15px' }}>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut eleifend nulla. Vivamus id commodo velit. Vestibulum eu justo consequat, pulvinar justo nec, convallis ligula. Morbi dignissim tortor in posuere feugiat. Integer gravida, ante eget volutpat fermentum, tortor risus maximus sem, id lobortis nulla libero non ex. "</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div className="member-info">
+								<h5>Rubén Montesinos</h5>
+								<h6>Fundador</h6>
+                <h7>Instituto de Employer Branding</h7>
+							</div>
+						</div>
+
+            <div className="member">
+							<div className="member-img">
+								<img src="/img/conferencistas/1.jpg" alt="member"/>
+								<div className="member-overlay">
+									<div className="member-social">
+										<div className=" pos-vertical-center">
+										<p style={{ color: 'white', fontFamily: 'Palatino, serif', fontSize: '15px' }}>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut eleifend nulla. Vivamus id commodo velit. Vestibulum eu justo consequat, pulvinar justo nec, convallis ligula. Morbi dignissim tortor in posuere feugiat. Integer gravida, ante eget volutpat fermentum, tortor risus maximus sem, id lobortis nulla libero non ex. "</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div className="member-info">
+								<h5>Tergum</h5>
+								<h6></h6>
+                <h7></h7>
+							</div>
+						</div>
+
+            <div className="member">
+							<div className="member-img">
+								<img src="/img/conferencistas/1.jpg" alt="member"/>
+								<div className="member-overlay">
+									<div className="member-social">
+										<div className=" pos-vertical-center">
+										<p style={{ color: 'white', fontFamily: 'Palatino, serif', fontSize: '15px' }}>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut eleifend nulla. Vivamus id commodo velit. Vestibulum eu justo consequat, pulvinar justo nec, convallis ligula. Morbi dignissim tortor in posuere feugiat. Integer gravida, ante eget volutpat fermentum, tortor risus maximus sem, id lobortis nulla libero non ex. "</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div className="member-info">
+								<h5>Pablo Martínez del Castillo</h5>
+								<h6>Director General</h6>
+                <h7>Empireo</h7>
+							</div>
+						</div>
+
+            <div className="member">
+							<div className="member-img">
+								<img src="/img/conferencistas/1.jpg" alt="member"/>
+								<div className="member-overlay">
+									<div className="member-social">
+										<div className=" pos-vertical-center">
+										<p style={{ color: 'white', fontFamily: 'Palatino, serif', fontSize: '15px' }}>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut eleifend nulla. Vivamus id commodo velit. Vestibulum eu justo consequat, pulvinar justo nec, convallis ligula. Morbi dignissim tortor in posuere feugiat. Integer gravida, ante eget volutpat fermentum, tortor risus maximus sem, id lobortis nulla libero non ex. "</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div className="member-info">
+								<h5>Humberto Gutiérrez</h5>
+								<h6>Socio de Prometeo Ultra Group S.A.</h6>
+                <h7>Trainingwhiz</h7>
+							</div>
+						</div>
+
+            <div className="member">
+							<div className="member-img">
+								<img src="/img/conferencistas/1.jpg" alt="member"/>
+								<div className="member-overlay">
+									<div className="member-social">
+										<div className=" pos-vertical-center">
+										<p style={{ color: 'white', fontFamily: 'Palatino, serif', fontSize: '15px' }}>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut eleifend nulla. Vivamus id commodo velit. Vestibulum eu justo consequat, pulvinar justo nec, convallis ligula. Morbi dignissim tortor in posuere feugiat. Integer gravida, ante eget volutpat fermentum, tortor risus maximus sem, id lobortis nulla libero non ex. "</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div className="member-info">
+								<h5>Welbe</h5>
+								<h6></h6>
+                <h7></h7>
+							</div>
+						</div>
+
+            <div className="member">
+							<div className="member-img">
+								<img src="/img/conferencistas/1.jpg" alt="member"/>
+								<div className="member-overlay">
+									<div className="member-social">
+										<div className=" pos-vertical-center">
+										<p style={{ color: 'white', fontFamily: 'Palatino, serif', fontSize: '15px' }}>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut eleifend nulla. Vivamus id commodo velit. Vestibulum eu justo consequat, pulvinar justo nec, convallis ligula. Morbi dignissim tortor in posuere feugiat. Integer gravida, ante eget volutpat fermentum, tortor risus maximus sem, id lobortis nulla libero non ex. "</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div className="member-info">
+								<h5>Brivé</h5>
+								<h6></h6>
+                <h7></h7>
+							</div>
+						</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
 
   <div className="element-container">
   <section className="element-section">

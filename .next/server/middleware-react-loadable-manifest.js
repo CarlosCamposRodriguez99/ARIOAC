@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST="{}"
+self.__REACT_LOADABLE_MANIFEST="{\"..\\\\components\\\\DefaultHome\\\\HeroSlider.js -> react-modal-video\":{\"id\":\"..\\\\components\\\\DefaultHome\\\\HeroSlider.js -> react-modal-video\",\"files\":[\"static/chunks/node_modules_react-modal-video_lib_index_js.js\"]},\"..\\\\components\\\\DefaultHome\\\\HeroSlider.js -> react-owl-carousel3\":{\"id\":\"..\\\\components\\\\DefaultHome\\\\HeroSlider.js -> react-owl-carousel3\",\"files\":[\"static/chunks/node_modules_react-owl-carousel3_lib_OwlCarousel_js.js\"]}}"

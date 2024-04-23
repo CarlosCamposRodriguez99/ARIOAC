@@ -6,204 +6,214 @@ const PatrocinadoresPages = () => {
 
   return (
   <React.Fragment>
-      <div className="gray-background">
-      <div className="row gutter-lg" style={{marginBottom: "5px", marginTop: "5px", backgroundColor: "#fff"}}>
-        <div className="col-md-5 col-sm-12" style={{padding: "0", margin: "0"}}>
-          <div style={{padding: "0", margin: "0"}}>
-            <div style={{padding: "0", margin: "0"}}>
-              <div style={{padding: "0", margin: "0"}}>
-                <div style={{padding: "0", marginBottom: "auto"}}>
-                  <Image width={960} height={680} src='/img/section/fabricacionSection.jpg' alt='fabricacion-de-maquilas-y-suplementos' loading='lazy'/>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="col-md-7 col-sm-12">
-          <div style={{marginLeft: "40px", marginTop: "30px", marginRight: "40px"}}>
-            <div className='seccionTitle'>
-              <div>
-                <h1 style={{fontFamily: 'Montserrat, sans-serif', color: "#000", fontSize: "40px", textAlign: "left" }}>Conferencias Magistrales</h1>
-                <div style={{borderBottom: "3px solid #696969", width: "57px", marginBottom: "25px", marginTop: "15px"}}></div>
-                <h3 style={{fontFamily: 'Roboto, sans-serif', fontSize: "24px", color: "#00BFFF"}}>Tendencias globales de bienestar financiero
-</h3>
-                <div style={{borderBottom: "3px solid #808080", marginBottom: "25px", marginTop: "25px"}}></div>
-              </div>
-              <div>
-                <p style={{fontFamily: 'Roboto, sans-serif', fontSize: "17px", textAlign: "justify"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum, turpis quis tincidunt consequat, eros arcu tempor orci, non ultrices ex purus at nunc. Nullam tristique libero ac augue congue, eget bibendum lacus lobortis.  vitae magna eu tortor varius aliquet nec ac mauris. Integer volutpat quam vitae justo aliquet, vitae fermentum orci laoreet. Vivamus ullamcorper risus ut fermentum fringilla. Integer sit amet mauris id odio ultrices elementum. In hac habitasse platea
-                    <br/>Vivamus vitae magna eu tortor varius aliquet nec ac mauris. Integer volutpat quam vitae justo aliquet, vitae fermentum orci laoreet.<br/>Te apoyamos desde la creación hasta el envasado de tu producto.</p>
-              </div>
 
-              <div className='botonSeccionBottom' style={{marginTop: "30px"}}>
-                <Link href="/contact" passHref={true} legacyBehavior>
-                    <a className="default-btn">
-                        PARTICIPA Y GANA
-                    </a>
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+<section id="team4" className="team team-4 bg-white pt-0 pb-0">
+	<div className="container-fluid pr-0 pl-0">
+		<div className="row">
 
-    <div className="row gutter-lg" style={{marginBottom: "50px", backgroundColor: "#fff"}}>
-      <div className="col-md-7 col-sm-12">
-        <div style={{marginLeft: "40px", marginTop: "30px", marginRight: "40px"}}>
-          <div className='seccionTitle'>
-            <div>
-              <h1 style={{fontFamily: 'Montserrat, sans-serif', color: "#000", fontSize: "40px", textAlign: "left" }}>EQUILIBRIO SOSTENIBLE</h1>
-              <div style={{borderBottom: "3px solid #696969", width: "57px", marginBottom: "25px", marginTop: "15px"}}></div>
-              <h3 style={{fontFamily: 'Roboto, sans-serif', fontSize: "24px", color: "#00BFFF"}}>Equilibrio sostenible en la compensación: puestos, personas y medio ambiente</h3>
-              <div style={{borderBottom: "3px solid #808080", marginBottom: "25px", marginTop: "25px"}}></div>
-            </div>
-            <div>
-              <p style={{fontFamily: 'Roboto, sans-serif', fontSize: "17px", textAlign: "justify"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum, turpis quis tincidunt consequat, eros arcu tempor orci, non ultrices ex purus at nunc.
-                     <br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-            <div className='botonSeccionBottom' style={{marginTop: "30px"}}>
-              <Link href="/contact" passHref={true} legacyBehavior>
-                <a className="default-btn">
-                  CONCURSA
-                </a>
-              </Link>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="col-md-5 col-sm-12">
-        <div>
-          <div>
-            <div>
-              <div>
-                <Image width={960} height={680} src='/img/section/envasado.jpg' alt='envasado-de-productos-maquilas-y-suplementos' loading='lazy'/>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+			<div className="col-xs-12 col-sm-3 col-md-3">
+				<div className="member">
+					<div className="member-img">
+						<img src="/img/patroci/brive.png" alt="member"/>
+						<div className="member-overlay">
+							<div className="member-social">
+								<div className="member-data">
+									<div className="member-social-links">
+										<a href="#"><i className="fa fa-facebook"></i></a>
+										<a href="#"><i className="fa fa-twitter"></i></a>
+										<a href="#"><i className="fa fa-google-plus"></i></a>
+										<a href="#"><i className="fa fa-linkedin"></i></a>
+									</div>
+									<div className="member-info">
+										<h5>Ahmed Abd Alhaleem</h5>
+										<h6>Graphic Designer</h6>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			
+			<div className="col-xs-12 col-sm-3 col-md-3">
+				<div className="member">
+					<div className="member-img">
+						<img src="/img/gris.jpg" alt="member"/>
+						<div className="member-overlay">
+							<div className="member-social">
+								<div className="member-data">
+									<div className="member-social-links">
+										<a href="#"><i className="fa fa-facebook"></i></a>
+										<a href="#"><i className="fa fa-twitter"></i></a>
+										<a href="#"><i className="fa fa-google-plus"></i></a>
+										<a href="#"><i className="fa fa-linkedin"></i></a>
+									</div>
+									<div className="member-info">
+										<h5>Ahmed Hassan</h5>
+										<h6>Web Developer</h6>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div className="col-xs-12 col-sm-3 col-md-3">
+				<div className="member">
+					<div className="member-img">
+						<img src="/img/gris.jpg" alt="member"/>
+						<div className="member-overlay">
+							<div className="member-social">
+								<div className="member-data">
+									<div className="member-social-links">
+										<a href="#"><i className="fa fa-facebook"></i></a>
+										<a href="#"><i className="fa fa-twitter"></i></a>
+										<a href="#"><i className="fa fa-google-plus"></i></a>
+										<a href="#"><i className="fa fa-linkedin"></i></a>
+									</div>
+									<div className="member-info">
+										<h5>Mohamed Habaza</h5>
+										<h6>Lead Dev Ops</h6>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div className="col-xs-12 col-sm-3 col-md-3">
+				<div className="member">
+					<div className="member-img">
+						<img src="/img/gris.jpg" alt="member"/>
+						<div className="member-overlay">
+							<div className="member-social">
+								<div className="member-data">
+									<div className="member-social-links">
+										<a href="#"><i className="fa fa-facebook"></i></a>
+										<a href="#"><i className="fa fa-twitter"></i></a>
+										<a href="#"><i className="fa fa-google-plus"></i></a>
+										<a href="#"><i className="fa fa-linkedin"></i></a>
+									</div>
+									<div className="member-info">
+										<h5>Amr Gamal Sadeq</h5>
+										<h6>Design expert</h6>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+     
+<section id="team4" className="team team-4 bg-white pt-0 pb-0">
+	<div className="container-fluid pr-0 pl-0">
+		<div className="row">
 
-    <div className="gray-background">
-      <div className="row gutter-lg" style={{marginBottom: "5px", marginTop: "5px", backgroundColor: "#fff"}}>
-        <div className="col-md-5 col-sm-12" style={{padding: "0", margin: "0"}}>
-          <div style={{padding: "0", margin: "0"}}>
-            <div style={{padding: "0", margin: "0"}}>
-              <div style={{padding: "0", margin: "0"}}>
-                <div style={{padding: "0", marginBottom: "auto"}}>
-                  <Image width={960} height={680} src='/img/section/taponado.jpg' alt='taponado-y-cerrado-de-envases-maquilas-y-suplementos' loading='lazy'/>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="col-md-7 col-sm-12">
-          <div style={{marginLeft: "40px", marginTop: "30px", marginRight: "40px"}}>
-            <div className='seccionTitle'>
-              <div>
-                <h1 style={{fontFamily: 'Montserrat, sans-serif', color: "#000", fontSize: "40px", textAlign: "left" }}>El futuro de las compensaciones y su transformación digital</h1>
-                <div style={{borderBottom: "3px solid #696969", width: "57px", marginBottom: "25px", marginTop: "15px"}}></div>
-                <h3 style={{fontFamily: 'Roboto, sans-serif', fontSize: "24px", color: "#00BFFF"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum, turpis quis tincidunt consequat, eros arcu tempor orci, non ultrices ex purus at nunc
-                </h3>
-                <div style={{borderBottom: "3px solid #808080", marginBottom: "25px", marginTop: "25px"}}></div>
-              </div>
-              <div>
-                <p style={{fontFamily: 'Roboto, sans-serif', fontSize: "17px", textAlign: "justify"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum, turpis quis tincidunt consequat, eros arcu tempor orci, non ultrices ex purus at nunc.
-                </p>
-              </div>
-
-              <div className='botonSeccionBottom' style={{marginTop: "30px"}}>
-                <Link href="/contact" passHref={true} legacyBehavior>
-                    <a className="default-btn">
-                        CONTÁCTANOS
-                    </a>
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div className="row gutter-lg" style={{marginBottom: "50px", backgroundColor: "#fff"}}>
-      <div className="col-md-7 col-sm-12">
-        <div style={{marginLeft: "40px", marginTop: "30px", marginRight: "40px"}}>
-          <div className='seccionTitle'>
-            <div>
-              <h1 style={{fontFamily: 'Montserrat, sans-serif', color: "#000", fontSize: "40px", textAlign: "left" }}>Desafíos y beneficios laborales en materia de compensaciones de cara al 2024</h1>
-              <div style={{borderBottom: "3px solid #696969", width: "57px", marginBottom: "25px", marginTop: "15px"}}></div>
-              <h3 style={{fontFamily: 'Roboto, sans-serif', fontSize: "24px", color: "#00BFFF"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum, turpis quis tincidunt consequat, eros arcu tempor orci, non ultrices ex purus at nunc
-              </h3>
-              <div style={{borderBottom: "3px solid #808080", marginBottom: "25px", marginTop: "25px"}}></div>
-            </div>
-            <div>
-              <p style={{fontFamily: 'Roboto, sans-serif', fontSize: "17px", textAlign: "justify"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum, turpis quis tincidunt consequat, eros arcu tempor orci, non ultrices ex purus at nunc.
-              </p>
-            </div>
-            <div className='botonSeccionBottom' style={{marginTop: "30px"}}>
-              <Link href="/contact" passHref={true} legacyBehavior>
-                <a className="default-btn">
-                  INICIA CON NOSOTROS
-                </a>
-              </Link>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="col-md-5 col-sm-12">
-        <div>
-          <div>
-            <div>
-              <div>
-                <Image width={960} height={680} src='/img/section/etiquetado.jpg' alt='etiquetado-maquilas-y-suplementos' loading='lazy'/>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div className="gray-background">
-      <div className="row gutter-lg" style={{marginBottom: "5px", marginTop: "5px", backgroundColor: "#fff"}}>
-        <div className="col-md-5 col-sm-12" style={{padding: "0", margin: "0"}}>
-          <div style={{padding: "0", margin: "0"}}>
-            <div style={{padding: "0", margin: "0"}}>
-              <div style={{padding: "0", margin: "0"}}>
-                <div style={{padding: "0", marginBottom: "auto"}}>
-                  <Image width={960} height={680} src='/img/section/lotificado.jpg' alt='lotificado-impresion-de-caducidad-y-lote-maquilas-y-suplementos' loading='lazy'/>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="col-md-7 col-sm-12">
-          <div style={{marginLeft: "40px", marginTop: "30px", marginRight: "40px"}}>
-            <div className='seccionTitle'>
-              <div>
-                <h1 style={{fontFamily: 'Montserrat, sans-serif', color: "#000", fontSize: "40px", textAlign: "left" }}>Compensación flexible y tokenización</h1>
-                <div style={{borderBottom: "3px solid #696969", width: "57px", marginBottom: "25px", marginTop: "15px"}}></div>
-                <h3 style={{fontFamily: 'Roboto, sans-serif', fontSize: "24px", color: "#00BFFF"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum, turpis quis tincidunt consequat, eros arcu tempor orci, non ultrices ex purus at nunc
-                </h3>
-                <div style={{borderBottom: "3px solid #808080", marginBottom: "25px", marginTop: "25px"}}></div>
-              </div>
-              <div>
-                <p style={{fontFamily: 'Roboto, sans-serif', fontSize: "17px", textAlign: "justify"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum, turpis quis tincidunt consequat, eros arcu tempor orci, non ultrices ex purus at nunc.
-                <br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum, turpis quis tincidunt consequat, eros arcu tempor orci, non ultrices ex purus at nunc.
-                </p>
-              </div>
-
-              <div className='botonSeccionBottom' style={{marginTop: "30px"}}>
-                <Link href="/contact" passHref={true} legacyBehavior>
-                    <a className="default-btn">
-                        ESCRÍBENOS
-                    </a>
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+			<div className="col-xs-12 col-sm-3 col-md-3">
+				<div className="member">
+					<div className="member-img">
+						<img src="/img/gris.jpg" alt="member"/>
+						<div className="member-overlay">
+							<div className="member-social">
+								<div className="member-data">
+									<div className="member-social-links">
+										<a href="#"><i className="fa fa-facebook"></i></a>
+										<a href="#"><i className="fa fa-twitter"></i></a>
+										<a href="#"><i className="fa fa-google-plus"></i></a>
+										<a href="#"><i className="fa fa-linkedin"></i></a>
+									</div>
+									<div className="member-info">
+										<h5>Ahmed Abd Alhaleem</h5>
+										<h6>Graphic Designer</h6>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			
+			<div className="col-xs-12 col-sm-3 col-md-3">
+				<div className="member">
+					<div className="member-img">
+						<img src="/img/gris.jpg" alt="member"/>
+						<div className="member-overlay">
+							<div className="member-social">
+								<div className="member-data">
+									<div className="member-social-links">
+										<a href="#"><i className="fa fa-facebook"></i></a>
+										<a href="#"><i className="fa fa-twitter"></i></a>
+										<a href="#"><i className="fa fa-google-plus"></i></a>
+										<a href="#"><i className="fa fa-linkedin"></i></a>
+									</div>
+									<div className="member-info">
+										<h5>Ahmed Hassan</h5>
+										<h6>Web Developer</h6>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div className="col-xs-12 col-sm-3 col-md-3">
+				<div className="member">
+					<div className="member-img">
+						<img src="/img/gris.jpg" alt="member"/>
+						<div className="member-overlay">
+							<div className="member-social">
+								<div className="member-data">
+									<div className="member-social-links">
+										<a href="#"><i className="fa fa-facebook"></i></a>
+										<a href="#"><i className="fa fa-twitter"></i></a>
+										<a href="#"><i className="fa fa-google-plus"></i></a>
+										<a href="#"><i className="fa fa-linkedin"></i></a>
+									</div>
+									<div className="member-info">
+										<h5>Mohamed Habaza</h5>
+										<h6>Lead Dev Ops</h6>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div className="col-xs-12 col-sm-3 col-md-3">
+				<div className="member">
+					<div className="member-img">
+						<img src="/img/gris.jpg" alt="member"/>
+						<div className="member-overlay">
+							<div className="member-social">
+								<div className="member-data">
+									<div className="member-social-links">
+										<a href="#"><i className="fa fa-facebook"></i></a>
+										<a href="#"><i className="fa fa-twitter"></i></a>
+										<a href="#"><i className="fa fa-google-plus"></i></a>
+										<a href="#"><i className="fa fa-linkedin"></i></a>
+									</div>
+									<div className="member-info">
+										<h5>Amr Gamal Sadeq</h5>
+										<h6>Design expert</h6>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 
     <div className="row gutter-lg" style={{marginBottom: "50px", backgroundColor: "#fff"}}>
       <div className="col-md-7 col-sm-12">
@@ -315,9 +325,6 @@ const PatrocinadoresPages = () => {
         </div>
       </div>
     </section>
-
-    
-
 
     </React.Fragment>
   )

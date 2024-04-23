@@ -16,15 +16,15 @@ const Layout = ({ children }) => {
     return(
         <>
             <Head>
-                <title>ARIOAC</title>
+                <title>Arioac</title>
                 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
                 <meta name="description" content="En Arioac, nos dedicamos a trascender los límites de lo convencional en la organización de eventos, elevando cada congreso y conferencia magistral a nuevas alturas de excelencia. Desde la concepción hasta la ejecución, nuestro equipo comprometido trabaja incansablemente para crear experiencias que cautiven, inspiren y dejen una huella perdurable en todos los participantes. Confía en nosotros para convertir tus ideas en realidades impactantes y transformar cada evento en una historia de éxito inolvidable." />
                 <meta name="og:title" property="og:title" content="ARIOAC"></meta>
                 <meta property="og:locale" content="es_MX"></meta>
                 <meta property="og:type" content="website"></meta>
-                <meta property="og:title" content="ARIOAC"></meta>
+                <meta property="og:title" content="Arioac"></meta>
                 <meta property="og:description" content="Nos dedicamos a trascender los límites de lo convencional en la organización de eventos, elevando cada congreso y conferencia magistral a nuevas alturas de excelencia."></meta>
-                <meta property="og:site_name" content="ARIOAC"></meta>
+                <meta property="og:site_name" content="Arioac"></meta>
                 <meta name="twitter:card" content="Asociación de Recursos Humanos"></meta>
                 <link rel="canonical" href="https://ston-react.envytheme.com/"></link>
             </Head>

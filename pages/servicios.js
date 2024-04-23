@@ -12,8 +12,8 @@ const servicios = () => {
             <PageBanner
                 homePageUrl="/"
                 imgClass="bg-2"
-                pageTitle="EVENTOS"
-                parrafo="Participa en todos nuestros giveaways o sorteos del año."
+               // pageTitle=""
+               // parrafo=""
             />
 
             <ServiciosPage />

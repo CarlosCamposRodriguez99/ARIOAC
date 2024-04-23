@@ -11,9 +11,9 @@ const patrocinadores = () => {
             <Navbar />
             <PageBanner
                 homePageUrl="/"
-                imgClass="bg-2"
+                imgClass="/"
                 pageTitle="PATROCINADORES"
-                parrafo="Participa en todos nuestros giveaways o sorteos del año."
+                parrafo="Conoce a nuestros patrocinadores"
             />
 
             <PatrocinadoresPages />

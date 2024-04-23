@@ -57,7 +57,7 @@ const HeroSlider = () => {
                                                     fontWeight: 400,
                                                     color: "#fff",
                                                     marginBottom: "20px"
-                                                }}>ASISTE A NUESTROS PRÓXIMOS EVENTOS</h2>
+                                                }}>ASISTE A NUESTRO PRÓXIMO EVENTO</h2>
                                                 <p style={{
                                                     border: "5px solid #1C9CD9",
                                                     width: "65%",
@@ -67,12 +67,12 @@ const HeroSlider = () => {
                                                     fontFamily: 'Montserrat, sans-serif',
                                                     letterSpacing: "1px",
                                                     lineHeight: "60px"
-                                                }}>ORGANIZADO POR ARIOAC</p>
+                                                }}>HR WEEK</p>
             
                                                 <div className="slider-btn">
                                                     <Link className="default-btn" href="/servicios" legacyBehavior>
                                                         <a className="default-btn">
-                                                            VER EVENTOS
+                                                            VER EVENTO
                                                         </a>
                                                     </Link>
                                                 </div>
@@ -110,7 +110,7 @@ const HeroSlider = () => {
                                                 }}>ESTADÍA DOBLE EN BARRA DE NAVIDAD</p>
                                                 
                                                 <div className="slider-btn">
-                                                    <Link href="/servicios" legacyBehavior>
+                                                    <Link href="/contact" legacyBehavior>
                                                         <a className="default-btn">
                                                             ¡PARTICIPA!
                                                         </a>
@@ -131,7 +131,7 @@ const HeroSlider = () => {
                                 <div className="container">
                                     <div className="row align-items-center">
                                         <div className="col-lg-9">
-                                            <div className="slider-text one">
+                                            <div className="slider-text three">
                                                 <h2 style={{
                                                     fontFamily: 'Montserrat, sans-serif',
                                                     fontWeight: 400,
@@ -150,9 +150,9 @@ const HeroSlider = () => {
                                                 }}>EVENTOS PRESENCIALES</p>
             
                                                 <div className="slider-btn">
-                                                    <Link href="/servicios" legacyBehavior>
+                                                    <Link href="/empresa" legacyBehavior>
                                                         <a className="default-btn">
-                                                            VER CONFERENCIAS
+                                                            VER PROGRAMA
                                                         </a>
                                                     </Link>
                                                 </div>
@@ -165,7 +165,6 @@ const HeroSlider = () => {
                         </div>
                     </div>
                 </OwlCarousel> : ''}
-
                 
             </div>
 

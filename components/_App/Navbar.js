@@ -63,7 +63,7 @@ const Navbar = () => {
                             <div className="container">
                                 <Link href="/" passHref={true} legacyBehavior>
                                     <a onClick={toggleNavbar} className="navbar-brand">
-                                        <img src={scrollLogo ? '/img/logoarioac.png' : '/img/logoarioac.png'} alt="ARIOAC" />
+                                        <img src={scrollLogo ? '/img/hrlogo.png' : '/img/hrlogo.png'} alt="ARIOAC" />
                                     </a>
                                 </Link>
 
@@ -133,7 +133,7 @@ const Navbar = () => {
                                         <a href="https://www.linkedin.com/company/arioac/mycompany/" target='_blank' style={{ margin: '0 10px' }}>
                                             <Image src="/img/redes-sociales/linkedin.png" alt="Linkedin" width={35} height={35} />
                                         </a>
-                                        <a href="https://www.tiktok.com/@arioac" target='_blank' style={{ margin: '0 10px' }}>
+                                        <a href="https://www.tiktok.com/@arioac?_t=8lTOZbPZmB4&_r=1" target='_blank' style={{ margin: '0 10px' }}>
                                             <Image src="/img/redes-sociales/tiktok.png" alt="Tiktok" width={35} height={35} />
                                         </a>
                                     </div>
