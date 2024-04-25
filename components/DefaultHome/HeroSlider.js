@@ -70,7 +70,7 @@ const HeroSlider = () => {
                                                 }}>HR WEEK</p>
             
                                                 <div className="slider-btn">
-                                                    <Link className="default-btn" href="/servicios" legacyBehavior>
+                                                    <Link className="default-btn" href="/empresa" legacyBehavior>
                                                         <a className="default-btn">
                                                             VER EVENTO
                                                         </a>
@@ -147,10 +147,10 @@ const HeroSlider = () => {
                                                     fontFamily: 'Montserrat, sans-serif',
                                                     letterSpacing: "1px",
                                                     lineHeight: "60px",
-                                                }}>EVENTOS PRESENCIALES</p>
+                                                }}>EVENTO HR WEEK</p>
             
                                                 <div className="slider-btn">
-                                                    <Link href="/empresa" legacyBehavior>
+                                                    <Link href="/servicios" legacyBehavior>
                                                         <a className="default-btn">
                                                             VER PROGRAMA
                                                         </a>
