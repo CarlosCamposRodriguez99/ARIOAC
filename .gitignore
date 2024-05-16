@@ -1,2 +1,8 @@
 node_modules
-13.pack
+build-manifest.json
+react-loadable-manifest.json
+*.pack.gz
+
+
+/build/
+/dist/

@@ -26,7 +26,7 @@ const ServiciosPage = () => {
             item.style.display = 'none';
           }
         });
-      };      
+      };
 
   return (
   <React.Fragment>
@@ -36,7 +36,7 @@ const ServiciosPage = () => {
         <div className="row portfolio-row">
             <div className="col-xs-12 col-sm-12 col-md-12 portfolio-filter" style={{cursor: "pointer"}}>
                 <ul className="list-inline mb-0">
-                <li><a className={filtro === '*' ? 'active-filter' : ''} href="#" onClick={(e) => handleClick(e, '*')}>Conferencias</a></li>
+             {/*   <li><a className={filtro === '*' ? 'active-filter' : ''} href="#" onClick={(e) => handleClick(e, '*')}>Conferencias</a></li>   */} 
                 <li><a className={filtro === '.filter-17Junio' ? 'active-filter' : ''} href="#" onClick={(e) => handleClick(e, '.filter-17Junio')}>17 Junio</a></li>
                 <li><a className={filtro === '.filter-18Junio' ? 'active-filter' : ''} href="#" onClick={(e) => handleClick(e, '.filter-18Junio')}>18 Junio</a></li>
                 <li><a className={filtro === '.filter-19Junio' ? 'active-filter' : ''} href="#" onClick={(e) => handleClick(e, '.filter-19Junio')}>19 Junio</a></li>
@@ -58,9 +58,8 @@ const ServiciosPage = () => {
                             <div className="portfolio--action">
                                 <div className="pos-vertical-center">
                                     <div className="portfolio--title">
-                                        <h4><a href="#">Estrategias en LinkedIn: Potenciando tu Marca Empleadora y Personal</a></h4>
+                                        <h4><a href="#">Estrategias en LinkedIn: Potenciando tu marca empleadora y personal</a></h4>
 										<h5><a href='#'>Dunnia Vargas González, 9 AM, 1 hora con 10 minutos</a></h5>
-									{/*	<h6><a href='#'>Dunnia Vargas González</a></h6> */}
                                     </div>
                                     <div className="portfolio--cat">
                                         <a href="#">Lunes</a>, <a href="#">17 Junio</a>
@@ -136,8 +135,8 @@ const ServiciosPage = () => {
                             <div className="portfolio--action">
                                 <div className="pos-vertical-center">
                                     <div className="portfolio--title">
-									<h4><a href="#"></a></h4>
-									<h5><a href='#'>Adriana Acalá Ruíz, 9 AM, 1 hora con 10 minutos</a></h5>
+									<h4><a href="#">Integración de Calidad, Seguridad y Bienestar</a></h4>
+									<h5><a href='#'>Erika Chavero, 9 AM, 1 hora con 10 minutos</a></h5>
                                     </div>
                                     <div className="portfolio--cat">
                                         <a href="#">Martes</a>, <a href="#">18 Junio</a>
@@ -155,8 +154,8 @@ const ServiciosPage = () => {
                             <div className="portfolio--action">
                                 <div className="pos-vertical-center">
                                     <div className="portfolio--title">
-									<h4><a href="#"></a></h4>
-									<h5><a href='#'>Marcos Alonso, 10 AM, 1 hora con 11 minutos</a></h5>
+									<h4><a href="#">Empoderando Voces: Comunicación Asertiva en el Liderazgo Femenino</a></h4>
+									<h5><a href='#'>Valeria Ramírez, 10 AM, 1 hora con 11 minutos</a></h5>
                                     </div>
                                     <div className="portfolio--cat">
                                         <a href="#">Martes</a>, <a href="#">18 Junio</a>
@@ -174,8 +173,8 @@ const ServiciosPage = () => {
                             <div className="portfolio--action">
                                 <div className="pos-vertical-center">
                                     <div className="portfolio--title">
-									<h4><a href="#"></a></h4>
-									<h5><a href='#'>PENDIENTE, 11 AM, 30 minutos</a></h5>
+									<h4><a href="#">Diversidad e inclusión en México desafio organizacional</a></h4>
+									<h5><a href='#'>Jerico Jaramillo, 11 AM, 30 minutos</a></h5>
                                     </div>
                                     <div className="portfolio--cat">
                                         <a href="#">Martes</a>, <a href="#">18 Junio</a>
@@ -193,8 +192,8 @@ const ServiciosPage = () => {
                             <div className="portfolio--action">
                                 <div className="pos-vertical-center">
                                     <div className="portfolio--title">
-									<h4><a href="#"></a></h4>
-									<h5><a href='#'>UVM, 11:30 AM, 30 minutos</a></h5>
+									<h4><a href="#">Tendencias de Capacitación y Desarrollo Humano</a></h4>
+									<h5><a href='#'>Fernando Hernández Chávez, 11:30 AM, 30 minutos</a></h5>
                                     </div>
                                     <div className="portfolio--cat">
                                         <a href="#">Martes</a>, <a href="#">18 Junio</a>
@@ -205,7 +204,7 @@ const ServiciosPage = () => {
                     </div>
                 </div>
 
-				<div className="portfolio-item filter-18Junio">
+			{/* 	<div className="portfolio-item filter-18Junio">
                     <div className="portfolio--img">
                         <img src="/img/dia2.jpg" alt="img" />
                         <div className="portfolio--hover">
@@ -222,7 +221,7 @@ const ServiciosPage = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>  */}
 
 				<div className="portfolio-item filter-19Junio">
                     <div className="portfolio--img">
@@ -269,7 +268,7 @@ const ServiciosPage = () => {
                             <div className="portfolio--action">
                                 <div className="pos-vertical-center">
                                     <div className="portfolio--title">
-									<h4><a href="#">PENDIENTE</a></h4>
+									<h4><a href="#">El papel estratégico de RH: Cultura Organizacional y éxito empresarial</a></h4>
 									<h5><a href='#'>Emilio Maldonado Quevedo, 11 AM, 1 hora con 12 minutos</a></h5>
                                     </div>
                                     <div className="portfolio--cat">
@@ -364,8 +363,8 @@ const ServiciosPage = () => {
                             <div className="portfolio--action">
                                 <div className="pos-vertical-center">
                                     <div className="portfolio--title">
-									<h4><a href="#">PENDIENTE</a></h4>
-									<h5><a href='#'>Tergum, 12 PM, 30 minutos</a></h5>
+									<h4><a href="#">Desempeño y productividad laboral</a></h4>
+									<h5><a href='#'>Marcos Alonso, 12 PM, 30 minutos</a></h5>
                                     </div>
                                     <div className="portfolio--cat">
                                         <a href="#">Jueves</a>, <a href="#">20 Junio</a>
@@ -421,8 +420,8 @@ const ServiciosPage = () => {
                             <div className="portfolio--action">
                                 <div className="pos-vertical-center">
                                     <div className="portfolio--title">
-									<h4><a href="#">PENDIENTE</a></h4>
-									<h5><a href='#'>Welbe, 11 AM, 30 minutos</a></h5>
+									<h4><a href="#">Bienestar Integral en el Lugar de Trabajo: Estrategias Holísticas para Optimizar el Desempeño y la Salud de los Empleados</a></h4>
+									<h5><a href='#'>Emmanuel Cervantes Rodríguez, 11 AM, 30 minutos</a></h5>
                                     </div>
                                     <div className="portfolio--cat">
                                         <a href="#">Viernes</a>, <a href="#">21 Junio</a>

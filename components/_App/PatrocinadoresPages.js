@@ -1,8 +1,25 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 
+
 const PatrocinadoresPages = () => {
+
+	const [imageIndex, setImageIndex] = useState(0);
+
+	const images = [
+		'/img/section/1.jpg',
+		'/img/section/2.jpg',
+		'/img/section/3.jpg',
+	  ];
+
+	useEffect(() => {
+		const interval = setInterval(() => {
+		  setImageIndex((prevIndex) => (prevIndex + 1) % images.length);
+		}, 5000); // Cambia este valor (en milisegundos) para ajustar el intervalo de cambio de imagen
+	
+		return () => clearInterval(interval);
+	  }, [images.length]);
 
   return (
   <React.Fragment>
@@ -144,7 +161,7 @@ const PatrocinadoresPages = () => {
 			<div className="col-xs-12 col-sm-3 col-md-3">
 				<div className="member">
 					<div className="member-img">
-						<img src="/img/gris.jpg" alt="member"/>
+						<img src="/img/patroci/uvm.png" alt="member"/>
 						<div className="member-overlay">
 							<div className="member-social">
 								<div className="member-data">
@@ -168,7 +185,7 @@ const PatrocinadoresPages = () => {
 	</div>
 </section>
 
-    <div className="row gutter-lg" style={{marginBottom: "50px", backgroundColor: "#fff"}}>
+  {/*  <div className="row gutter-lg" style={{marginBottom: "50px", backgroundColor: "#fff"}}>
       <div className="col-md-7 col-sm-12">
         <div style={{marginLeft: "40px", marginTop: "30px", marginRight: "40px"}}>
           <div className='seccionTitle'>
@@ -205,79 +222,38 @@ const PatrocinadoresPages = () => {
           </div>
         </div>
       </div>
-    </div>
+    </div> */} 
 
-    {/* PATROCINADORES BLANCO Y NEGRO */}
-
-    <section id="clients2" className="clients clients-2 bg-white">
-      <div className="container">
-        <div style={{textAlign: "center", margin: "0 auto", display: "flex", justifyContent: "center"}}>
-          <div className="col-xs-12 col-sm-12 col-md-8 col-md-offset-2">
-            <div className="heading heading-2 text--center mb-60">
-              <h2 className="heading--title">PATROCINADORES</h2>
-              <div className="divider--line">
-                <i className="divider divider--1"></i>
-                <i className="divider divider--2"></i>
-                <i className="divider divider--3"></i>
-                <i className="divider divider--4"></i>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="row row-clients">
-          <div className="col-xs-12 col-sm-6 col-md-3 client">
-            <img className="center-block" src="/img/patrocinadores/1.png" alt="client" />
-          </div>
-          <div className="col-xs-12 col-sm-6 col-md-3 client">
-            <img className="center-block" src="/img/patrocinadores/2.png" alt="client" />
-          </div>
-          <div className="col-xs-12 col-sm-6 col-md-3 client">
-            <img className="center-block" src="/img/patrocinadores/3.png" alt="client" />
-          </div>
-          <div className="col-xs-12 col-sm-6 col-md-3 client">
-            <img className="center-block" src="/img/patrocinadores/4.png" alt="client" />
-          </div>
-        </div>
-        <div className="row row-clients">
-          <div className="col-xs-12 col-sm-6 col-md-3 client">
-            <img className="center-block" src="/img/patrocinadores/5.png" alt="client" />
-          </div>
-          <div className="col-xs-12 col-sm-6 col-md-3 client">
-            <img className="center-block" src="/img/patrocinadores/6.png" alt="client" />
-          </div>
-          <div className="col-xs-12 col-sm-6 col-md-3 client">
-            <img className="center-block" src="/img/patrocinadores/7.png" alt="client" />
-          </div>
-          <div className="col-xs-12 col-sm-6 col-md-3 client">
-            <img className="center-block" src="/img/patrocinadores/8.png" alt="client" />
-          </div>
-          <div className="col-xs-12 col-sm-6 col-md-3 client">
-            <img className="center-block" src="/img/patrocinadores/9.png" alt="client" />
-          </div>
-          <div className="col-xs-12 col-sm-6 col-md-3 client">
-            <img className="center-block" src="/img/patrocinadores/10.png" alt="client" />
-          </div>
-          <div className="col-xs-12 col-sm-6 col-md-3 client">
-            <img className="center-block" src="/img/patrocinadores/11.png" alt="client" />
-          </div>
-          <div className="col-xs-12 col-sm-6 col-md-3 client">
-            <img className="center-block" src="/img/patrocinadores/12.png" alt="client" />
-          </div>
-          <div className="col-xs-12 col-sm-6 col-md-3 client">
-            <img className="center-block" src="/img/patrocinadores/13.png" alt="client" />
-          </div>
-          <div className="col-xs-12 col-sm-6 col-md-3 client">
-            <img className="center-block" src="/img/patrocinadores/14.png" alt="client" />
-          </div>
-          <div className="col-xs-12 col-sm-6 col-md-3 client">
-            <img className="center-block" src="/img/patrocinadores/15.png" alt="client" />
-          </div>
-          <div className="col-xs-12 col-sm-6 col-md-3 client">
-            <img className="center-block" src="/img/patrocinadores/16.png" alt="client" />
-          </div>
-        </div>
-      </div>
-    </section>
+<div className="element-container">
+					<section className="element-section">
+						<div className="element-image">
+						<Image 
+							width={1920}
+							height={700}
+							className='imageYoutube'
+							decoding="async"
+							src={images[imageIndex]}
+							alt="suplementos-alimenticios-youtube"
+							loading='lazy'
+						/>
+						<div className="element-content" style={{ textAlign: "centert", maxWidth: "100%", marginRight: "30px" }}>
+							<h3 className='titleYoutube' style={{ color: "#000", marginBottom: "5px", marginTop: "50px" }}></h3>
+					    <img src='/img/logoarioac.png' alt='youtube' width="300px" height="100px" />  	
+							<p className='noneYoutube' style={{ textAlign: "left", fontFamily: 'Montserrat, sans-serif', marginTop: "20px", marginBottom: "40px", fontSize: "16px" }}>
+							
+							<br />
+							</p>
+					{/* 	<a
+							href="https://www.tiktok.com/@arioac"
+							target="_blank"
+							className="element-button"
+							>
+							
+							</a>  */}
+						</div>
+						</div>
+					</section>
+		</div>
 
     </React.Fragment>
   )
