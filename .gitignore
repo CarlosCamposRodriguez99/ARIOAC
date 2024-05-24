@@ -12,6 +12,9 @@ react-loadable-manifest.json
 /build/
 /dist/
 
+/node_modules/
+/.npm/
+
 # Archivos de registro
 npm-debug.log*
 yarn-debug.log*
