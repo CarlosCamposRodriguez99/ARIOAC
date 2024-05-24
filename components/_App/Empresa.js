@@ -89,126 +89,126 @@ const Empresa = () => {
 			<div className="col-xs-12 col-sm-12 col-md-12">
 				<div id="team-carousel" className="carousel-dots">
         
-					<div className="member">
-							<div className="member-img">
-								<img src="/img/conferencistas/1.jpg" alt="member"/>
-								<div className="member-overlay">
-									<div className="member-social">
+					<div className="memberConfe">
+							<div className="memberConfe-img">
+								<img src="/img/conferencistas/1.jpg" alt="memberConfe"/>
+								<div className="memberConfe-overlay">
+									<div className="memberConfe-social">
 										<div className=" pos-vertical-center">
                     <p style={{ color: 'white', fontFamily: 'Palatino, serif', fontSize: '15px' }}>"Experiencia diversificada en sectores económicos. Capacité a más de 3000 profesionales en LinkedIn y negocios, ofreciendo soluciones prácticas y éticas en situaciones complejas para beneficio mutuo."</p>
 										</div>
 									</div>
 								</div>
 							</div>
-							<div className="member-info">
+							<div className="memberConfe-info">
 								<h5>Dunnia Vargas González</h5>
 								<h6>Top Career Counseling Voice LinkedIn</h6>
                                 <h7>Dunnia Vargas</h7>
 							</div>
 						</div>
 
-                        <div className="member">
-							<div className="member-img">
-								<img src="/img/conferencistas/1.jpg" alt="member"/>
-								<div className="member-overlay">
-									<div className="member-social">
+                        <div className="memberConfe">
+							<div className="memberConfe-img">
+								<img src="/img/conferencistas/1.jpg" alt="memberConfe"/>
+								<div className="memberConfe-overlay">
+									<div className="memberConfe-social">
 										<div className=" pos-vertical-center">
 										<p style={{ color: 'white', fontFamily: 'Palatino, serif', fontSize: '15px' }}>"Administrador de Empresas especializado en Desarrollo Humano y autor de 'El Lenguaje de los Colores'. Fundador de THT, empresa multinacional que ha entrenado a más de 15,000 directivos y mejorado procesos para 5 millones de personas en 13 países."</p>
 										</div>
 									</div>
 								</div>
 							</div>
-							<div className="member-info">
+							<div className="memberConfe-info">
 								<h5>Juan David Gómez</h5>
 								<h6>Fundador de la Multinacional THT</h6>
                                 <h7>Mentor de Carrera</h7>
 							</div>
 						</div>
 
-					<div className="member">
-							<div className="member-img">
-								<img src="/img/conferencistas/1.jpg" alt="member"/>
-								<div className="member-overlay">
-									<div className="member-social">
+					<div className="memberConfe">
+							<div className="memberConfe-img">
+								<img src="/img/conferencistas/1.jpg" alt="memberConfe"/>
+								<div className="memberConfe-overlay">
+									<div className="memberConfe-social">
 										<div className="pos-vertical-center">
 										<p style={{ color: 'white', fontFamily: 'Palatino, serif', fontSize: '15px' }}>"Con 20 años en roles ejecutivos en empresas globales, liderando equipos en IT y Supply Chain, me convertí en agente de transformación hace 6 años. Enfocado en Liderazgo Trascendental & Maestría Personal, he impactado a más de 3,500 personas y 130 empresas como mentor y conferencista, inspirando crecimiento."</p>
 										</div>
 									</div>
 								</div>
 							</div>
-							<div className="member-info">
+							<div className="memberConfe-info">
 								<h5>Héctor Munguía</h5>
 								<h6>Coach, Conferencista, Entrenador Ejecutivo y Escritor</h6>
                                 <h7>Héctor Munguía</h7>
 							</div>
 						</div>
 
-					<div className="member">
-							<div className="member-img">
-								<img src="/img/conferencistas/1.jpg" alt="member"/>
-								<div className="member-overlay">
-									<div className="member-social">
+					<div className="memberConfe">
+							<div className="memberConfe-img">
+								<img src="/img/conferencistas/1.jpg" alt="memberConfe"/>
+								<div className="memberConfe-overlay">
+									<div className="memberConfe-social">
 										<div className="pos-vertical-center">
 										<p style={{ color: 'white', fontFamily: 'Palatino, serif', fontSize: '15px' }}>"Asesor en Condiciones Generales de Trabajo y Capacitación, Licenciado en Contabilidad Pública y Finanzas con más de 7 años de experiencia en asesoría laboral y financiera. Diplomados en contabilidad gerencia y contribuciones. Experiencia de más de 5 años en Grupo Cicadehp."</p>
 										</div>
 									</div>
 								</div>
 							</div>
-							<div className="member-info">
+							<div className="memberConfe-info">
 								<h5>Angel Adrián Dávalos Granados</h5>
 								<h6>Asesor de servicio en materia de Condiciones Generales de Trabajo, Capacitación y Adiestramiento</h6>
                                 <h7>CICADEHP</h7>
 							</div>
                         </div>
 			
-					<div className="member">
-							<div className="member-img">
-								<img src="/img/conferencistas/1.jpg" alt="member"/>
-								<div className="member-overlay">
-									<div className="member-social">
+					<div className="memberConfe">
+							<div className="memberConfe-img">
+								<img src="/img/conferencistas/1.jpg" alt="memberConfe"/>
+								<div className="memberConfe-overlay">
+									<div className="memberConfe-social">
 										<div className=" pos-vertical-center">
 										<p style={{ color: 'white', fontFamily: 'Palatino, serif', fontSize: '15px' }}>"Líder apasionada y experimentada en calidad y seguridad de la información, con más de 20 años de experiencia en normas ISO 9001 e ISO 27001. Su trayectoria refleja un compromiso constante con la excelencia, evidenciado por las numerosas certificaciones presenciadas, que representan el compromiso de las organizaciones hacia la calidad y la eficiencia operativa."</p>
 										</div>
 									</div>
 								</div>
 							</div>
-							<div className="member-info">
+							<div className="memberConfe-info">
 								<h5>Erika Chavero</h5>
 								<h6>Gerente de Sistemas de Gestión</h6>
                                 <h7>ORIENTA</h7>
 							</div>
 						</div>
 
-					<div className="member">
-							<div className="member-img">
-								<img src="/img/conferencistas/1.jpg" alt="member"/>
-								<div className="member-overlay">
-									<div className="member-social">
+					<div className="memberConfe">
+							<div className="memberConfe-img">
+								<img src="/img/conferencistas/1.jpg" alt="memberConfe"/>
+								<div className="memberConfe-overlay">
+									<div className="memberConfe-social">
 										<div className=" pos-vertical-center">
 										<p style={{ color: 'white', fontFamily: 'Palatino, serif', fontSize: '15px' }}>"Como profesional de Recursos Humanos, mi experiencia es aportar valor y visión global del Departamento y ayudar a la organización a optimizar y mejorar sus recursos a través del análisis de datos. Siendo esencial abordar la medición y mejora del desempeño a través de evaluaciones estructuradas en función de los objetivos estratégicos corporativos."</p>
 										</div>
 									</div>
 								</div>
 							</div>
-							<div className="member-info">
+							<div className="memberConfe-info">
 								<h5>Marcos Alonso</h5>
 								<h6>HR Director</h6>
                                 <h7>BOLLHOFF</h7>
 							</div>
 						</div>
 
-					     <div className="member">
-											<div className="member-img">
-												<img src="/img/conferencistas/1.jpg" alt="member"/>
-												<div className="member-overlay">
-													<div className="member-social">
+					     <div className="memberConfe">
+											<div className="memberConfe-img">
+												<img src="/img/conferencistas/1.jpg" alt="memberConfe"/>
+												<div className="memberConfe-overlay">
+													<div className="memberConfe-social">
 														<div className=" pos-vertical-center">
 														<p style={{ color: 'white', fontFamily: 'Palatino, serif', fontSize: '15px' }}>"Psicóloga de la UIA con 25 años de experiencia en RH para empresas nacionales y trasnacionales. Instructura en competencias directivas y de liderazgo por más de 12 años, a través de programas de coaching ejecutivo y de equipos de trabajo. Certificada por la ACMC, la ICT y el Tec de Monterrey, con una maestría en Psicoterapia Gestalt y un curso en Liderazgo para Mujeres."</p>
 														</div>
 													</div>
 												</div>
 											</div>
-											<div className="member-info">
+											<div className="memberConfe-info">
 												<h5>Valeria Ramírez</h5>
 												<h6>Consultora Experta</h6>
 								                <h7>CONTUR</h7>
@@ -220,7 +220,7 @@ const Empresa = () => {
 					</div>
 				</section>
 
-				<section id="team2" className="team team-2 bg-white">
+			{/*	<section id="team2" className="team team-2 bg-white">
 				<div className="container">
 					<div className="row">
 						<div className="col-xs-12 col-sm-12 col-md-12">
@@ -355,10 +355,10 @@ const Empresa = () => {
 							</div>
 						</div>
 					</div>
-				</section>
+</section> */}
 
 
-				<section id="team2" className="team team-2 bg-white">
+			{/*	<section id="team2" className="team team-2 bg-white">
 	<div className="container">
 		
 		<div className="row">
@@ -494,7 +494,7 @@ const Empresa = () => {
 							</div>
 						</div>
 					</div>
-				</section>
+</section> */}
 
 				
 

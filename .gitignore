@@ -1,8 +1,52 @@
-node_modules
+# Dependencias de Node.js
+node_modules/
+
+# Archivos de manifiesto generados por Webpack o similares
 build-manifest.json
 react-loadable-manifest.json
+
+# Archivos empaquetados
 *.pack.gz
 
-
+# Directorios de construcción
 /build/
 /dist/
+
+# Archivos de registro
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos de configuración del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de entorno
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Archivos de configuración del editor
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos de compilación
+*.lock
+*.log
+
+# Archivos temporales
+.tmp/
+*.swp
+
+# Archivos de pruebas
+coverage/
+*.lcov
+
+# Ignorar otros archivos generados por herramientas de construcción
+build/
+.cache/
+.serve/

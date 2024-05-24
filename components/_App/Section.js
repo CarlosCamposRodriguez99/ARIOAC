@@ -24,9 +24,6 @@ const Section = () => {
                  4. Mejoramiento del desempeño en la estrategia del Capital Humano.
               </p>
 
-
-
-
             </div>
             <div className='botonSeccionTop' style={{marginTop: "30px"}}>
               <Link href="/servicios" passHref={true} legacyBehavior>

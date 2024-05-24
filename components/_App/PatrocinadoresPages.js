@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 
-
 const PatrocinadoresPages = () => {
 
 	const [imageIndex, setImageIndex] = useState(0);
@@ -21,10 +20,17 @@ const PatrocinadoresPages = () => {
 		return () => clearInterval(interval);
 	  }, [images.length]);
 
+	 /*  const handleImageClick = (sponsorName) => {
+		// Obtener el elemento de las redes sociales del patrocinador haciendo referencia al nombre del patrocinador
+		const socialLinks = document.querySelector(`#${sponsorName}-social-links`);
+		// Alternar la clase 'show' para mostrar u ocultar las redes sociales
+		socialLinks.classList.toggle('show');
+	  };  */
+	
   return (
   <React.Fragment>
 
-<section id="team4" className="team team-4 bg-white pt-0 pb-0">
+<section id="team4" className="team team-4 bg-white pt-0 pb-0 mt-3">
 	<div className="container-fluid pr-0 pl-0">
 		<div className="row text-center mx-auto">
 
@@ -35,11 +41,11 @@ const PatrocinadoresPages = () => {
 						<div className="member-overlay">
 							<div className="member-social">
 								<div className="member-data">
-									<div className="member-social-links">
-										<a href="#"><i className="fa fa-facebook"></i></a>
-										<a href="#"><i className="fa fa-twitter"></i></a>
-										<a href="#"><i className="fa fa-google-plus"></i></a>
-										<a href="#"><i className="fa fa-linkedin"></i></a>
+								    <div className="member-social-links">
+									<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+										<a src="" href="https://brivesoluciones.com/" target='_blank'><i className="fa fa-facebook"></i></a>
+										<a src="" href="5512954442"><i className="fa fa-twitter"></i></a>
+										<a src="" href="https://www.linkedin.com/company/brive-soluciones/"><i className="fa fa-linkedin"></i></a>
 									</div>
 									<div className="member-info">
 										<h5>Brivé</h5>
@@ -60,11 +66,10 @@ const PatrocinadoresPages = () => {
 						<div className="member-overlay">
 							<div className="member-social">
 								<div className="member-data">
-									<div className="member-social-links">
-										<a href="#"><i className="fa fa-facebook"></i></a>
-										<a href="#"><i className="fa fa-twitter"></i></a>
-										<a href="#"><i className="fa fa-google-plus"></i></a>
-										<a href="#"><i className="fa fa-linkedin"></i></a>
+								<div className="member-social-links">
+										<a src="" href="https://www.sivale.mx/"><i className="fa fa-facebook"></i></a>
+										<a src="" href="5580098684"><i className="fa fa-twitter"></i></a>
+										<a src="" href="https://www.linkedin.com/company/upsivale/"><i className="fa fa-linkedin"></i></a>
 									</div>
 									<div className="member-info">
 										<h5>Up sí vale</h5>
@@ -84,11 +89,10 @@ const PatrocinadoresPages = () => {
 						<div className="member-overlay">
 							<div className="member-social">
 								<div className="member-data">
-									<div className="member-social-links">
-										<a href="#"><i className="fa fa-facebook"></i></a>
-										<a href="#"><i className="fa fa-twitter"></i></a>
-										<a href="#"><i className="fa fa-google-plus"></i></a>
-										<a href="#"><i className="fa fa-linkedin"></i></a>
+								<div className="member-social-links">
+										<a src="" href="https://tergum.com.mx/index.html"><i className="fa fa-facebook"></i></a>
+										<a src="" href="3316048746"><i className="fa fa-twitter"></i></a>
+										<a src="" href="https://www.linkedin.com/company/tergum-méxico/"><i className="fa fa-linkedin"></i></a>
 									</div>
 									<div className="member-info">
 										<h5>Tergum</h5>
@@ -116,10 +120,9 @@ const PatrocinadoresPages = () => {
 							<div className="member-social">
 								<div className="member-data">
 									<div className="member-social-links">
-										<a href="#"><i className="fa fa-facebook"></i></a>
-										<a href="#"><i className="fa fa-twitter"></i></a>
-										<a href="#"><i className="fa fa-google-plus"></i></a>
-										<a href="#"><i className="fa fa-linkedin"></i></a>
+										<a src="" href="https://www.minu.mx/"><i className="fa fa-facebook"></i></a>
+										<a src="" href="3336679437"><i className="fa fa-twitter"></i></a>
+										<a src="" href="https://www.linkedin.com/company/minuservicios/"><i className="fa fa-linkedin"></i></a>
 									</div>
 									<div className="member-info">
 										<h5>Minu</h5>
@@ -141,10 +144,9 @@ const PatrocinadoresPages = () => {
 							<div className="member-social">
 								<div className="member-data">
 									<div className="member-social-links">
-										<a href="#"><i className="fa fa-facebook"></i></a>
-										<a href="#"><i className="fa fa-twitter"></i></a>
-										<a href="#"><i className="fa fa-google-plus"></i></a>
-										<a href="#"><i className="fa fa-linkedin"></i></a>
+										<a src="" href="https://home.welbecare.com/"><i className="fa fa-facebook"></i></a>
+										<a src="" href="5562095511"><i className="fa fa-twitter"></i></a>
+										<a src="" href="https://www.linkedin.com/company/welbe-care/"><i className="fa fa-linkedin"></i></a>
 									</div>
 									<div className="member-info">
 										<h5>Welbe</h5>
@@ -157,7 +159,6 @@ const PatrocinadoresPages = () => {
 				</div>
 			</div>
 			
-			
 			<div className="col-xs-12 col-sm-3 col-md-3">
 				<div className="member">
 					<div className="member-img">
@@ -166,10 +167,9 @@ const PatrocinadoresPages = () => {
 							<div className="member-social">
 								<div className="member-data">
 									<div className="member-social-links">
-										<a href="#"><i className="fa fa-facebook"></i></a>
-										<a href="#"><i className="fa fa-twitter"></i></a>
-										<a href="#"><i className="fa fa-google-plus"></i></a>
-										<a href="#"><i className="fa fa-linkedin"></i></a>
+										<a src="" href="https://uvm.mx/"><i className="fa fa-facebook"></i></a>
+										<a src="" href="7721663240"><i className="fa fa-twitter"></i></a>
+										<a src="" href="https://www.linkedin.com/school/uvmmx/"><i className="fa fa-linkedin"></i></a>
 									</div>
 									<div className="member-info">
 										<h5>UVM</h5>
