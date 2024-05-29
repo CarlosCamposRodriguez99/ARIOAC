@@ -8,12 +8,12 @@ import 'react-accessible-accordion/dist/fancy-example.css'
 import "react-datepicker/dist/react-datepicker.css";
 import 'react-toastify/dist/ReactToastify.css'
 import '../public/css/style.css'
-import '../public/css/responsive.css'
+import '../public/css/responsive.css' 
 
 import Layout from '../components/_App/Layout';
 import { Provider } from 'react-redux'
 import { useStore } from '../store/reducers/reducers'
-import middleware from '../middleware/middleware';
+import middleware from '../middleware/middleware'; 
 
 
 const MyApp =  ({ Component, pageProps }) => {

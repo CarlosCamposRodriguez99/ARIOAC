@@ -44,8 +44,6 @@ const Galeria = () => {
   return (
     <React.Fragment>
 
-
-
 		<section id="counter3" className="counter counter-dark bg-overlay bg-overlay-dark2 bg-section text-center" style={{backgroundColor: "#000"}}>
 			
 		<div className="container mx-auto">

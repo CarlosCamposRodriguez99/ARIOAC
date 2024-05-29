@@ -32,7 +32,7 @@ const ServiciosPage = () => {
   <React.Fragment>
 
 <section id="portfolio" className="portfolio portfolio-gallery portfolio-5col">
-    <div className="container-fluid pr-0 pl-0">
+    <div className="container-fluid pr-5 pl-5">
         <div className="row portfolio-row">
             <div className="col-xs-12 col-sm-12 col-md-12 portfolio-filter" style={{cursor: "pointer"}}>
                 <ul className="list-inline mb-0">
@@ -458,7 +458,7 @@ const ServiciosPage = () => {
     </div>
 
         <button  style={{alignItems: "center", margin: "0 auto", justifyContent: "center", display: "flex"}}>
-                <a className="btn btn--primary" href="https://www.tiktok.com/@arioac?_t=8lTOZbPZmB4&_r=1" style={{alignItems: "center", justifyContent: "center", fontFamily: "Roboto, sans-serif"}}>ÚNETE AL RH WEEK</a>
+                <a className="btn btn--primary" href="https://www.tiktok.com/@arioac?_t=8lTOZbPZmB4&_r=1" target='_blank' style={{alignItems: "center", justifyContent: "center", fontFamily: "Roboto, sans-serif"}}>ÚNETE AL RH WEEK</a>
         </button>
 </section>
 

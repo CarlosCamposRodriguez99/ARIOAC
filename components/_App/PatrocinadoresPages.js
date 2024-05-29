@@ -42,10 +42,10 @@ const PatrocinadoresPages = () => {
 							<div className="member-social">
 								<div className="member-data">
 								    <div className="member-social-links">
-									<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+									<img src="/img/iconos/www.svg" alt="www" style={{width: "36px", height: "36px", cursor: "pointer"}} />
 										<a src="" href="https://brivesoluciones.com/" target='_blank'><i className="fa fa-facebook"></i></a>
-										<a src="" href="5512954442"><i className="fa fa-twitter"></i></a>
-										<a src="" href="https://www.linkedin.com/company/brive-soluciones/"><i className="fa fa-linkedin"></i></a>
+										<a src="" href="https://wa.me/${5512954442}?text=${encodeURIComponent(message)}" target='_blank'><i className="fa fa-twitter"></i></a>
+										<a src="" href="https://www.linkedin.com/company/brive-soluciones/" target='_blank'><i className="fa fa-linkedin"></i></a>
 									</div>
 									<div className="member-info">
 										<h5>Brivé</h5>
@@ -67,9 +67,9 @@ const PatrocinadoresPages = () => {
 							<div className="member-social">
 								<div className="member-data">
 								<div className="member-social-links">
-										<a src="" href="https://www.sivale.mx/"><i className="fa fa-facebook"></i></a>
-										<a src="" href="5580098684"><i className="fa fa-twitter"></i></a>
-										<a src="" href="https://www.linkedin.com/company/upsivale/"><i className="fa fa-linkedin"></i></a>
+										<a src="" href="https://www.sivale.mx/" target='_blank'><i className="fa fa-facebook"></i></a>
+										<a src="" href="5580098684" target='_blank'><i className="fa fa-twitter"></i></a>
+										<a src="" href="https://www.linkedin.com/company/upsivale/" target='_blank'><i className="fa fa-linkedin"></i></a>
 									</div>
 									<div className="member-info">
 										<h5>Up sí vale</h5>
@@ -90,9 +90,9 @@ const PatrocinadoresPages = () => {
 							<div className="member-social">
 								<div className="member-data">
 								<div className="member-social-links">
-										<a src="" href="https://tergum.com.mx/index.html"><i className="fa fa-facebook"></i></a>
-										<a src="" href="3316048746"><i className="fa fa-twitter"></i></a>
-										<a src="" href="https://www.linkedin.com/company/tergum-méxico/"><i className="fa fa-linkedin"></i></a>
+										<a src="" href="https://tergum.com.mx/index.html" target='_blank'><i className="fa fa-facebook"></i></a>
+										<a src="" href="3316048746" target='_blank'><i className="fa fa-twitter"></i></a>
+										<a src="" href="https://www.linkedin.com/company/tergum-méxico/" target='_blank'><i className="fa fa-linkedin"></i></a>
 									</div>
 									<div className="member-info">
 										<h5>Tergum</h5>
@@ -120,9 +120,9 @@ const PatrocinadoresPages = () => {
 							<div className="member-social">
 								<div className="member-data">
 									<div className="member-social-links">
-										<a src="" href="https://www.minu.mx/"><i className="fa fa-facebook"></i></a>
-										<a src="" href="3336679437"><i className="fa fa-twitter"></i></a>
-										<a src="" href="https://www.linkedin.com/company/minuservicios/"><i className="fa fa-linkedin"></i></a>
+										<a src="" href="https://www.minu.mx/" target='_blank'><i className="fa fa-facebook"></i></a>
+										<a src="" href="3336679437" target='_blank'><i className="fa fa-twitter"></i></a>
+										<a src="" href="https://www.linkedin.com/company/minuservicios/" target='_blank'><i className="fa fa-linkedin"></i></a>
 									</div>
 									<div className="member-info">
 										<h5>Minu</h5>
@@ -144,9 +144,9 @@ const PatrocinadoresPages = () => {
 							<div className="member-social">
 								<div className="member-data">
 									<div className="member-social-links">
-										<a src="" href="https://home.welbecare.com/"><i className="fa fa-facebook"></i></a>
-										<a src="" href="5562095511"><i className="fa fa-twitter"></i></a>
-										<a src="" href="https://www.linkedin.com/company/welbe-care/"><i className="fa fa-linkedin"></i></a>
+										<a src="" href="https://home.welbecare.com/" target='_blank'><i className="fa fa-facebook"></i></a>
+										<a src="" href="5562095511" target='_blank'><i className="fa fa-twitter"></i></a>
+										<a src="" href="https://www.linkedin.com/company/welbe-care/" target='_blank'><i className="fa fa-linkedin"></i></a>
 									</div>
 									<div className="member-info">
 										<h5>Welbe</h5>
@@ -167,9 +167,9 @@ const PatrocinadoresPages = () => {
 							<div className="member-social">
 								<div className="member-data">
 									<div className="member-social-links">
-										<a src="" href="https://uvm.mx/"><i className="fa fa-facebook"></i></a>
-										<a src="" href="7721663240"><i className="fa fa-twitter"></i></a>
-										<a src="" href="https://www.linkedin.com/school/uvmmx/"><i className="fa fa-linkedin"></i></a>
+										<a src="" href="https://uvm.mx/" target='_blank'><i className="fa fa-facebook"></i></a>
+										<a src="" href="7721663240" target='_blank'><i className="fa fa-twitter"></i></a>
+										<a src="" href="https://www.linkedin.com/school/uvmmx/" target='_blank'><i className="fa fa-linkedin"></i></a>
 									</div>
 									<div className="member-info">
 										<h5>UVM</h5>
@@ -185,44 +185,6 @@ const PatrocinadoresPages = () => {
 	</div>
 </section>
 
-  {/*  <div className="row gutter-lg" style={{marginBottom: "50px", backgroundColor: "#fff"}}>
-      <div className="col-md-7 col-sm-12">
-        <div style={{marginLeft: "40px", marginTop: "30px", marginRight: "40px"}}>
-          <div className='seccionTitle'>
-            <div>
-              <h1 style={{fontFamily: 'Montserrat, sans-serif', color: "#000", fontSize: "40px", textAlign: "left" }}>Nuestros patrocinadores</h1>
-              <div style={{borderBottom: "3px solid #696969", width: "57px", marginBottom: "25px", marginTop: "15px"}}></div>
-              <h3 style={{fontFamily: 'Roboto, sans-serif', fontSize: "24px", color: "#00BFFF"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum, turpis quis tincidunt consequat, eros arcu tempor orci, non ultrices ex purus at nunc
-              </h3>
-              <div style={{borderBottom: "3px solid #808080", marginBottom: "25px", marginTop: "25px"}}></div>
-            </div>
-            <div>
-              <p style={{fontFamily: 'Roboto, sans-serif', fontSize: "17px", textAlign: "justify"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum, turpis quis tincidunt consequat, eros arcu tempor orci, non ultrices ex purus at nunc.
-              <br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum, turpis quis tincidunt consequat, eros arcu tempor orci, non ultrices ex purus at nunc.
-              </p>
-            </div>
-            <div className='botonSeccionBottom' style={{marginTop: "30px"}}>
-              <Link href="/contact" passHref={true} legacyBehavior>
-                <a className="default-btn">
-                ÚNETE
-                </a>
-              </Link>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="col-md-5 col-sm-12">
-        <div>
-          <div>
-            <div>
-              <div>
-                <Image width={960} height={680} src='/img/section/encapsulado.jpg' alt='arioac' loading='lazy'/>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> */} 
 
 <div className="element-container">
 					<section className="element-section">

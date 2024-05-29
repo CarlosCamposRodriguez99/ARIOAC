@@ -1162,17 +1162,30 @@ textarea.form-control {
   padding: 20px 0;
 }
 
+.carousel-content {
+  display: flex;
+  width: calc(300px * 6); /* Ajustar el ancho según el número de elementos memberConfe */
+  animation: slide 20s linear infinite; /* Animación para el desplazamiento automático */
+  margin: 0; /* Eliminar el margen */
+  background: #fff; /* Agregamos un fondo blanco al contenedor */
+  justify-content: space-between; /* Distribuir uniformemente los elementos */
+}
+
 /* Estilos para los miembros del equipo */
 .memberConfe {
   scroll-snap-align: start;
   flex: 0 0 auto;
   width: 300px;
+  height: auto; /* Cambiado de 450px a auto para adaptarse al contenido */
   border-radius: 15px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease-in-out;
   background: linear-gradient(145deg, #f3f3f3, #e2e2e2);
-  position: relative; /* Para asegurar que el overlay se posicione correctamente */
+  position: relative;
+  margin: 0 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 .memberConfe:hover {
@@ -1180,15 +1193,19 @@ textarea.form-control {
 }
 
 .memberConfe-img {
-  position: relative;
+  width: 100%;
+  height: 300px; /* Fijar la altura de la imagen */
   overflow: hidden;
+  flex-shrink: 0; /* Evitar que la imagen se reduzca */
 }
 
 .memberConfe-img img {
   width: 100%;
-  height: auto;
+  height: 100%;
   display: block;
   transition: transform 0.5s ease-in-out;
+  object-fit: cover; /* Asegura que la imagen cubra todo el contenedor */
+  object-position: center;
 }
 
 .memberConfe:hover .memberConfe-img img {
@@ -1197,7 +1214,7 @@ textarea.form-control {
 
 .memberConfe-overlay {
   position: absolute;
-  top: 0;
+  bottom: 0;
   left: 0;
   width: 100%;
   height: 100%;
@@ -1222,25 +1239,41 @@ textarea.form-control {
   padding: 15px;
   text-align: center;
   background: #fff;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  margin-top: auto;
+  flex-grow: 1; /* Permitir que el contenedor de información crezca para adaptarse al contenido */
+}
+
+.memberConfe-info h5,
+.memberConfe-info h6,
+.memberConfe-info h7 {
+  font-size: 14px;
+  margin: 10px 0; /* Espacio entre los textos */
+  color: #777;
+  white-space: normal; /* Permitir que el texto se envuelva */
+  overflow: visible; /* Asegurar que el texto no se recorte */
+  text-overflow: clip; /* Eliminar el corte del texto */
 }
 
 .memberConfe-info h5 {
   font-size: 18px;
-  margin: 10px 0 5px;
   color: #333;
 }
 
-.memberConfe-info h6 {
-  font-size: 14px;
-  margin: 0;
-  color: #777;
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%); /* Ajustar según el contenido */
+  }
 }
 
-.memberConfe-info h7 {
-  font-size: 12px;
-  margin: 5px 0 0;
-  color: #aaa;
-}
+
+
+
+
 
 
 
@@ -1308,12 +1341,16 @@ textarea.form-control {
 
 
 
-
-
-/* Portfolio Filter */
+/* Portfolio Filter Servicios page */
 .portfolio-filter {
   text-align: center;
   margin-bottom: 36px;
+}
+
+.portfolio-item {
+  position: relative;
+  overflow: hidden; /* Evitamos que la imagen sobresalga */
+  margin-bottom: 30px;
 }
 
 .portfolio-filter li {
@@ -1334,6 +1371,7 @@ textarea.form-control {
   padding-bottom: 5px; /* Añadimos un espacio en la parte inferior */
   border-bottom: 2px solid transparent; /* Agregamos una línea inferior transparente */
   transition: border-color 0.3s ease; /* Transición suave para el cambio de color de borde */
+  margin-top: 30px;
 }
 
 .portfolio-filter li a:hover, 
@@ -1357,10 +1395,10 @@ textarea.form-control {
 
 .btn--primary {
   display: flex;
-  padding: 15px 15px;
+  padding: 10px 10px;
   background-color: #dd543d;
   color: #fff;
-  font-size: 17px;
+  font-size: 16px;
   text-decoration: none;
   border-radius: 5px;
   transition: background-color 0.3s ease;
@@ -1372,9 +1410,8 @@ textarea.form-control {
 
 .btn--primary:hover {
   background-color: #c4452d;
+  color: #fff;
 }
-
-
 
 /* Portfolio Item */
 .portfolio-item {
@@ -1399,6 +1436,8 @@ textarea.form-control {
   background-color: rgba(255, 255, 255, 0.9);
   opacity: 0; /* Ocultamos el contenido al principio */
   transition: opacity 0.3s ease; /* Transición suave para la opacidad */
+  padding: 20px; /* Añadimos espacio alrededor del texto */
+  box-sizing: border-box; /* Aseguramos que el padding no afecte al ancho total */
 }
 .portfolio-item:hover .portfolio--hover {
   opacity: 1; /* Mostramos el contenido al pasar el mouse */
@@ -1408,9 +1447,15 @@ textarea.form-control {
 }
 .portfolio-item .portfolio--title h4 {
   color: #222222;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 600;
   line-height: 1.2;
+  margin-bottom: 5px; /* Ajustamos el margen inferior del título */
+}
+.portfolio-item .portfolio--title h5 {
+  color: #555555;
+  font-size: 14px;
+  font-style: italic;
 }
 .portfolio-item .portfolio--cat a {
   color: #555555;
@@ -1420,6 +1465,8 @@ textarea.form-control {
 .portfolio-item .portfolio--cat a:hover {
   color: #dd543d;
 }
+
+
 
 
 
@@ -1470,7 +1517,7 @@ textarea.form-control {
   align-items: stretch; /* Asegura que todos los contenedores tengan la misma altura */
 }
 
-.memberConfe {
+.memberMarca {
   scroll-snap-align: start;
   flex: 0 0 auto;
   width: 300px;
@@ -1485,17 +1532,17 @@ textarea.form-control {
   flex-direction: column; /* Para alinear los elementos verticalmente */
 }
 
-.memberConfe:hover {
+.memberMarca:hover {
   transform: scale(1.05);
 }
 
-.memberConfe-img {
+.memberMarca-img {
   position: relative;
   overflow: hidden;
   height: 60%; /* Ajusta la altura de la imagen */
 }
 
-.memberConfe-img img {
+.memberMarca-img img {
   width: 100%;
   height: 100%;
   object-fit: cover; /* Ajusta la imagen para que cubra el área sin deformarse */
@@ -1503,11 +1550,11 @@ textarea.form-control {
   transition: transform 0.5s ease-in-out;
 }
 
-.memberConfe:hover .memberConfe-img img {
+.memberMarca:hover .memberMarca-img img {
   transform: scale(1.1);
 }
 
-.memberConfe-overlay {
+.memberMarca-overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -1526,11 +1573,11 @@ textarea.form-control {
   flex-direction: column;
 }
 
-.memberConfe:hover .memberConfe-overlay {
+.memberMarca:hover .memberMarca-overlay {
   opacity: 1;
 }
 
-.memberConfe-info {
+.memberMarca-info {
   padding: 15px;
   text-align: center;
   background: #fff;
@@ -1540,21 +1587,21 @@ textarea.form-control {
   justify-content: center; /* Centra el texto verticalmente */
 }
 
-.memberConfe-info h5, .memberConfe-info h6, .memberConfe-info h7 {
+.memberMarca-info h5, .memberMarca-info h6, .memberMarca-info h7 {
   margin: 5px 0;
 }
 
-.memberConfe-info h5 {
+.memberMarca-info h5 {
   font-size: 18px;
   color: #333;
 }
 
-.memberConfe-info h6 {
+.memberMarca-info h6 {
   font-size: 14px;
   color: #777;
 }
 
-.memberConfe-info h7 {
+.memberMarca-info h7 {
   font-size: 12px;
   color: #aaa;
 }
@@ -2082,7 +2129,7 @@ ul.number-list li span {
   font-weight: 700;
   line-height: 1;
   text-transform: uppercase;
-  margin-bottom: 12px;
+  margin-bottom: 50px;
 }
 .heading .heading--desc {
   color: #a5a5a5;
@@ -2518,74 +2565,13 @@ Nav Area Style
   }
 }
 
-/* CSS DE CONFERENCISTAS EN LA PAGINA DE EMPRESA*/
+
 /* Estilo para el contenedor del slider */
 .team.team-2 {
   padding-top: 50px; /* Ajusta el espacio superior según sea necesario */
   padding-bottom: 50px; /* Ajusta el espacio inferior según sea necesario */
 }
 
-/* Estilo para el título del slider */
-.heading--title {
-  font-size: 36px; /* Tamaño de fuente del título */
-  color: #333; /* Color del texto */
-  margin-bottom: 20px; /* Espacio inferior entre el título y el separador */
-}
-
-/* Estilo para el separador */
-.divider--line {
-  width: 60px; /* Longitud del separador */
-  height: 2px; /* Grosor del separador */
-  background-color: #333; /* Color del separador */
-  margin: 0 auto; /* Centrar el separador */
-}
-
-/* Estilo para los miembros del slider */
-.member {
-  text-align: center; /* Centra el contenido del miembro */
-  margin-bottom: 30px; /* Espacio inferior entre los miembros */
-}
-
-/* Estilo para el contenedor de la imagen del miembro */
-.member-img {
-  width: 100%; /* Ajusta el ancho del contenedor */
-  height: 300px; /* Ajusta la altura del contenedor */
-  overflow: hidden; /* Oculta cualquier contenido que sobresalga del contenedor */
-  border-radius: 8px; /* Aplica bordes redondeados al contenedor */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Agrega sombra al contenedor */
-}
-
-/* Estilo para la imagen del miembro */
-.member-img img {
-  width: 100%; /* Ajusta el ancho de la imagen al contenedor */
-  height: 100%; /* Ajusta la altura de la imagen al contenedor */
-  object-fit: cover; /* Escala la imagen para que cubra todo el contenedor */
-}
-
-/* Estilo para la información del miembro */
-.member-info {
-  padding: 20px; /* Añade relleno alrededor de la información del miembro */
-  background-color: #f9f9f9; /* Color de fondo para resaltar la información */
-  border-radius: 0 0 8px 8px; /* Aplica bordes redondeados solo en la parte inferior */
-}
-
-.member-info h5 {
-  font-size: 18px; /* Tamaño de fuente del nombre del miembro */
-  margin-bottom: 5px; /* Espacio inferior entre el nombre y el cargo */
-}
-
-.member-info h6 {
-  font-size: 14px; /* Tamaño de fuente del cargo del miembro */
-  color: #666; /* Color del cargo */
-}
-
-/* Estilo para el texto de la cita en el overlay */
-.member-overlay p {
-  font-family: 'Palatino', serif; /* Fuente del texto de la cita */
-  font-size: 15px; /* Tamaño de fuente del texto de la cita */
-  color: white; /* Color del texto de la cita */
-  margin: 20px; /* Márgenes internos del texto de la cita */
-}
 
 
 /*
@@ -2845,7 +2831,7 @@ Feature Area Style
 }
 
 .feature-area .feature-wrap {
-  background-color: #1C9CD9;
+  background-color: #708090;  /*#1C9CD9*/
   border-radius: 10px;
 }
 
