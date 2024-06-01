@@ -1466,6 +1466,34 @@ textarea.form-control {
   color: #dd543d;
 }
 
+/*Estilos para el boton de los pdf dentro de las imagenes de los dias de las conferencias*/
+/* Estilo para el contenedor del botón */
+.portfolio--pdf {
+  margin-top: 10px; /* Espacio superior entre los elementos */
+  text-align: center; /* Centrar el botón horizontalmente */
+}
+
+/* Estilo para el botón */
+.btn {
+  display: inline-block;
+  padding: 8px 15px; /* Espacio interno del botón, ajustado para hacerlo más compacto */
+  font-size: 14px; /* Tamaño de la fuente del botón, un poco más pequeño */
+  font-weight: bold; /* Hacer el texto del botón en negrita */
+  text-align: center;
+  text-decoration: none; /* Quitar el subrayado del enlace */
+  color: #fff; /* Color del texto del botón */
+  background-color: #007bff; /* Color de fondo del botón (azul) */
+  border: none; /* Quitar el borde del botón */
+  border-radius: 4px; /* Esquinas redondeadas del botón */
+  transition: background-color 0.3s ease; /* Animación de cambio de color */
+}
+
+/* Estilo para el botón cuando se pasa el mouse por encima */
+.btn:hover {
+  background-color: #0056b3; /* Color de fondo del botón cuando se pasa el mouse por encima */
+}
+
+
 
 
 
@@ -1514,14 +1542,14 @@ textarea.form-control {
   -webkit-overflow-scrolling: touch;
   gap: 20px;
   padding: 20px 0;
-  align-items: stretch; /* Asegura que todos los contenedores tengan la misma altura */
+  align-items: stretch;
 }
 
 .memberMarca {
   scroll-snap-align: start;
   flex: 0 0 auto;
   width: 300px;
-  height: 500px; /* Altura fija para todos los contenedores */
+  height: 500px;
   border-radius: 15px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -1529,7 +1557,7 @@ textarea.form-control {
   background: linear-gradient(145deg, #f3f3f3, #e2e2e2);
   position: relative;
   display: flex;
-  flex-direction: column; /* Para alinear los elementos verticalmente */
+  flex-direction: column;
 }
 
 .memberMarca:hover {
@@ -1539,13 +1567,13 @@ textarea.form-control {
 .memberMarca-img {
   position: relative;
   overflow: hidden;
-  height: 60%; /* Ajusta la altura de la imagen */
+  height: 60%;
 }
 
 .memberMarca-img img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Ajusta la imagen para que cubra el área sin deformarse */
+  object-fit: cover;
   display: block;
   transition: transform 0.5s ease-in-out;
 }
@@ -1577,34 +1605,62 @@ textarea.form-control {
   opacity: 1;
 }
 
-.memberMarca-info {
+.member-info {
   padding: 15px;
   text-align: center;
   background: #fff;
-  height: 40%; /* Ajusta la altura del área de información */
+  height: 40%;
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Centra el texto verticalmente */
+  justify-content: center;
 }
 
-.memberMarca-info h5, .memberMarca-info h6, .memberMarca-info h7 {
+.member-info h5, .member-info h6, .member-info h7 {
   margin: 5px 0;
 }
 
-.memberMarca-info h5 {
+.member-info h5 {
   font-size: 18px;
   color: #333;
 }
 
-.memberMarca-info h6 {
+.member-info h6 {
   font-size: 14px;
   color: #777;
 }
 
-.memberMarca-info h7 {
+.member-info h7 {
   font-size: 12px;
   color: #aaa;
 }
+
+.member-social-links {
+  position: relative;
+  display: inline-block;
+}
+
+.social-links {
+  display: none;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  background-color: white;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  z-index: 1;
+}
+
+.memberMarca:hover .social-links {
+  display: block;
+}
+
+.social-links a {
+  display: block;
+  margin: 5px 0;
+  text-decoration: none;
+}
+
 
 /* Footer personalizado */
 

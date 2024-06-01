@@ -41,12 +41,15 @@ const PatrocinadoresPages = () => {
 						<div className="member-overlay">
 							<div className="member-social">
 								<div className="member-data">
-								    <div className="member-social-links">
-									<img src="/img/iconos/www.svg" alt="www" style={{width: "36px", height: "36px", cursor: "pointer"}} />
-										<a src="" href="https://brivesoluciones.com/" target='_blank'><i className="fa fa-facebook"></i></a>
-										<a src="" href="https://wa.me/${5512954442}?text=${encodeURIComponent(message)}" target='_blank'><i className="fa fa-twitter"></i></a>
-										<a src="" href="https://www.linkedin.com/company/brive-soluciones/" target='_blank'><i className="fa fa-linkedin"></i></a>
+								<div className="member-social-links">
+									<img src="/img/iconos/www.svg"  href="https://brivesoluciones.com/" target='_blank' alt="www" className="social-icon fa fa-facebook"  />
+									<div className="social-links">
+										<a href="https://brivesoluciones.com/" target='_blank'><i className="fa fa-facebook"></i></a>
+										<a href="https://wa.me/5512954442?text=${encodeURIComponent(message)}" target='_blank'><i className="fa fa-twitter"></i></a>
+										<a href="https://www.linkedin.com/company/brive-soluciones/" target='_blank'><i className="fa fa-linkedin"></i></a>
 									</div>
+								</div>
+
 									<div className="member-info">
 										<h5>Brivé</h5>
 										<h6></h6>

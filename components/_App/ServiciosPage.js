@@ -32,7 +32,7 @@ const ServiciosPage = () => {
   <React.Fragment>
 
 <section id="portfolio" className="portfolio portfolio-gallery portfolio-5col">
-    <div className="container-fluid pr-5 pl-5">
+    <div className="container-fluid pr- pl-5">
         <div className="row portfolio-row">
             <div className="col-xs-12 col-sm-12 col-md-12 portfolio-filter" style={{cursor: "pointer"}}>
                 <ul className="list-inline mb-0">
@@ -64,6 +64,9 @@ const ServiciosPage = () => {
                                     <div className="portfolio--cat">
                                         <a href="#">Lunes</a>, <a href="#">17 Junio</a>
                                     </div>
+                                    <div className="portfolio--pdf">
+                                        <a href="/path/to/your/file.pdf" className="btn btn-primary" target="_blank">Abrir PDF</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -84,6 +87,9 @@ const ServiciosPage = () => {
                                     <div className="portfolio--cat">
                                         <a href="#">Lunes</a>, <a href="#">17 Junio</a>
                                     </div>
+                                    <div className="portfolio--pdf">
+                                        <a href="/path/to/your/file.pdf" className="btn btn-primary" target="_blank">Abrir PDF</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -102,6 +108,9 @@ const ServiciosPage = () => {
                                     </div>
                                     <div className="portfolio--cat">
                                         <a href="#">Lunes</a>, <a href="#">17 Junio</a>
+                                    </div>
+                                    <div className="portfolio--pdf">
+                                        <a href="/path/to/your/file.pdf" className="btn btn-primary" target="_blank">Abrir PDF</a>
                                     </div>
                                 </div>
                             </div>
@@ -122,6 +131,9 @@ const ServiciosPage = () => {
                                     <div className="portfolio--cat">
                                         <a href="#">Lunes</a>, <a href="#">17 Junio</a>
                                     </div>
+                                    <div className="portfolio--pdf">
+                                        <a href="/path/to/your/file.pdf" className="btn btn-primary" target="_blank">Abrir PDF</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -140,6 +152,9 @@ const ServiciosPage = () => {
                                     </div>
                                     <div className="portfolio--cat">
                                         <a href="#">Martes</a>, <a href="#">18 Junio</a>
+                                    </div>
+                                    <div className="portfolio--pdf">
+                                        <a href="/path/to/your/file.pdf" className="btn btn-primary" target="_blank">Abrir PDF</a>
                                     </div>
                                 </div>
                             </div>
@@ -160,6 +175,9 @@ const ServiciosPage = () => {
                                     <div className="portfolio--cat">
                                         <a href="#">Martes</a>, <a href="#">18 Junio</a>
                                     </div>
+                                    <div className="portfolio--pdf">
+                                        <a href="/path/to/your/file.pdf" className="btn btn-primary" target="_blank">Abrir PDF</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -179,6 +197,9 @@ const ServiciosPage = () => {
                                     <div className="portfolio--cat">
                                         <a href="#">Martes</a>, <a href="#">18 Junio</a>
                                     </div>
+                                    <div className="portfolio--pdf">
+                                        <a href="/path/to/your/file.pdf" className="btn btn-primary" target="_blank">Abrir PDF</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -197,6 +218,9 @@ const ServiciosPage = () => {
                                     </div>
                                     <div className="portfolio--cat">
                                         <a href="#">Martes</a>, <a href="#">18 Junio</a>
+                                    </div>
+                                    <div className="portfolio--pdf">
+                                        <a href="/path/to/your/file.pdf" className="btn btn-primary" target="_blank">Abrir PDF</a>
                                     </div>
                                 </div>
                             </div>
@@ -236,6 +260,9 @@ const ServiciosPage = () => {
                                     <div className="portfolio--cat">
                                         <a href="#">Miércoles</a>, <a href="#">19 Junio</a>
                                     </div>
+                                    <div className="portfolio--pdf">
+                                        <a href="/path/to/your/file.pdf" className="btn btn-primary" target="_blank">Abrir PDF</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -254,6 +281,9 @@ const ServiciosPage = () => {
                                     </div>
                                     <div className="portfolio--cat">
                                         <a href="#">Miércoles</a>, <a href="#">19 Junio</a>
+                                    </div>
+                                    <div className="portfolio--pdf">
+                                        <a href="/path/to/your/file.pdf" className="btn btn-primary" target="_blank">Abrir PDF</a>
                                     </div>
                                 </div>
                             </div>
@@ -274,6 +304,9 @@ const ServiciosPage = () => {
                                     <div className="portfolio--cat">
                                         <a href="#">Miércoles</a>, <a href="#">19 Junio</a>
                                     </div>
+                                    <div className="portfolio--pdf">
+                                        <a href="/path/to/your/file.pdf" className="btn btn-primary" target="_blank">Abrir PDF</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -292,6 +325,9 @@ const ServiciosPage = () => {
                                     </div>
                                     <div className="portfolio--cat">
                                         <a href="#">Miércoles</a>, <a href="#">19 Junio</a>
+                                    </div>
+                                    <div className="portfolio--pdf">
+                                        <a href="/path/to/your/file.pdf" className="btn btn-primary" target="_blank">Abrir PDF</a>
                                     </div>
                                 </div>
                             </div>
@@ -312,6 +348,9 @@ const ServiciosPage = () => {
                                     <div className="portfolio--cat">
                                         <a href="#">Jueves</a>, <a href="#">20 Junio</a>
                                     </div>
+                                    <div className="portfolio--pdf">
+                                        <a href="/path/to/your/file.pdf" className="btn btn-primary" target="_blank">Abrir PDF</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -330,6 +369,9 @@ const ServiciosPage = () => {
                                     </div>
                                     <div className="portfolio--cat">
                                         <a href="#">Jueves</a>, <a href="#">20 Junio</a>
+                                    </div>
+                                    <div className="portfolio--pdf">
+                                        <a href="/path/to/your/file.pdf" className="btn btn-primary" target="_blank">Abrir PDF</a>
                                     </div>
                                 </div>
                             </div>
@@ -350,6 +392,9 @@ const ServiciosPage = () => {
                                     <div className="portfolio--cat">
                                         <a href="#">Jueves</a>, <a href="#">20 Junio</a>
                                     </div>
+                                    <div className="portfolio--pdf">
+                                        <a href="/path/to/your/file.pdf" className="btn btn-primary" target="_blank">Abrir PDF</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -368,6 +413,9 @@ const ServiciosPage = () => {
                                     </div>
                                     <div className="portfolio--cat">
                                         <a href="#">Jueves</a>, <a href="#">20 Junio</a>
+                                    </div>
+                                    <div className="portfolio--pdf">
+                                        <a href="/path/to/your/file.pdf" className="btn btn-primary" target="_blank">Abrir PDF</a>
                                     </div>
                                 </div>
                             </div>
@@ -388,6 +436,9 @@ const ServiciosPage = () => {
                                     <div className="portfolio--cat">
                                         <a href="#">Viernes</a>, <a href="#">21 Junio</a>
                                     </div>
+                                    <div className="portfolio--pdf">
+                                        <a href="/path/to/your/file.pdf" className="btn btn-primary" target="_blank">Abrir PDF</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -406,6 +457,9 @@ const ServiciosPage = () => {
                                     </div>
                                     <div className="portfolio--cat">
                                         <a href="#">Viernes</a>, <a href="#">21 Junio</a>
+                                    </div>
+                                    <div className="portfolio--pdf">
+                                        <a href="/path/to/your/file.pdf" className="btn btn-primary" target="_blank">Abrir PDF</a>
                                     </div>
                                 </div>
                             </div>
@@ -426,6 +480,9 @@ const ServiciosPage = () => {
                                     <div className="portfolio--cat">
                                         <a href="#">Viernes</a>, <a href="#">21 Junio</a>
                                     </div>
+                                    <div className="portfolio--pdf">
+                                        <a href="/path/to/your/file.pdf" className="btn btn-primary" target="_blank">Abrir PDF</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -445,13 +502,14 @@ const ServiciosPage = () => {
                                     <div className="portfolio--cat">
                                         <a href="#">Viernes</a>, <a href="#">21 Junio</a>
                                     </div>
+                                    <div className="portfolio--pdf">
+                                        <a href="/path/to/your/file.pdf" className="btn btn-primary" target="_blank">Abrir PDF</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
-
 
             </div>
         </div>
