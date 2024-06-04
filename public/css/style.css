@@ -1499,167 +1499,116 @@ textarea.form-control {
 
 
 /* Patrocinadores Page */
-.team-4 .member-img img {
-  max-width: 100%; /* Ajusta el tamaño máximo de la imagen */
-  height: auto; /* Ajusta la altura automáticamente */
-}
-
+/* Estilos generales para la sección de miembros */
 .team-4 .member {
-  display: inline-block; /* Muestra los miembros en línea */
-  vertical-align: top; /* Alinea los miembros en la parte superior */
-  margin-bottom: 20px; /* Reduce el espacio entre los miembros */
-}
-
-.team-4 .member-info h5,
-.team-4 .member-info h6 {
-  margin-top: 5px; /* Reduce el espacio entre los títulos y los subtítulos */
-}
-
-.team-4 .member-overlay {
-  opacity: 0; /* Establece la opacidad inicial */
-  transition: opacity 0.3s ease; /* Agrega una transición suave */
-}
-
-.team-4 .member:hover .member-overlay {
-  opacity: 1; /* Muestra el overlay al pasar el ratón sobre el miembro */
-}
-
-/* Estilos adicionales para centrar las columnas */
-.team-4 .row.text-center.mx-auto {
-  justify-content: center; /* Centra horizontalmente las columnas */
-  margin-right: auto; /* Establece el margen derecho automático */
-  margin-left: auto; /* Establece el margen izquierdo automático */
-  max-width: 1200px; /* Opcional: ajusta el ancho máximo del contenedor */
-}
-
-
-/* Patrocinadores redes */
-/* Reset some default styles */
-#team-carousel {
-  display: flex;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  -webkit-overflow-scrolling: touch;
-  gap: 20px;
-  padding: 20px 0;
-  align-items: stretch;
-}
-
-.memberMarca {
-  scroll-snap-align: start;
-  flex: 0 0 auto;
-  width: 300px;
-  height: 500px;
-  border-radius: 15px;
-  overflow: hidden;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease-in-out;
-  background: linear-gradient(145deg, #f3f3f3, #e2e2e2);
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 20px;
   position: relative;
-  display: flex;
-  flex-direction: column;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 300px; /* Ajusta el tamaño máximo de los contenedores */
+  height: 400px; /* Altura fija para todos los contenedores */
 }
 
-.memberMarca:hover {
+.team-4 .member:hover {
   transform: scale(1.05);
 }
 
-.memberMarca-img {
-  position: relative;
-  overflow: hidden;
-  height: 60%;
-}
-
-.memberMarca-img img {
+.team-4 .member-img img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto;
   display: block;
-  transition: transform 0.5s ease-in-out;
+  border-radius: 10px;
 }
 
-.memberMarca:hover .memberMarca-img img {
-  transform: scale(1.1);
-}
-
-.memberMarca-overlay {
+.team-4 .member-overlay {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.8);
-  color: white;
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
-  padding: 20px;
-  box-sizing: border-box;
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
   flex-direction: column;
+  border-radius: 10px;
 }
 
-.memberMarca:hover .memberMarca-overlay {
+.team-4 .member:hover .member-overlay {
   opacity: 1;
 }
 
-.member-info {
-  padding: 15px;
-  text-align: center;
-  background: #fff;
-  height: 40%;
+.team-4 .member-social {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
 }
 
-.member-info h5, .member-info h6, .member-info h7 {
-  margin: 5px 0;
+.team-4 .member-social-links {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 10px;
 }
 
-.member-info h5 {
-  font-size: 18px;
-  color: #333;
-}
-
-.member-info h6 {
-  font-size: 14px;
-  color: #777;
-}
-
-.member-info h7 {
-  font-size: 12px;
-  color: #aaa;
-}
-
-.member-social-links {
-  position: relative;
-  display: inline-block;
-}
-
-.social-links {
-  display: none;
-  position: absolute;
-  top: 40px;
-  left: 0;
-  background-color: white;
-  padding: 5px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  z-index: 1;
-}
-
-.memberMarca:hover .social-links {
-  display: block;
-}
-
-.social-links a {
-  display: block;
-  margin: 5px 0;
+.team-4 .member-social-links a {
+  color: white;
   text-decoration: none;
+  transition: transform 0.3s ease;
 }
+
+.team-4 .member-social-links a:hover {
+  transform: scale(1.2);
+}
+
+.team-4 .social-icon {
+  width: 28px; /* Ajusta el tamaño del icono del www */
+  height: 28px;
+}
+
+.team-4 .member-info {
+  text-align: center;
+  color: white;
+}
+
+.team-4 .member-info h5 {
+  margin: 0;
+  font-size: 18px;
+}
+
+/* Ajustes adicionales para iconos sociales */
+.team-4 .member-social-links i.fa {
+  font-size: 24px; /* Aumenta el tamaño de los íconos de redes sociales */
+}
+
+.team-4 .member-social-links i.fa-whatsapp {
+  color: #25D366; /* Color específico para WhatsApp */
+}
+
+.team-4 .member-social-links i.fa-linkedin {
+  color: #0077B5; /* Color específico para LinkedIn */
+}
+
+/* Estilos adicionales para centrar las columnas */
+.team-4 .row.text-center.mx-auto {
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1200px; /* Ajusta el ancho máximo del contenedor */
+}
+
+/* Ajustes generales */
+.col-xs-12, .col-sm-3, .col-md-3 {
+  padding: 0 15px;
+}
+
+
 
 
 /* Footer personalizado */
