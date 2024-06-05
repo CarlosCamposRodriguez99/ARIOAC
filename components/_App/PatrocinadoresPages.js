@@ -202,6 +202,92 @@ const PatrocinadoresPages = () => {
 </section>
 
 
+<section id="team4" className="team team-4 bg-white pt-0 pb-0">
+	<div className="container-fluid pr-0 pl-0">
+		<div className="row text-center mx-auto">
+
+		<div className="col-xs-12 col-sm-3 col-md-3">
+				<div className="member">
+					<div className="member-img">
+						<img src="/img/patroci/minu.png" alt="member"/>
+						<div className="member-overlay">
+							<div className="member-social">
+								<div className="member-social-links">
+									<a href="https://meddi.com.mx/" target="_blank">
+										<img src="/img/iconos/www.svg" alt="www" className="social-icon"/>
+									</a>
+									<a href="https://wa.me/3333480545?text=${encodeURIComponent(message)}" target="_blank">
+										<img src="/img/iconos/whats.svg" alt="whatsapp" className="fa fa-whatsapp"/>
+									</a>
+									<a href="https://www.linkedin.com/company/meddi/" target="_blank">
+										<img src="/img/iconos/linke.svg" alt="linkedin" className="fa fa-linkedin"/>
+									</a>
+								</div>
+								<div className="member-info">
+									<h5>MEDDI</h5>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div className="col-xs-12 col-sm-3 col-md-3">
+				<div className="member">
+					<div className="member-img">
+						<img src="/img/patroci/welbe.png" alt="member"/>
+						<div className="member-overlay">
+							<div className="member-social">
+								<div className="member-social-links">
+									<a href="https://home.welbecare.com/" target="_blank">
+										<img src="/img/iconos/www.svg" alt="www" className="social-icon"/>
+									</a>
+									<a href="https://wa.me/5562095511?text=${encodeURIComponent(message)}" target="_blank">
+										<img src="/img/iconos/whats.svg" alt="whatsapp" className="fa fa-whatsapp"/>
+									</a>
+									<a href="https://www.linkedin.com/company/welbe-care/" target="_blank">
+										<img src="/img/iconos/linke.svg" alt="linkedin" className="fa fa-linkedin"/>
+									</a>
+								</div>
+								<div className="member-info">
+									<h5>REVISTA CONEXION RH</h5>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div className="col-xs-12 col-sm-3 col-md-3">
+				<div className="member">
+					<div className="member-img">
+						<img src="/img/patroci/uvm.png" alt="member"/>
+						<div className="member-overlay">
+							<div className="member-social">
+								<div className="member-social-links">
+									<a href="https://uvm.mx/" target="_blank">
+										<img src="/img/iconos/www.svg" alt="www" className="social-icon"/>
+									</a>
+									<a href="https://wa.me/7721663240?text=${encodeURIComponent(message)}" target="_blank">
+										<img src="/img/iconos/whats.svg" alt="whatsapp" className="fa fa-whatsapp"/>
+									</a>
+									<a href="https://www.linkedin.com/school/uvmmx/" target="_blank">
+										<img src="/img/iconos/linke.svg" alt="linkedin" className="fa fa-linkedin"/>
+									</a>
+								</div>
+								<div className="member-info">
+									<h5>IDEAL JOBS</h5>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
 <div className="element-container">
 					<section className="element-section">
 						<div className="element-image">

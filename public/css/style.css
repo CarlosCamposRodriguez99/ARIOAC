@@ -1364,7 +1364,7 @@ textarea.form-control {
 
 .portfolio-filter li a {
   color: #333333;
-  font-size: 16px; /* Aumentamos el tamaño del texto */
+  font-size: 15px; /* Aumentamos el tamaño del texto */
   font-weight: 600; /* Ajustamos el peso del texto */
   text-transform: uppercase; /* Convertimos el texto a mayúsculas */
   text-decoration: none; /* Quitamos el subrayado */
@@ -1391,7 +1391,6 @@ textarea.form-control {
   color: #fff; /* Cambiar el color del texto al pasar el mouse */
   cursor: pointer;
 }
-
 
 .btn--primary {
   display: flex;
@@ -1447,14 +1446,14 @@ textarea.form-control {
 }
 .portfolio-item .portfolio--title h4 {
   color: #222222;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 600;
   line-height: 1.2;
   margin-bottom: 5px; /* Ajustamos el margen inferior del título */
 }
 .portfolio-item .portfolio--title h5 {
   color: #555555;
-  font-size: 14px;
+  font-size: 12px;
   font-style: italic;
 }
 .portfolio-item .portfolio--cat a {
@@ -1493,7 +1492,35 @@ textarea.form-control {
   background-color: #0056b3; /* Color de fondo del botón cuando se pasa el mouse por encima */
 }
 
+/* Media Queries para Responsividad */
+@media (max-width: 768px) {
+  .portfolio-filter li {
+    display: block;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
 
+  .portfolio-filter li a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .btn--primary {
+    width: 100%;
+    padding: 15px 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .portfolio-filter li a {
+    font-size: 14px;
+  }
+
+  .btn--primary {
+    font-size: 14px;
+    padding: 12px 10px;
+  }
+}
 
 
 
@@ -1568,8 +1595,8 @@ textarea.form-control {
 }
 
 .team-4 .social-icon {
-  width: 28px; /* Ajusta el tamaño del icono del www */
-  height: 28px;
+  width: 50px; /* Ajusta el tamaño del icono del www */
+  height: 50px;
 }
 
 .team-4 .member-info {
@@ -1584,7 +1611,7 @@ textarea.form-control {
 
 /* Ajustes adicionales para iconos sociales */
 .team-4 .member-social-links i.fa {
-  font-size: 24px; /* Aumenta el tamaño de los íconos de redes sociales */
+  font-size: 40px; /* Aumenta el tamaño de los íconos de redes sociales */
 }
 
 .team-4 .member-social-links i.fa-whatsapp {
@@ -1607,6 +1634,7 @@ textarea.form-control {
 .col-xs-12, .col-sm-3, .col-md-3 {
   padding: 0 15px;
 }
+
 
 
 
