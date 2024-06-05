@@ -16,13 +16,13 @@ const Section2 = () => {
         {/* Contenido */}
         <div className="content">
           <div className="title-container">
-            <h3 className="title">HR WEEK</h3>
+            <h3 className="title"></h3>
           </div>
           <div className="subheading">
-            <h1 className="subheading-text">¡INSCRÍBETE AHORA!</h1>
+            <h1 className="subheading-text"></h1>
           </div>
           <div className="description">
-            <p className="description-text">Cupo limitado. Aparta tu lugar antes y aprovecha nuestra promoción.</p>
+            <p className="description-text"></p>
           </div>
           <div className="button">
             <a href="/contact" className="button-link">Inscribirse</a>

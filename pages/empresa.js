@@ -12,10 +12,6 @@ const empresa = () => {
             <PageBanner
                 homePageUrl="/"
                 imgClass="bg-1"
-                pageTitle="PROGRAMA"
-                parrafo="Aplica estrategias y herramientas que impacten los resultados del negocio.
-                Vive la experiencia con más de 200 empresas y especialistas en Recursos Humanos reunidos en un mismo lugar.
-                Dirigido a todo profesional de Recursos Humanos y Compensaciones."
             />
 
             <Empresa />

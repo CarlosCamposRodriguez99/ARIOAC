@@ -12,8 +12,7 @@ const Contact = () => {
             <PageBanner 
                 homePageUrl="/"
                 imgClass="bg-3"
-                pageTitle="CONTACTO"
-                parrafo="Estamos aquí para ayudarte. Solicita información y un asesor especializado en tecnología de ARIOAC se comunicará contigo en la brevedad para atender todas tus dudas. Nuestro servicio está disponible por medio de Whatsapp y teléfonos."
+                pageTitle=""
             /> 
             <ContactForm />
             <WhatsAppIcon />

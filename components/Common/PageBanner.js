@@ -7,7 +7,7 @@ const PageBanner = ({pageTitle, homePageUrl, homePageText, activePageText, imgCl
             <div className="container">
                 <div className="page-title-content" style={{paddingTop: "100px"}}>
                     <h1 className='titleBanner' style={{fontSize: "50px", color: "#fff"}}>{pageTitle}</h1>
-                    <div className='borderBanner' style={{borderBottom: "5px solid #1C9CD9", width: "5%", margin: "0 auto", paddingTop: "20px"}}></div>
+                   
                     <p className='parrafoBanner' style={{fontFamily: "'Montserrat', sans-serif", fontWeight: "normal", marginLeft: "200px", marginRight: "200px", textAlign: "center", color: "#fff", fontSize: "16px", textTransform: "initial", marginTop: "20px"}}>{parrafo}</p>
 
                     <ul>

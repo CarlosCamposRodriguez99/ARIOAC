@@ -69,7 +69,7 @@ const Empresa = () => {
         
 					<div className="memberConfe">
 							<div className="memberConfe-img">
-								<img src="/img/conferencistas/1.jpg" alt="memberConfe"/>
+								<img src="/img/conferencistas/dunnia.jpg" alt="memberConfe"/>
 								<div className="memberConfe-overlay">
 									<div className="memberConfe-social">
 										<div className=" pos-vertical-center">
@@ -87,7 +87,7 @@ const Empresa = () => {
 
                         <div className="memberConfe">
 							<div className="memberConfe-img">
-								<img src="/img/conferencistas/1.jpg" alt="memberConfe"/>
+								<img src="/img/conferencistas/juan.jpg" alt="memberConfe"/>
 								<div className="memberConfe-overlay">
 									<div className="memberConfe-social">
 										<div className=" pos-vertical-center">
@@ -105,7 +105,7 @@ const Empresa = () => {
 
 					<div className="memberConfe">
 							<div className="memberConfe-img">
-								<img src="/img/conferencistas/1.jpg" alt="memberConfe"/>
+								<img src="/img/conferencistas/hector.jpg" alt="memberConfe"/>
 								<div className="memberConfe-overlay">
 									<div className="memberConfe-social">
 										<div className="pos-vertical-center">
@@ -141,7 +141,7 @@ const Empresa = () => {
 			
 					<div className="memberConfe">
 							<div className="memberConfe-img">
-								<img src="/img/conferencistas/1.jpg" alt="memberConfe"/>
+								<img src="/img/conferencistas/erika.jpg" alt="memberConfe"/>
 								<div className="memberConfe-overlay">
 									<div className="memberConfe-social">
 										<div className=" pos-vertical-center">
@@ -159,7 +159,7 @@ const Empresa = () => {
 
 					<div className="memberConfe">
 							<div className="memberConfe-img">
-								<img src="/img/conferencistas/1.jpg" alt="memberConfe"/>
+								<img src="/img/conferencistas/marcos.jpg" alt="memberConfe"/>
 								<div className="memberConfe-overlay">
 									<div className="memberConfe-social">
 										<div className=" pos-vertical-center">
@@ -177,7 +177,7 @@ const Empresa = () => {
 
 					     <div className="memberConfe">
 											<div className="memberConfe-img">
-												<img src="/img/conferencistas/1.jpg" alt="memberConfe"/>
+												<img src="/img/conferencistas/valeria.jpg" alt="memberConfe"/>
 												<div className="memberConfe-overlay">
 													<div className="memberConfe-social">
 														<div className=" pos-vertical-center">
@@ -212,7 +212,7 @@ const Empresa = () => {
         
 					<div className="memberConfe">
 							<div className="memberConfe-img">
-								<img src="/img/conferencistas/1.jpg" alt="memberConfe"/>
+								<img src="/img/conferencistas/fernando.jpg" alt="memberConfe"/>
 								<div className="memberConfe-overlay">
 									<div className="memberConfe-social">
 										<div className=" pos-vertical-center">
@@ -230,7 +230,7 @@ const Empresa = () => {
 
                         <div className="memberConfe">
 							<div className="memberConfe-img">
-								<img src="/img/conferencistas/1.jpg" alt="memberConfe"/>
+								<img src="/img/conferencistas/jerico.jpg" alt="memberConfe"/>
 								<div className="memberConfe-overlay">
 									<div className="memberConfe-social">
 										<div className=" pos-vertical-center">
@@ -248,7 +248,7 @@ const Empresa = () => {
 
 					<div className="memberConfe">
 							<div className="memberConfe-img">
-								<img src="/img/conferencistas/1.jpg" alt="memberConfe"/>
+								<img src="/img/conferencistas/alberto.jpg" alt="memberConfe"/>
 								<div className="memberConfe-overlay">
 									<div className="memberConfe-social">
 										<div className="pos-vertical-center">
@@ -266,7 +266,7 @@ const Empresa = () => {
 
 					<div className="memberConfe">
 							<div className="memberConfe-img">
-								<img src="/img/conferencistas/1.jpg" alt="memberConfe"/>
+								<img src="/img/conferencistas/andrea.jpg" alt="memberConfe"/>
 								<div className="memberConfe-overlay">
 									<div className="memberConfe-social">
 										<div className="pos-vertical-center">
@@ -284,7 +284,7 @@ const Empresa = () => {
 			
 					<div className="memberConfe">
 							<div className="memberConfe-img">
-								<img src="/img/conferencistas/1.jpg" alt="memberConfe"/>
+								<img src="/img/conferencistas/emilio.jpg" alt="memberConfe"/>
 								<div className="memberConfe-overlay">
 									<div className="memberConfe-social">
 										<div className=" pos-vertical-center">
@@ -302,7 +302,7 @@ const Empresa = () => {
 
 					<div className="memberConfe">
 							<div className="memberConfe-img">
-								<img src="/img/conferencistas/1.jpg" alt="memberConfe"/>
+								<img src="/img/conferencistas/denisse.jpg" alt="memberConfe"/>
 								<div className="memberConfe-overlay">
 									<div className="memberConfe-social">
 										<div className=" pos-vertical-center">
@@ -312,15 +312,15 @@ const Empresa = () => {
 								</div>
 							</div>
 							<div className="memberConfe-info">
-								<h5>UP sí vale</h5>
-								<h6></h6>
-                                <h7></h7>
+								<h5>Denisse Linares Ahuejote</h5>
+								<h6>B2B Growth Marketing Head</h6>
+                                <h7>Up sí vale</h7>
 							</div>
 						</div>
 
 					     <div className="memberConfe">
 											<div className="memberConfe-img">
-												<img src="/img/conferencistas/1.jpg" alt="memberConfe"/>
+												<img src="/img/conferencistas/daniel.jpg" alt="memberConfe"/>
 												<div className="memberConfe-overlay">
 													<div className="memberConfe-social">
 														<div className=" pos-vertical-center">
@@ -356,7 +356,7 @@ const Empresa = () => {
         
 					<div className="memberConfe">
 							<div className="memberConfe-img">
-								<img src="/img/conferencistas/1.jpg" alt="memberConfe"/>
+								<img src="/img/conferencistas/yami.jpg" alt="memberConfe"/>
 								<div className="memberConfe-overlay">
 									<div className="memberConfe-social">
 										<div className=" pos-vertical-center">
@@ -374,7 +374,7 @@ const Empresa = () => {
 
                         <div className="memberConfe">
 							<div className="memberConfe-img">
-								<img src="/img/conferencistas/1.jpg" alt="memberConfe"/>
+								<img src="/img/conferencistas/ruben.jpg" alt="memberConfe"/>
 								<div className="memberConfe-overlay">
 									<div className="memberConfe-social">
 										<div className=" pos-vertical-center">
@@ -392,7 +392,7 @@ const Empresa = () => {
 
 					<div className="memberConfe">
 							<div className="memberConfe-img">
-								<img src="/img/conferencistas/1.jpg" alt="memberConfe"/>
+								<img src="/img/conferencistas/jimena.jpg" alt="memberConfe"/>
 								<div className="memberConfe-overlay">
 									<div className="memberConfe-social">
 										<div className="pos-vertical-center">
@@ -402,15 +402,15 @@ const Empresa = () => {
 								</div>
 							</div>
 							<div className="memberConfe-info">
-								<h5>Tergum</h5>
-								<h6></h6>
-                                <h7></h7>
+								<h5>Jimena Flores</h5>
+								<h6>Especialista en compensación y finanzas organizacional</h6>
+                                <h7>Minu</h7>
 							</div>
 						</div>
 
 					<div className="memberConfe">
 							<div className="memberConfe-img">
-								<img src="/img/conferencistas/1.jpg" alt="memberConfe"/>
+								<img src="/img/conferencistas/pablo.jpg" alt="memberConfe"/>
 								<div className="memberConfe-overlay">
 									<div className="memberConfe-social">
 										<div className="pos-vertical-center">
@@ -428,7 +428,7 @@ const Empresa = () => {
 			
 					<div className="memberConfe">
 							<div className="memberConfe-img">
-								<img src="/img/conferencistas/1.jpg" alt="memberConfe"/>
+								<img src="/img/conferencistas/humberto.jpg" alt="memberConfe"/>
 								<div className="memberConfe-overlay">
 									<div className="memberConfe-social">
 										<div className=" pos-vertical-center">
@@ -446,7 +446,7 @@ const Empresa = () => {
 
 					<div className="memberConfe">
 							<div className="memberConfe-img">
-								<img src="/img/conferencistas/1.jpg" alt="memberConfe"/>
+								<img src="/img/conferencistas/emmanuel.jpg" alt="memberConfe"/>
 								<div className="memberConfe-overlay">
 									<div className="memberConfe-social">
 										<div className=" pos-vertical-center">
@@ -464,7 +464,7 @@ const Empresa = () => {
 
 					     <div className="memberConfe">
 											<div className="memberConfe-img">
-												<img src="/img/conferencistas/1.jpg" alt="memberConfe"/>
+												<img src="/img/conferencistas/gen.jpg" alt="memberConfe"/>
 												<div className="memberConfe-overlay">
 													<div className="memberConfe-social">
 														<div className=" pos-vertical-center">
@@ -474,9 +474,9 @@ const Empresa = () => {
 												</div>
 											</div>
 											<div className="memberConfe-info">
-												<h5>Brivé</h5>
-												<h6></h6>
-								                <h7></h7>
+												<h5>Genaro Hurtado y Ángel Nava</h5>
+												<h6>Director General de Brivé y Director de Negocios Brivé</h6>
+								                <h7>Brivé</h7>
 											</div>
 										</div>
 										</div>

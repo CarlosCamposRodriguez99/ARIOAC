@@ -10,10 +10,8 @@ const servicios = () => {
         <React.Fragment>
             <Navbar />
             <PageBanner
-                homePageUrl="/"
+                homePageUrl=""
                 imgClass="bg-2"
-               // pageTitle=""
-               // parrafo=""
             />
 
             <ServiciosPage />

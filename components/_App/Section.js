@@ -55,7 +55,7 @@ const Section = () => {
         <div style={{padding: "0", margin: "0"}}>
           <div style={{padding: "0", margin: "0"}}>
             <div style={{padding: "0", marginBottom: "auto"}}>
-              <Image width={960} height={680} src='/img/section/ari.png' alt='arioac' loading='lazy'/>
+              <Image width={960} height={680} src='/img/section/ari.jpg' alt='arioac' loading='lazy'/>
             </div>
           </div>
         </div>
@@ -83,7 +83,7 @@ const Section = () => {
             <img width="48" height="48" src="https://img.icons8.com/emoji/48/costa-rica-emoji.png" alt="costa-rica-emoji"/> Costa Rica <br/>
             <img width="48" height="48" src="https://img.icons8.com/emoji/48/spain-emoji.png" alt="spain-emoji"/> España <br/>
             <img width="48" height="48" src="https://img.icons8.com/emoji/48/chile-emoji.png" alt="chile-emoji"/> Chile <br/>
-            <img width="48" height="48" src="https://img.icons8.com/emoji/48/argentina-emoji.png" alt="argentina-emoji"/> Argentina <br/>
+            <img width="48" height="48" src="https://img.icons8.com/emoji/48/colombia-emoji.png" alt="colombia-emoji"/> Colombia <br/>
             </p>
            </div>
 

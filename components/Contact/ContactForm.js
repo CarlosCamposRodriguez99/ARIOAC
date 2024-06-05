@@ -175,13 +175,13 @@ const ContactForm = () => {
 			{/* Contenido */}
 			<div className="content">
 			  <div className="title-container">
-				<h3 className="title">Asociación de Recursos Humanos</h3>
+				<h3 className="title"></h3>
 			  </div>
 			  <div className="subheading">
-				<h1 className="subheading-text">Contáctanos</h1>
+				<h1 className="subheading-text"></h1>
 			  </div>
 			  <div className="description">
-				<p className="description-text">¡Contáctanos hoy mismo y descubre cómo podemos ayudarte a alcanzar tus metas!</p>
+				<p className="description-text"></p>
 			  </div>
 			</div>
 		  </div>
