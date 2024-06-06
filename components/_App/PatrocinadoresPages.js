@@ -209,7 +209,7 @@ const PatrocinadoresPages = () => {
 		<div className="col-xs-12 col-sm-3 col-md-3">
 				<div className="member">
 					<div className="member-img">
-						<img src="/img/patroci/minu.png" alt="member"/>
+						<img src="/img/patroci/meddi.png" alt="member"/>
 						<div className="member-overlay">
 							<div className="member-social">
 								<div className="member-social-links">
@@ -235,19 +235,11 @@ const PatrocinadoresPages = () => {
 			<div className="col-xs-12 col-sm-3 col-md-3">
 				<div className="member">
 					<div className="member-img">
-						<img src="/img/patroci/welbe.png" alt="member"/>
+						<img src="/img/patroci/rh.png" alt="member"/>
 						<div className="member-overlay">
 							<div className="member-social">
 								<div className="member-social-links">
-									<a href="https://home.welbecare.com/" target="_blank">
-										<img src="/img/iconos/www.svg" alt="www" className="social-icon"/>
-									</a>
-									<a href="https://wa.me/5562095511?text=${encodeURIComponent(message)}" target="_blank">
-										<img src="/img/iconos/whats.svg" alt="whatsapp" className="fa fa-whatsapp"/>
-									</a>
-									<a href="https://www.linkedin.com/company/welbe-care/" target="_blank">
-										<img src="/img/iconos/linke.svg" alt="linkedin" className="fa fa-linkedin"/>
-									</a>
+									
 								</div>
 								<div className="member-info">
 									<h5>REVISTA CONEXION RH</h5>
@@ -261,19 +253,11 @@ const PatrocinadoresPages = () => {
 			<div className="col-xs-12 col-sm-3 col-md-3">
 				<div className="member">
 					<div className="member-img">
-						<img src="/img/patroci/uvm.png" alt="member"/>
+						<img src="/img/patroci/ideal.png" alt="member"/>
 						<div className="member-overlay">
 							<div className="member-social">
 								<div className="member-social-links">
-									<a href="https://uvm.mx/" target="_blank">
-										<img src="/img/iconos/www.svg" alt="www" className="social-icon"/>
-									</a>
-									<a href="https://wa.me/7721663240?text=${encodeURIComponent(message)}" target="_blank">
-										<img src="/img/iconos/whats.svg" alt="whatsapp" className="fa fa-whatsapp"/>
-									</a>
-									<a href="https://www.linkedin.com/school/uvmmx/" target="_blank">
-										<img src="/img/iconos/linke.svg" alt="linkedin" className="fa fa-linkedin"/>
-									</a>
+									
 								</div>
 								<div className="member-info">
 									<h5>IDEAL JOBS</h5>

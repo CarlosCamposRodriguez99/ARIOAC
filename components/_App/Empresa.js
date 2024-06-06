@@ -502,7 +502,7 @@ const Empresa = () => {
 							<h3 className='titleYoutube' style={{ color: "#000", marginBottom: "5px", marginTop: "50px" }}></h3>
 							<img src='/img/redes-sociales/tik-02.svg' alt='youtube' width="300px" height="100px" />
 							<p className='noneYoutube' style={{ textAlign: "left", fontFamily: 'Montserrat, sans-serif', marginTop: "20px", marginBottom: "40px", fontSize: "16px" }}>
-							VISITA NUESTRO TIKTOK Y ÚNETE AL EVENTO
+							
 							<br />
 							</p>
 							<a

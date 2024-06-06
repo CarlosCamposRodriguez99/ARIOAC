@@ -1599,11 +1599,6 @@ textarea.form-control {
   height: 50px;
 }
 
-.team-4 .member-social-links img {
-  width: 50px; /* Aumenta el tamaño de las imágenes de redes sociales */
-  height: 50px;
-}
-
 .team-4 .member-info {
   text-align: center;
   color: white;
@@ -1612,6 +1607,19 @@ textarea.form-control {
 .team-4 .member-info h5 {
   margin: 0;
   font-size: 18px;
+}
+
+/* Ajustes adicionales para iconos sociales */
+.team-4 .member-social-links i.fa {
+  font-size: 40px; /* Aumenta el tamaño de los íconos de redes sociales */
+}
+
+.team-4 .member-social-links i.fa-whatsapp {
+  color: #25D366; /* Color específico para WhatsApp */
+}
+
+.team-4 .member-social-links i.fa-linkedin {
+  color: #0077B5; /* Color específico para LinkedIn */
 }
 
 /* Estilos adicionales para centrar las columnas */
@@ -1626,7 +1634,6 @@ textarea.form-control {
 .col-xs-12, .col-sm-3, .col-md-3 {
   padding: 0 15px;
 }
-
 
 
 
@@ -5344,7 +5351,7 @@ Page Title Area Style
 
 .content {
   position: absolute;
-  top: 50%;
+  top: 70%; /* Ajusta este valor para mover todo el contenido más abajo */
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -5375,7 +5382,7 @@ Page Title Area Style
 
 .button {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 20px; /* Puedes ajustar este valor si es necesario */
 }
 
 .button-link {
@@ -5393,6 +5400,7 @@ Page Title Area Style
   background-color: #08344A;
   color: #fff;
 }
+
 
 
 

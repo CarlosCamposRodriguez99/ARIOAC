@@ -24,7 +24,7 @@ const ContactForm = () => {
         // Aquí puedes agregar el código para enviar el formulario si es necesario
         try {
             const formData = new FormData(event.target);
-            const response = await fetch("https://formsubmit.co/info@maquilasysuplementos.mx", {
+            const response = await fetch("https://formsubmit.co/hrweek@arioac.com", {
                 method: 'POST',
                 body: formData
             });

@@ -3,8 +3,7 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/servicios": "pages/servicios.js",
-  "/": "pages/index.js",
   "/empresa": "pages/empresa.js",
   "/patrocinadores": "pages/patrocinadores.js",
-  "/404": "pages/404.js"
+  "/contact": "pages/contact.js"
 }
