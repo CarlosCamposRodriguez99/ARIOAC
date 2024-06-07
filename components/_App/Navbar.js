@@ -13,6 +13,7 @@ const Navbar = () => {
     const [isEmpresaPage, setIsEmpresaPage] = useState(false);
     const [isServiciosPage, setIsServiciosPage] = useState(false);
     const [isContactoPage, setIsContactoPage] = useState(false);
+    const [isPatrocinadoresPage, setIsPatrocinadoresPage] = useState(false);
     const [isTopOfPage, setIsTopOfPage] = useState(true);
 
     function changeLogoOnScroll() {
@@ -31,6 +32,7 @@ const Navbar = () => {
         setIsEmpresaPage(pathname === '/empresa');
         setIsServiciosPage(pathname === '/servicios');
         setIsContactoPage(pathname === '/contact');
+        setIsPatrocinadoresPage(pathname === '/patrocinadores');
     }, [router.pathname]);
 
     useEffect(() => {
@@ -57,7 +59,7 @@ const Navbar = () => {
     return (
         <React.Fragment>
             <header className="header-area fixed-top">
-            <div id="navbar" className={`navbar-area ${isEmpresaPage || isServiciosPage || isContactoPage || scrollLogo || !isTopOfPage ? 'is-sticky' : ''}`}>
+            <div id="navbar" className={`navbar-area ${isEmpresaPage || isServiciosPage || isContactoPage || isPatrocinadoresPage|| scrollLogo || !isTopOfPage ? 'is-sticky' : ''}`}>
                     <div className="main-nav">
                         <nav className="navbar navbar-expand-lg">
                             <div className="container">

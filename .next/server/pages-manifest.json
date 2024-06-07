@@ -2,8 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/servicios": "pages/servicios.js",
+  "/contact": "pages/contact.js",
   "/empresa": "pages/empresa.js",
-  "/patrocinadores": "pages/patrocinadores.js",
-  "/contact": "pages/contact.js"
+  "/patrocinadores": "pages/patrocinadores.js"
 }

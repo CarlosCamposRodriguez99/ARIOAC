@@ -5030,6 +5030,18 @@ Page Title Area Style
   z-index: 1;
 }
 
+.page-title-area::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.9;
+  background-color: #222222;
+  z-index: -1;
+}
+
 .page-title-area.bg-1 {
   background-image: url(/img/banners/empresa.jpg);
   padding-top: 100px;
@@ -5069,17 +5081,6 @@ Page Title Area Style
   z-index: -1;
 }
 
-.page-title-area::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0.9;
-  background-color: #222222;
-  z-index: -1;
-}
 
 .page-title-area.bg-2 {
   background-image: url(/img/banners/servicios.jpg);
@@ -5163,7 +5164,42 @@ Page Title Area Style
 
 
 .page-title-area.bg-4 {
-  background-image: url(/img/page-banner-bg/page-banner4.jpg);
+  background-image: url(/img/banners/patrocinadores.jpg);
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: 130% 90%;
+  height: 500px;
+  z-index: 1;
+  box-sizing: border-box;
+}
+
+.page-title-area.bg-4::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.9;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: -1;
+}
+
+
+.page-title-area.bg-4::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: -1;
 }
 
 .page-title-area.bg-5 {

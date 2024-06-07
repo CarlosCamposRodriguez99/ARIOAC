@@ -10,7 +10,7 @@ const empresa = () => {
         <React.Fragment>
             <Navbar />
             <PageBanner
-                homePageUrl="/patrocinadores"
+                homePageUrl="/"
                 imgClass="bg-1"
             />
 
