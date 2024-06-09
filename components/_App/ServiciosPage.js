@@ -516,7 +516,7 @@ const ServiciosPage = () => {
     </div>
 
         <button  style={{alignItems: "center", margin: "0 auto", justifyContent: "center", display: "flex"}}>
-                <a className="btn btn--primary" href="https://www.tiktok.com/@arioac?_t=8lTOZbPZmB4&_r=1" target='_blank' style={{alignItems: "center", justifyContent: "center", fontFamily: "Roboto, sans-serif"}}>ÚNETE AL RH WEEK</a>
+                <a className="btn btn--primary" href="https://share.hsforms.com/1HupIgxJyRuK3lu6qDPtB7gq5t92" target="_blank" style={{alignItems: "center", justifyContent: "center", fontFamily: "Roboto, sans-serif"}}>ÚNETE AL RH WEEK</a>
         </button>
 </section>
 
@@ -545,7 +545,7 @@ const ServiciosPage = () => {
         <p className="description-text"></p>
       </div>
       <div className="button">
-        <a href="/contact" className="button-link">Inscribirse</a>
+        <a href="https://share.hsforms.com/1HupIgxJyRuK3lu6qDPtB7gq5t92" target="_blank" className="button-link">Inscribirse</a>
       </div>
     </div>
   </div>

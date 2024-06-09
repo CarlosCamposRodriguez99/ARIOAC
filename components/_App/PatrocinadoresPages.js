@@ -41,15 +41,15 @@ const PatrocinadoresPages = () => {
 						<div className="member-overlay">
 							<div className="member-social">
 								<div className="member-social-links">
-									<a href="https://brivesoluciones.com/" target="_blank">
+									<Link href="https://brivesoluciones.com/" target="_blank">
 										<img src="/img/iconos/www.svg" alt="www" className="social-icon"/>
-									</a>
-									<a href="https://wa.me/5512954442?text=${encodeURIComponent(message)}" target="_blank">
+									</Link>
+									<Link href="https://wa.me/5512954442?text=${encodeURIComponent(message)}" target="_blank">
 										<img src="/img/iconos/whats.svg" alt="whatsapp" className="fa fa-whatsapp"/>
-									</a>
-									<a href="https://www.linkedin.com/company/brive-soluciones/" target="_blank">
+									</Link>
+									<Link href="https://www.linkedin.com/company/brive-soluciones/" target="_blank">
 										<img src="/img/iconos/linke.svg" alt="likedin" className="fa fa-linkedin"/>
-									</a>
+									</Link>
 								</div>
 								<div className="member-info">
 									<h5>Brivé</h5>
@@ -68,15 +68,15 @@ const PatrocinadoresPages = () => {
 						<div className="member-overlay">
 							<div className="member-social">
 								<div className="member-social-links">
-									<a href="https://www.sivale.mx/" target="_blank">
+									<Link href="https://www.sivale.mx/" target="_blank">
 										<img src="/img/iconos/www.svg" alt="www" className="social-icon"/>
-									</a>
-									<a href="https://wa.me/5580098684?text=${encodeURIComponent(message)}" target="_blank">
+									</Link>
+									<Link href="https://wa.me/5580098684?text=${encodeURIComponent(message)}" target="_blank">
 										<img src="/img/iconos/whats.svg" alt="whatsapp" className="fa fa-whatsapp"/>
-									</a>
-									<a href="https://www.linkedin.com/company/upsivale/" target="_blank">
+									</Link>
+									<Link href="https://www.linkedin.com/company/upsivale/" target="_blank">
 										<img src="/img/iconos/linke.svg" alt="linkedin" className="fa fa-linkedin"/>
-									</a>
+									</Link>
 								</div>
 								<div className="member-info">
 									<h5>Up sí vale</h5>
@@ -94,15 +94,15 @@ const PatrocinadoresPages = () => {
 						<div className="member-overlay">
 							<div className="member-social">
 								<div className="member-social-links">
-									<a href="https://tergum.com.mx/index.html" target="_blank">
+									<Link href="https://tergum.com.mx/index.html" target="_blank">
 										<img src="/img/iconos/www.svg" alt="www" className="social-icon"/>
-									</a>
-									<a href="https://wa.me/3316048746?text=${encodeURIComponent(message)}" target="_blank">
+									</Link>
+									<Link href="https://wa.me/3316048746?text=${encodeURIComponent(message)}" target="_blank">
 										<img src="/img/iconos/whats.svg" alt="whatsapp" className="fa fa-whatsapp"/>
-									</a>
-									<a href="https://www.linkedin.com/company/tergum-méxico/" target="_blank">
+									</Link>
+									<Link href="https://www.linkedin.com/company/tergum-méxico/" target="_blank">
 										<img src="/img/iconos/linke.svg" alt="linkedin" className="fa fa-linkedin"/>
-									</a>
+									</Link>
 								</div>
 								<div className="member-info">
 									<h5>Tergum</h5>
@@ -127,15 +127,15 @@ const PatrocinadoresPages = () => {
 						<div className="member-overlay">
 							<div className="member-social">
 								<div className="member-social-links">
-									<a href="https://www.minu.mx/" target="_blank">
+									<Link href="https://www.minu.mx/" target="_blank">
 										<img src="/img/iconos/www.svg" alt="www" className="social-icon"/>
-									</a>
-									<a href="https://wa.me/3336679437?text=${encodeURIComponent(message)}" target="_blank">
+									</Link>
+									<Link href="https://wa.me/3336679437?text=${encodeURIComponent(message)}" target="_blank">
 										<img src="/img/iconos/whats.svg" alt="whatsapp" className="fa fa-whatsapp"/>
-									</a>
-									<a href="https://www.linkedin.com/company/minuservicios/" target="_blank">
+									</Link>
+									<Link href="https://www.linkedin.com/company/minuservicios/" target="_blank">
 										<img src="/img/iconos/linke.svg" alt="linkedin" className="fa fa-linkedin"/>
-									</a>
+									</Link>
 								</div>
 								<div className="member-info">
 									<h5>Minu</h5>
@@ -153,15 +153,15 @@ const PatrocinadoresPages = () => {
 						<div className="member-overlay">
 							<div className="member-social">
 								<div className="member-social-links">
-									<a href="https://home.welbecare.com/" target="_blank">
+									<Link href="https://home.welbecare.com/" target="_blank">
 										<img src="/img/iconos/www.svg" alt="www" className="social-icon"/>
-									</a>
-									<a href="https://wa.me/5562095511?text=${encodeURIComponent(message)}" target="_blank">
+									</Link>
+									<Link href="https://wa.me/5562095511?text=${encodeURIComponent(message)}" target="_blank">
 										<img src="/img/iconos/whats.svg" alt="whatsapp" className="fa fa-whatsapp"/>
-									</a>
-									<a href="https://www.linkedin.com/company/welbe-care/" target="_blank">
+									</Link>
+									<Link href="https://www.linkedin.com/company/welbe-care/" target="_blank">
 										<img src="/img/iconos/linke.svg" alt="linkedin" className="fa fa-linkedin"/>
-									</a>
+									</Link>
 								</div>
 								<div className="member-info">
 									<h5>Welbe</h5>
@@ -179,15 +179,15 @@ const PatrocinadoresPages = () => {
 						<div className="member-overlay">
 							<div className="member-social">
 								<div className="member-social-links">
-									<a href="https://uvm.mx/" target="_blank">
+									<Link href="https://uvm.mx/" target="_blank">
 										<img src="/img/iconos/www.svg" alt="www" className="social-icon"/>
-									</a>
-									<a href="https://wa.me/7721663240?text=${encodeURIComponent(message)}" target="_blank">
+									</Link>
+									<Link href="https://wa.me/7721663240?text=${encodeURIComponent(message)}" target="_blank">
 										<img src="/img/iconos/whats.svg" alt="whatsapp" className="fa fa-whatsapp"/>
-									</a>
-									<a href="https://www.linkedin.com/school/uvmmx/" target="_blank">
+									</Link>
+									<Link href="https://www.linkedin.com/school/uvmmx/" target="_blank">
 										<img src="/img/iconos/linke.svg" alt="linkedin" className="fa fa-linkedin"/>
-									</a>
+									</Link>
 								</div>
 								<div className="member-info">
 									<h5>UVM</h5>
@@ -213,15 +213,15 @@ const PatrocinadoresPages = () => {
 						<div className="member-overlay">
 							<div className="member-social">
 								<div className="member-social-links">
-									<a href="https://meddi.com.mx/" target="_blank">
+									<Link href="https://meddi.com.mx/" target="_blank">
 										<img src="/img/iconos/www.svg" alt="www" className="social-icon"/>
-									</a>
-									<a href="https://wa.me/3333480545?text=${encodeURIComponent(message)}" target="_blank">
+									</Link>
+									<Link href="https://wa.me/3333480545?text=${encodeURIComponent(message)}" target="_blank">
 										<img src="/img/iconos/whats.svg" alt="whatsapp" className="fa fa-whatsapp"/>
-									</a>
-									<a href="https://www.linkedin.com/company/meddi/" target="_blank">
+									</Link>
+									<Link href="https://www.linkedin.com/company/meddi/" target="_blank">
 										<img src="/img/iconos/linke.svg" alt="linkedin" className="fa fa-linkedin"/>
-									</a>
+									</Link>
 								</div>
 								<div className="member-info">
 									<h5>MEDDI</h5>

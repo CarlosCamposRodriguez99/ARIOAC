@@ -110,10 +110,10 @@ const HeroSlider = () => {
                                                 }}>CAPITAL HUMANO</p>
                                                 
                                                 <div className="slider-btn">
-                                                    <Link href="/contact" legacyBehavior>
-                                                        <a className="default-btn">
-                                                            ¡PARTICIPA!
-                                                        </a>
+                                                    <Link href="https://share.hsforms.com/1HupIgxJyRuK3lu6qDPtB7gq5t92" target="_blank" alt="formulario" legacyBehavior>
+                                                        <Link className="default-btn">
+                                                            ¡REGÍSTRATE!
+                                                        </Link>
                                                     </Link>
                                                 </div>
                                             </div>

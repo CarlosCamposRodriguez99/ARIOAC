@@ -25,7 +25,7 @@ const Section2 = () => {
             <p className="description-text"></p>
           </div>
           <div className="button">
-            <a href="/contact" className="button-link">Inscribirse</a>
+            <a href="https://share.hsforms.com/1HupIgxJyRuK3lu6qDPtB7gq5t92" target="_blank" className="button-link">Inscribirse</a>
           </div>
         </div>
       </div>
