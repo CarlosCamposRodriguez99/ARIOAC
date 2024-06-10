@@ -121,23 +121,23 @@ const Empresa = () => {
 							</div>
 						</div>
 
-					<div className="memberConfe">
-							<div className="memberConfe-img">
-								<img src="/img/conferencistas/1.jpg" alt="memberConfe"/>
-								<div className="memberConfe-overlay">
-									<div className="memberConfe-social">
-										<div className="pos-vertical-center">
-										<p style={{ color: 'white', fontFamily: 'Palatino, serif', fontSize: '15px' }}>"Asesor en Condiciones Generales de Trabajo y Capacitación, Licenciado en Contabilidad Pública y Finanzas con más de 7 años de experiencia en asesoría laboral y financiera. Diplomados en contabilidad gerencia y contribuciones. Experiencia de más de 5 años en Grupo Cicadehp."</p>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div className="memberConfe-info">
-								<h5>Angel Adrián Dávalos Granados</h5>
-								<h6>Asesor de servicio en materia de Condiciones Generales de Trabajo, Capacitación y Adiestramiento</h6>
-                                <h7>CICADEHP</h7>
-							</div>
-                        </div>
+						<div className="memberConfe">
+											<div className="memberConfe-img">
+												<img src="/img/conferencistas/gen.jpg" alt="memberConfe"/>
+												<div className="memberConfe-overlay">
+													<div className="memberConfe-social">
+														<div className=" pos-vertical-center">
+														<p style={{ color: 'white', fontFamily: 'Palatino, serif', fontSize: '15px' }}>"Genaro Hurtado es un destacado profesional, graduado en Administración de Empresas por el Tecnológico de Monterrey, con una maestría en Negocios Digitales del ITAM y un postgrado en Strategic Marketing de la Kellogg School of Management. Es Presidente del Comité de Evolución en la AMEDIRH y fundador y CEO de Brivé Soluciones. Lidera la iniciativa "México Puede" desde 2020, promoviendo el desarrollo personal y laboral, lo que le valió el premio ILAN Israel + Latin American Network en 2021."</p>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div className="memberConfe-info">
+												<h5>Genaro Hurtado y Ángel Nava</h5>
+												<h6>Director General de Brivé y Director de Negocios Brivé</h6>
+								                <h7>Brivé</h7>
+											</div>
+						</div>
 			
 					<div className="memberConfe">
 							<div className="memberConfe-img">
@@ -306,7 +306,7 @@ const Empresa = () => {
 								<div className="memberConfe-overlay">
 									<div className="memberConfe-social">
 										<div className=" pos-vertical-center">
-										<p style={{ color: 'white', fontFamily: 'Palatino, serif', fontSize: '15px' }}>""</p>
+										<p style={{ color: 'white', fontFamily: 'Palatino, serif', fontSize: '15px' }}>"Cuenta con más de 10 años de experiencia. Enfocada en estrategias de atracción de marketing, ha liderado equipos y trabajado tanto para empresas nacionales como internacionales. Su enfoque se ha orientado en la creación de campañas centradas en y para el cliente, con beneficios para el negocio. Centrada en resultados, data driven, análisis e interpretación de datos para la ejecución de campañas y detección de necesidades."</p>
 										</div>
 									</div>
 								</div>
@@ -396,7 +396,7 @@ const Empresa = () => {
 								<div className="memberConfe-overlay">
 									<div className="memberConfe-social">
 										<div className="pos-vertical-center">
-										<p style={{ color: 'white', fontFamily: 'Palatino, serif', fontSize: '15px' }}>""</p>
+										<p style={{ color: 'white', fontFamily: 'Palatino, serif', fontSize: '15px' }}>"Jimena Flores es una destacada profesional con más de 15 años de experiencia en el ámbito comercial y una maestría en inteligencia artificial. Ha trabajado en empresas como American Express, Edenred, Cobre y actualmente es directora comercial en Minu. Su éxito se debe a su capacidad para formar equipos de alto rendimiento, liderar y desarrollar proyectos exitosos. Su combinación de experiencia comercial y conocimiento en inteligencia artificial la convierte en una líder innovadora y eficaz."</p>
 										</div>
 									</div>
 								</div>
@@ -468,7 +468,7 @@ const Empresa = () => {
 												<div className="memberConfe-overlay">
 													<div className="memberConfe-social">
 														<div className=" pos-vertical-center">
-														<p style={{ color: 'white', fontFamily: 'Palatino, serif', fontSize: '15px' }}>""</p>
+														<p style={{ color: 'white', fontFamily: 'Palatino, serif', fontSize: '15px' }}>"Ángel es un profesional dedicado con experiencia en el ámbito comercial y de Recursos Humanos. Actualmente, es Director de Negocios en Brivé Soluciones, egresado de la UNAM en Administración y especializado en Dirección Estratégica de Ventas por el Tecnológico de Monterrey. Ha liderado proyectos de atracción y selección, evaluación y desarrollo de líderes, modelos de competencias, implementación de tecnologías para RH, y proyectos de clima y bienestar en toda América Latina."</p>
 														</div>
 													</div>
 												</div>
