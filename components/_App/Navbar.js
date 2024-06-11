@@ -93,7 +93,7 @@ const Navbar = () => {
 
                                         <li className="nav-item">
                                             <Link href="/empresa" activeClassName="active-link" passHref={true} legacyBehavior>
-                                                <a onClick={toggleNavbar} className="nav-link">CONFERENCIAS</a>
+                                                <a onClick={toggleNavbar} className="nav-link">CONFERENCISTAS</a>
                                             </Link>
                                         </li>
 

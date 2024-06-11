@@ -59,7 +59,7 @@ const Footer = () => {
                                                                     onMouseEnter={() => handleMouseEnter('/empresa')}
                                                                     onMouseLeave={handleMouseLeave}
                                                                 >
-                                                                    CONFERENCIAS
+                                                                    CONFERENCISTAS
                                                                 </a>
                                                             </h3>
                                                         </Link>

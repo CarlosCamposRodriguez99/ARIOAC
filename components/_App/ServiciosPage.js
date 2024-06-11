@@ -35,13 +35,15 @@ const ServiciosPage = () => {
     <div className="container-fluid pr- pl-5">
         <div className="row portfolio-row">
             <div className="col-xs-12 col-sm-12 col-md-12 portfolio-filter" style={{cursor: "pointer"}}>
+            <p className="heading--subtitle"></p>
+            <h2 className="heading--title">CONFERENCIAS POR DÍA</h2>
                 <ul className="list-inline mb-0">
              {/*   <li><a className={filtro === '*' ? 'active-filter' : ''} href="#" onClick={(e) => handleClick(e, '*')}>Conferencias</a></li>   */} 
-                <li><a className={filtro === '.filter-17Junio' ? 'active-filter' : ''} href="#" onClick={(e) => handleClick(e, '.filter-17Junio')}>17 Junio</a></li>
-                <li><a className={filtro === '.filter-18Junio' ? 'active-filter' : ''} href="#" onClick={(e) => handleClick(e, '.filter-18Junio')}>18 Junio</a></li>
-                <li><a className={filtro === '.filter-19Junio' ? 'active-filter' : ''} href="#" onClick={(e) => handleClick(e, '.filter-19Junio')}>19 Junio</a></li>
-                <li><a className={filtro === '.filter-20Junio' ? 'active-filter' : ''} href="#" onClick={(e) => handleClick(e, '.filter-20Junio')}>20 Junio</a></li>
-                <li><a className={filtro === '.filter-21Junio' ? 'active-filter' : ''} href="#" onClick={(e) => handleClick(e, '.filter-21Junio')}>21 Junio</a></li>
+                <li><Link className={filtro === '.filter-17Junio' ? 'active-filter' : ''} href="#" onClick={(e) => handleClick(e, '.filter-17Junio')}>17 Junio</Link></li>
+                <li><Link className={filtro === '.filter-18Junio' ? 'active-filter' : ''} href="#" onClick={(e) => handleClick(e, '.filter-18Junio')}>18 Junio</Link></li>
+                <li><Link className={filtro === '.filter-19Junio' ? 'active-filter' : ''} href="#" onClick={(e) => handleClick(e, '.filter-19Junio')}>19 Junio</Link></li>
+                <li><Link className={filtro === '.filter-20Junio' ? 'active-filter' : ''} href="#" onClick={(e) => handleClick(e, '.filter-20Junio')}>20 Junio</Link></li>
+                <li><Link className={filtro === '.filter-21Junio' ? 'active-filter' : ''} href="#" onClick={(e) => handleClick(e, '.filter-21Junio')}>21 Junio</Link></li>
                 </ul>
             </div>
         </div>
@@ -64,9 +66,7 @@ const ServiciosPage = () => {
                                     <div className="portfolio--cat">
                                         <a href="#">Lunes</a>, <a href="#">17 Junio</a>
                                     </div>
-                                    <div className="portfolio--pdf">
-                                        <a href="/path/to/your/file.pdf" className="btn btn-primary" target="_blank">Descargar material</a>
-                                    </div>
+                                   
                                 </div>
                             </div>
                         </div>
@@ -87,9 +87,7 @@ const ServiciosPage = () => {
                                     <div className="portfolio--cat">
                                         <a href="#">Lunes</a>, <a href="#">17 Junio</a>
                                     </div>
-                                    <div className="portfolio--pdf">
-                                        <a href="/path/to/your/file.pdf" className="btn btn-primary" target="_blank">Descargar material</a>
-                                    </div>
+                                  
                                 </div>
                             </div>
                         </div>
@@ -109,9 +107,7 @@ const ServiciosPage = () => {
                                     <div className="portfolio--cat">
                                         <a href="#">Lunes</a>, <a href="#">17 Junio</a>
                                     </div>
-                                    <div className="portfolio--pdf">
-                                        <a href="/path/to/your/file.pdf" className="btn btn-primary" target="_blank">Descargar material</a>
-                                    </div>
+                                   
                                 </div>
                             </div>
                         </div>
@@ -131,9 +127,7 @@ const ServiciosPage = () => {
                                     <div className="portfolio--cat">
                                         <a href="#">Lunes</a>, <a href="#">17 Junio</a>
                                     </div>
-                                    <div className="portfolio--pdf">
-                                        <a href="/path/to/your/file.pdf" className="btn btn-primary" target="_blank">Descargar material</a>
-                                    </div>
+                                   
                                 </div>
                             </div>
                         </div>
@@ -153,9 +147,7 @@ const ServiciosPage = () => {
                                     <div className="portfolio--cat">
                                         <a href="#">Martes</a>, <a href="#">18 Junio</a>
                                     </div>
-                                    <div className="portfolio--pdf">
-                                        <a href="/path/to/your/file.pdf" className="btn btn-primary" target="_blank">Descargar material</a>
-                                    </div>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -175,9 +167,7 @@ const ServiciosPage = () => {
                                     <div className="portfolio--cat">
                                         <a href="#">Martes</a>, <a href="#">18 Junio</a>
                                     </div>
-                                    <div className="portfolio--pdf">
-                                        <a href="/path/to/your/file.pdf" className="btn btn-primary" target="_blank">Descargar material</a>
-                                    </div>
+                                  
                                 </div>
                             </div>
                         </div>
@@ -197,9 +187,7 @@ const ServiciosPage = () => {
                                     <div className="portfolio--cat">
                                         <a href="#">Martes</a>, <a href="#">18 Junio</a>
                                     </div>
-                                    <div className="portfolio--pdf">
-                                        <a href="/path/to/your/file.pdf" className="btn btn-primary" target="_blank">Descargar material</a>
-                                    </div>
+                                   
                                 </div>
                             </div>
                         </div>
@@ -219,9 +207,7 @@ const ServiciosPage = () => {
                                     <div className="portfolio--cat">
                                         <a href="#">Martes</a>, <a href="#">18 Junio</a>
                                     </div>
-                                    <div className="portfolio--pdf">
-                                        <a href="/path/to/your/file.pdf" className="btn btn-primary" target="_blank">Descargar material</a>
-                                    </div>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -241,9 +227,7 @@ const ServiciosPage = () => {
                                     <div className="portfolio--cat">
                                         <a href="#">Martes</a>, <a href="#">18 Junio</a>
                                     </div>
-                                    <div className="portfolio--pdf">
-                                        <a href="/path/to/your/file.pdf" className="btn btn-primary" target="_blank">Descargar material</a>
-                                    </div>
+                                   
                                 </div>
                             </div>
                         </div>
@@ -263,9 +247,7 @@ const ServiciosPage = () => {
                                     <div className="portfolio--cat">
                                         <a href="#">Miércoles</a>, <a href="#">19 Junio</a>
                                     </div>
-                                    <div className="portfolio--pdf">
-                                        <a href="/path/to/your/file.pdf" className="btn btn-primary" target="_blank">Descargar material</a>
-                                    </div>
+                                  
                                 </div>
                             </div>
                         </div>
@@ -285,9 +267,7 @@ const ServiciosPage = () => {
                                     <div className="portfolio--cat">
                                         <a href="#">Miércoles</a>, <a href="#">19 Junio</a>
                                     </div>
-                                    <div className="portfolio--pdf">
-                                        <a href="/path/to/your/file.pdf" className="btn btn-primary" target="_blank">Descargar material</a>
-                                    </div>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -307,9 +287,7 @@ const ServiciosPage = () => {
                                     <div className="portfolio--cat">
                                         <a href="#">Miércoles</a>, <a href="#">19 Junio</a>
                                     </div>
-                                    <div className="portfolio--pdf">
-                                        <a href="/path/to/your/file.pdf" className="btn btn-primary" target="_blank">Descargar material</a>
-                                    </div>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -329,9 +307,7 @@ const ServiciosPage = () => {
                                     <div className="portfolio--cat">
                                         <a href="#">Miércoles</a>, <a href="#">19 Junio</a>
                                     </div>
-                                    <div className="portfolio--pdf">
-                                        <a href="/path/to/your/file.pdf" className="btn btn-primary" target="_blank">Descargar material</a>
-                                    </div>
+                                   
                                 </div>
                             </div>
                         </div>
@@ -351,9 +327,7 @@ const ServiciosPage = () => {
                                     <div className="portfolio--cat">
                                         <a href="#">Jueves</a>, <a href="#">20 Junio</a>
                                     </div>
-                                    <div className="portfolio--pdf">
-                                        <a href="/path/to/your/file.pdf" className="btn btn-primary" target="_blank">Descargar material</a>
-                                    </div>
+                                   
                                 </div>
                             </div>
                         </div>
@@ -373,9 +347,7 @@ const ServiciosPage = () => {
                                     <div className="portfolio--cat">
                                         <a href="#">Jueves</a>, <a href="#">20 Junio</a>
                                     </div>
-                                    <div className="portfolio--pdf">
-                                        <a href="/path/to/your/file.pdf" className="btn btn-primary" target="_blank">Descargar material</a>
-                                    </div>
+                                   
                                 </div>
                             </div>
                         </div>
@@ -395,9 +367,7 @@ const ServiciosPage = () => {
                                     <div className="portfolio--cat">
                                         <a href="#">Jueves</a>, <a href="#">20 Junio</a>
                                     </div>
-                                    <div className="portfolio--pdf">
-                                        <a href="/path/to/your/file.pdf" className="btn btn-primary" target="_blank">Descargar material</a>
-                                    </div>
+                                  
                                 </div>
                             </div>
                         </div>
@@ -417,9 +387,7 @@ const ServiciosPage = () => {
                                     <div className="portfolio--cat">
                                         <a href="#">Jueves</a>, <a href="#">20 Junio</a>
                                     </div>
-                                    <div className="portfolio--pdf">
-                                        <a href="/path/to/your/file.pdf" className="btn btn-primary" target="_blank">Descargar material</a>
-                                    </div>
+                                   
                                 </div>
                             </div>
                         </div>
@@ -439,9 +407,7 @@ const ServiciosPage = () => {
                                     <div className="portfolio--cat">
                                         <a href="#">Viernes</a>, <a href="#">21 Junio</a>
                                     </div>
-                                    <div className="portfolio--pdf">
-                                        <a href="/path/to/your/file.pdf" className="btn btn-primary" target="_blank">Descargar material</a>
-                                    </div>
+                                   
                                 </div>
                             </div>
                         </div>
@@ -461,9 +427,7 @@ const ServiciosPage = () => {
                                     <div className="portfolio--cat">
                                         <a href="#">Viernes</a>, <a href="#">21 Junio</a>
                                     </div>
-                                    <div className="portfolio--pdf">
-                                        <a href="/path/to/your/file.pdf" className="btn btn-primary" target="_blank">Descargar material</a>
-                                    </div>
+                                   
                                 </div>
                             </div>
                         </div>
@@ -483,9 +447,7 @@ const ServiciosPage = () => {
                                     <div className="portfolio--cat">
                                         <a href="#">Viernes</a>, <a href="#">21 Junio</a>
                                     </div>
-                                    <div className="portfolio--pdf">
-                                        <a href="/path/to/your/file.pdf" className="btn btn-primary" target="_blank">Descargar material</a>
-                                    </div>
+                                
                                 </div>
                             </div>
                         </div>
@@ -519,7 +481,7 @@ const ServiciosPage = () => {
     </div>
 
         <button  style={{alignItems: "center", margin: "0 auto", justifyContent: "center", display: "flex"}}>
-                <a className="btn btn--primary" href="https://share.hsforms.com/1HupIgxJyRuK3lu6qDPtB7gq5t92" target="_blank" style={{alignItems: "center", justifyContent: "center", fontFamily: "Roboto, sans-serif"}}>ÚNETE AL RH WEEK</a>
+                <a className="btn btn--primary" href="https://bit.ly/HRWEEK2024" target="_blank" style={{alignItems: "center", justifyContent: "center", fontFamily: "Roboto, sans-serif"}}>ÚNETE EN VIVO</a>
         </button>
 </section>
 
