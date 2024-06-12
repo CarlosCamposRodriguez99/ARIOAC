@@ -152,9 +152,11 @@ const ContactForm = () => {
                 </div>
             </div>
 
-			<div className="col-lg-5 d-flex justify-content-center separacionContacto">   
-              <img className='borderImageContact' src="/img/contacto2.jpg" alt="arioac" loading='lazy' style={{ borderRadius: "20px" }} />
-            </div>
+                <div className="col-lg-5 d-flex justify-content-centerr"> 
+                    <img src="/img/prueba1.png" alt="arioac" loading='lazy' />
+                </div>
+
+
 
         </div>
     </div>
