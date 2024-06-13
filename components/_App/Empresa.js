@@ -450,7 +450,7 @@ const Empresa = () => {
 								<div className="memberConfe-overlay">
 									<div className="memberConfe-social">
 										<div className=" pos-vertical-center">
-										<p style={{ color: 'white', fontFamily: 'Palatino, serif', fontSize: '15px' }}>"Con una sólida trayectoria en estudios hispánicos y salud ocupacional, me destaco como Coordinador de Operaciones Área Médica en Welbe, líder en atención de salud ocupacional. Mi experiencia incluye la publicación de artículos en congresos y coloquios sobre literatura española y teatro quijotesco, así como la participación en proyectos de investigación y colaboración en iniciativas académicas."</p>
+										<p style={{ color: 'white', fontFamily: 'Palatino, serif', fontSize: '15px' }}>"Emmanuel Cervantes Rodríguez es un profesional con experiencia de más de 15 años en coordinación de operaciones y medicina. Actualmente, es el Coordinador de Operaciones Área Médica en Welbe Care desde enero de 2023. Además, ha realizado diplomados en Medicina Ocupacional en la Universidad Nacional Autónoma de México (UNAM)."</p>
 										</div>
 									</div>
 								</div>
