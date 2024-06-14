@@ -381,7 +381,7 @@ const ServiciosPage = () => {
                             <div className="portfolio--action">
                                 <div className="pos-vertical-center">
                                     <div className="portfolio--title">
-									<h4><a href="#">Desempeño y productividad laboral</a></h4>
+									<h4><a href="#">People Analytics: Análisis de datos aplicado a Recursos Humanos</a></h4>
 									<h5><a href='#'>Marcos Alonso, 12 PM</a></h5>
                                     </div>
                                     <div className="portfolio--cat">
