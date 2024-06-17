@@ -44,7 +44,7 @@ const PatrocinadoresPages = () => {
 									<Link href="https://brivesoluciones.com/" target="_blank">
 										<img src="/img/iconos/www.svg" alt="www" className="social-icon"/>
 									</Link>
-									<Link href="https://wa.me/5512954442?text=${encodeURIComponent(message)}" target="_blank">
+									<Link href="https://api.whatsapp.com/send?phone=5512954442&text=%C2%A1Hola!%20Te%20damos%20la%20bienvenida%20a%20Brive" target="_blank">
 										<img src="/img/iconos/whats.svg" alt="whatsapp" className="fa fa-whatsapp"/>
 									</Link>
 									<Link href="https://www.linkedin.com/company/brive-soluciones/" target="_blank">
@@ -71,9 +71,6 @@ const PatrocinadoresPages = () => {
 									<Link href="https://www.sivale.mx/" target="_blank">
 										<img src="/img/iconos/www.svg" alt="www" className="social-icon"/>
 									</Link>
-									<Link href="https://wa.me/5580098684?text=${encodeURIComponent(message)}" target="_blank">
-										<img src="/img/iconos/whats.svg" alt="whatsapp" className="fa fa-whatsapp"/>
-									</Link>
 									<Link href="https://www.linkedin.com/company/upsivale/" target="_blank">
 										<img src="/img/iconos/linke.svg" alt="linkedin" className="fa fa-linkedin"/>
 									</Link>
@@ -97,7 +94,7 @@ const PatrocinadoresPages = () => {
 									<Link href="https://tergum.com.mx/index.html" target="_blank">
 										<img src="/img/iconos/www.svg" alt="www" className="social-icon"/>
 									</Link>
-									<Link href="https://wa.me/3316048746?text=${encodeURIComponent(message)}" target="_blank">
+									<Link href="https://api.whatsapp.com/send?phone=3316048746&text=%C2%A1Hola!%20Te%20damos%20la%20bienvenida%20a%20Tergum" target="_blank">
 										<img src="/img/iconos/whats.svg" alt="whatsapp" className="fa fa-whatsapp"/>
 									</Link>
 									<Link href="https://www.linkedin.com/company/tergum-méxico/" target="_blank">
@@ -130,7 +127,7 @@ const PatrocinadoresPages = () => {
 									<Link href="https://www.minu.mx/" target="_blank">
 										<img src="/img/iconos/www.svg" alt="www" className="social-icon"/>
 									</Link>
-									<Link href="https://wa.me/3336679437?text=${encodeURIComponent(message)}" target="_blank">
+									<Link href="https://api.whatsapp.com/send?phone=3336679437&text=%C2%A1Hola!%20Te%20damos%20la%20bienvenida%20a%20Minu" target="_blank">
 										<img src="/img/iconos/whats.svg" alt="whatsapp" className="fa fa-whatsapp"/>
 									</Link>
 									<Link href="https://www.linkedin.com/company/minuservicios/" target="_blank">
@@ -156,7 +153,7 @@ const PatrocinadoresPages = () => {
 									<Link href="https://home.welbecare.com/" target="_blank">
 										<img src="/img/iconos/www.svg" alt="www" className="social-icon"/>
 									</Link>
-									<Link href="https://wa.me/5562095511?text=${encodeURIComponent(message)}" target="_blank">
+									<Link href="https://api.whatsapp.com/send?phone=5562095511&text=%C2%A1Hola!%20Te%20damos%20la%20bienvenida%20a%20Welbe" target="_blank">
 										<img src="/img/iconos/whats.svg" alt="whatsapp" className="fa fa-whatsapp"/>
 									</Link>
 									<Link href="https://www.linkedin.com/company/welbe-care/" target="_blank">
@@ -179,13 +176,13 @@ const PatrocinadoresPages = () => {
 						<div className="member-overlay">
 							<div className="member-social">
 								<div className="member-social-links">
-									<Link href="https://uvm.mx/" target="_blank">
+									<Link href="https://uvm-for-business.uvm.mx/" target="_blank">
 										<img src="/img/iconos/www.svg" alt="www" className="social-icon"/>
 									</Link>
-									<Link href="https://wa.me/7721663240?text=${encodeURIComponent(message)}" target="_blank">
+									<Link href="https://api.whatsapp.com/send?phone=7221663240&text=%C2%A1Hola!%20Te%20damos%20la%20bienvenida%20a%20UVM%20for%20Business" target="_blank">
 										<img src="/img/iconos/whats.svg" alt="whatsapp" className="fa fa-whatsapp"/>
 									</Link>
-									<Link href="https://www.linkedin.com/school/uvmmx/" target="_blank">
+									<Link href="https://www.linkedin.com/company/uvm-for-business/" target="_blank">
 										<img src="/img/iconos/linke.svg" alt="linkedin" className="fa fa-linkedin"/>
 									</Link>
 								</div>
@@ -216,7 +213,7 @@ const PatrocinadoresPages = () => {
 									<Link href="https://meddi.com.mx/" target="_blank">
 										<img src="/img/iconos/www.svg" alt="www" className="social-icon"/>
 									</Link>
-									<Link href="https://wa.me/3333480545?text=${encodeURIComponent(message)}" target="_blank">
+									<Link href="https://api.whatsapp.com/send?phone=3333480545&text=%C2%A1Hola!%20Te%20damos%20la%20bienvenida%20a%20MEDDI" target="_blank">
 										<img src="/img/iconos/whats.svg" alt="whatsapp" className="fa fa-whatsapp"/>
 									</Link>
 									<Link href="https://www.linkedin.com/company/meddi/" target="_blank">

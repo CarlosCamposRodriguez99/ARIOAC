@@ -3,6 +3,6 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/contact": "pages/contact.js",
-  "/patrocinadores": "pages/patrocinadores.js",
-  "/servicios": "pages/servicios.js"
+  "/servicios": "pages/servicios.js",
+  "/patrocinadores": "pages/patrocinadores.js"
 }
