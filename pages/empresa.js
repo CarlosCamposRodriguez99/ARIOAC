@@ -13,9 +13,7 @@ const empresa = () => {
                 homePageUrl="/"
                 imgClass="bg-1"
             />
-
             <Empresa />
-
             <WhatsAppIcon />
             <Footer />
         </React.Fragment>

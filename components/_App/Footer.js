@@ -101,7 +101,7 @@ const Footer = () => {
                                                                     onMouseEnter={() => handleMouseEnter('/contact')}
                                                                     onMouseLeave={handleMouseLeave}
                                                                 >
-                                                                    REGíSTRATE
+                                                                    REGÍSTRATE
                                                                 </a>
                                                             </h3>
                                                         </Link>

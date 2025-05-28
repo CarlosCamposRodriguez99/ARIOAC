@@ -1155,6 +1155,7 @@ textarea.form-control {
 /* conferencistas*/
 /* Estilos para el contenedor del carousel */
 
+
 #team-carousel {
   display: flex;
   overflow-x: auto;
@@ -1167,7 +1168,7 @@ textarea.form-control {
 .carousel-content {
   display: flex;
   width: calc(300px * 6); /* Ajustar el ancho según el número de elementos memberConfe */
-  animation: slide 20s linear infinite; /* Animación para el desplazamiento automático */
+   /*animation: slide 20s linear infinite;  Animación para el desplazamiento automático */
   margin: 0; /* Eliminar el margen */
   background: #fff; /* Agregamos un fondo blanco al contenedor */
   justify-content: space-between; /* Distribuir uniformemente los elementos */
@@ -1295,7 +1296,7 @@ textarea.form-control {
 
 /* Estilos para los íconos, títulos y números de contador */
 .count-box .count-icon {
-  color: #dd543d;
+  color: #00BFFF;
   font-size: 40px;
   margin-bottom: 10px;
   line-height: 1;
@@ -2638,7 +2639,7 @@ Hero Slider Area Style
 }
 
 .hero-slider-area .slider-item.slider-item-bg-2 {
-  background-image: url(/img/home-slider/1.jpg);
+  background-image: url(/img/home-slider/slider1.png);
 }
 
 .hero-slider-area .slider-item.slider-item-bg-3 {

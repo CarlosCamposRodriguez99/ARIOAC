@@ -13,7 +13,7 @@ const Section = () => {
             <div>
               <h1 style={{fontFamily: 'Montserrat, sans-serif', color: "#000", fontSize: "40px", textAlign: "left" }}>¡MOTIVOS PARA NO PERDÉRTELO!</h1>
               <div style={{borderBottom: "3px solid #696969", width: "57px", marginBottom: "25px", marginTop: "15px"}}></div>
-              <h3 style={{fontFamily: 'Roboto, sans-serif', fontSize: "24px", color: "#00BFFF"}}>4 años celebrando RH WEEK</h3>
+              <h3 style={{fontFamily: 'Roboto, sans-serif', fontSize: "24px", color: "#00BFFF"}}>5 años celebrando RH WEEK</h3>
               <div style={{borderBottom: "3px solid #808080", marginBottom: "25px", marginTop: "25px"}}></div>
             </div>
             <div>
@@ -80,10 +80,10 @@ const Section = () => {
           <div>
             <p style={{fontFamily: 'Roboto, sans-serif', fontSize: "17px", textAlign: "justify"}}> 
             <img width="48" height="48" src="https://img.icons8.com/emoji/48/mexico-emoji.png" alt="mexico-emoji"/> México <br/>
-            <img width="48" height="48" src="https://img.icons8.com/emoji/48/costa-rica-emoji.png" alt="costa-rica-emoji"/> Costa Rica <br/>
-            <img width="48" height="48" src="https://img.icons8.com/emoji/48/spain-emoji.png" alt="spain-emoji"/> España <br/>
-            <img width="48" height="48" src="https://img.icons8.com/emoji/48/chile-emoji.png" alt="chile-emoji"/> Chile <br/>
-            <img width="48" height="48" src="https://img.icons8.com/emoji/48/colombia-emoji.png" alt="colombia-emoji"/> Colombia <br/>
+            <img width="48" height="48" src="https://img.icons8.com/?size=100&id=oBEl4fKQY7gE&format=png&color=000000" alt="chile-emoji"/> Chile <br/>
+            <img width="48" height="48" src="https://img.icons8.com/?size=100&id=Halaubi1vvya&format=png&color=000000" alt="eua-emoji"/> E.U.A <br/>
+            <img width="48" height="48" src="https://img.icons8.com/?size=100&id=ZGEFKpJoPdJQ&format=png&color=000000" alt="españa-emoji"/> España <br/>
+            <img width="48" height="48" src="https://img.icons8.com/?size=100&id=ibqKXaaqCBHo&format=png&color=000000" alt="argentina-emoji"/> Argentina <br/>
             </p>
            </div>
 
