@@ -257,9 +257,7 @@ textarea.form-control {
 
 .member-social-links a {
   display: inline-block;
-  margin: 0 10px;
   color: #fff;
-  font-size: 20px;
   transition: color 0.3s ease;
 }
 
@@ -1168,7 +1166,7 @@ textarea.form-control {
 .carousel-content {
   display: flex;
   width: calc(300px * 6); /* Ajustar el ancho según el número de elementos memberConfe */
-   /*animation: slide 20s linear infinite;  Animación para el desplazamiento automático */
+   animation: slide 20s linear infinite;/*  Animación para el desplazamiento automático */
   margin: 0; /* Eliminar el margen */
   background: #fff; /* Agregamos un fondo blanco al contenedor */
   justify-content: space-between; /* Distribuir uniformemente los elementos */
@@ -1581,15 +1579,19 @@ textarea.form-control {
 }
 
 .team-4 .member-social {
-  display: flex;
-  flex-direction: column;
+ display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
+  justify-items: center;
   align-items: center;
+  gap: 10px;
 }
 
 .team-4 .member-social-links {
-  display: flex;
-  gap: 1px;
-  margin-bottom: 10px;
+ display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
+  justify-items: center;
+  align-items: center;
+  gap: 10px;
 }
 
 .team-4 .member-social-links a {
@@ -8288,3 +8290,4 @@ Page-navigation Area Style*/
   width: 100%;
 }
 /*# sourceMappingURL=style.css.map */
+
