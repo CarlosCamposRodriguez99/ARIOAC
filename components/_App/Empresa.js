@@ -119,7 +119,8 @@ const Empresa = () => {
                     <div className="memberConfe-info">
                       <h5>Marlen Treviño</h5>
                       <h6>
-                        Psicóloga y Conferencista, especialista en desarrollo personal y organizacional
+                        Psicóloga y Conferencista, especialista en desarrollo
+                        personal y organizacional
                       </h6>
                       <h7>Marlen Treviño</h7>
                     </div>
@@ -141,7 +142,7 @@ const Empresa = () => {
                                 fontSize: "15px",
                               }}
                             >
-                             "Pendiente"
+                              "Pendiente"
                             </p>
                           </div>
                         </div>
@@ -153,6 +154,35 @@ const Empresa = () => {
                         CEO en PhemSoft y Especialista en Medición del Talento
                       </h6>
                       <h7>PhemSoft</h7>
+                    </div>
+                  </div>
+
+                  <div className="memberConfe">
+                    <div className="memberConfe-img">
+                      <img
+                        src="/img/conferencistas/IvonneBorden.jpg"
+                        alt="memberConfe"
+                      />
+                      <div className="memberConfe-overlay">
+                        <div className="memberConfe-social">
+                          <div className="pos-vertical-center">
+                            <p
+                              style={{
+                                color: "white",
+                                fontFamily: "Palatino, serif",
+                                fontSize: "15px",
+                              }}
+                            >
+                              "Pendiente"
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="memberConfe-info">
+                      <h5>Ivonne Borden</h5>
+                      <h6>Pendiente Puesto de Trabajo</h6>
+                      <h7>Pendiente empresa</h7>
                     </div>
                   </div>
 
@@ -181,7 +211,8 @@ const Empresa = () => {
                     <div className="memberConfe-info">
                       <h5>Leslie Cooper</h5>
                       <h6>
-                        Partner en HK Human Capital expertos en Capital Humano, Inclusión y Negocios
+                        Partner en HK Human Capital expertos en Capital Humano,
+                        Inclusión y Negocios
                       </h6>
                       <h7>HK Human Capital</h7>
                     </div>
@@ -211,7 +242,10 @@ const Empresa = () => {
                     </div>
                     <div className="memberConfe-info">
                       <h5>Salvador Romero</h5>
-                      <h6>HR Manager, North America Region at Whirlpool Corporation</h6>
+                      <h6>
+                        HR Manager, North America Region at Whirlpool
+                        Corporation
+                      </h6>
                       <h7>Whirlpool</h7>
                     </div>
                   </div>
@@ -244,7 +278,7 @@ const Empresa = () => {
                       <h7></h7>Creatia Human
                     </div>
                   </div>
-<div className="memberConfe">
+                  <div className="memberConfe">
                     <div className="memberConfe-img">
                       <img
                         src="/img/conferencistas/PabloInfanta .png"
@@ -268,7 +302,10 @@ const Empresa = () => {
                     </div>
                     <div className="memberConfe-info">
                       <h5>Pablo Infanta</h5>
-                      <h6>Director y Consultor Senior en Desarrollo Organizacional y Gestión de Recursos Humanos</h6>
+                      <h6>
+                        Director y Consultor Senior en Desarrollo Organizacional
+                        y Gestión de Recursos Humanos
+                      </h6>
                       <h7>Adapt Consultores Spa</h7>
                     </div>
                   </div>
@@ -296,7 +333,10 @@ const Empresa = () => {
                     </div>
                     <div className="memberConfe-info">
                       <h5>Andrea Grobocopatel</h5>
-                      <h6>Economista y fundadora de Ampatel, Resiliencia SGR y Fundación FLOR</h6>
+                      <h6>
+                        Economista y fundadora de Ampatel, Resiliencia SGR y
+                        Fundación FLOR
+                      </h6>
                       <h7>Fundación FLOR Argentina</h7>
                     </div>
                   </div>
@@ -340,7 +380,10 @@ const Empresa = () => {
                     </div>
                     <div className="memberConfe-info">
                       <h5>Mariana Iturbe Desentis </h5>
-                      <h6>Conferencista y desarrolladora de proyectos de Salud Mental </h6>
+                      <h6>
+                        Conferencista y desarrolladora de proyectos de Salud
+                        Mental{" "}
+                      </h6>
                       <h7>Inteliteam</h7>
                     </div>
                   </div>
@@ -427,7 +470,10 @@ const Empresa = () => {
                     </div>
                     <div className="memberConfe-info">
                       <h5>Wendy Pacheco</h5>
-                      <h6>Socia Consultora en CD Consultores y conferencista internacional especializada en temas de gestión humana</h6>
+                      <h6>
+                        Socia Consultora en CD Consultores y conferencista
+                        internacional especializada en temas de gestión humana
+                      </h6>
                       <h7>CD Consultores</h7>
                     </div>
                   </div>
@@ -477,7 +523,7 @@ const Empresa = () => {
                                 fontSize: "15px",
                               }}
                             >
-                             "Pendiente"
+                              "Pendiente"
                             </p>
                           </div>
                         </div>
@@ -489,6 +535,7 @@ const Empresa = () => {
                       <h7>Consultor IA</h7>
                     </div>
                   </div>
+
 
                   <div className="memberConfe">
                     <div className="memberConfe-img">
@@ -506,7 +553,7 @@ const Empresa = () => {
                                 fontSize: "15px",
                               }}
                             >
-                             "Pendiente"
+                              "Pendiente"
                             </p>
                           </div>
                         </div>
@@ -544,12 +591,13 @@ const Empresa = () => {
                     <div className="memberConfe-info">
                       <h5>Raúl Montero Jauregui y Gamaliel Santiago</h5>
                       <h6>
-                        Socio Director Tergum Jalisco Socio Directo Tergum Puebla
+                        Socio Director Tergum Jalisco Socio Directo Tergum
+                        Puebla
                       </h6>
                       <h7>Tergum</h7>
                     </div>
                   </div>
-				   <div className="memberConfe">
+                  <div className="memberConfe">
                     <div className="memberConfe-img">
                       <img
                         src="/img/conferencistas/GuillermoRivera.png"
@@ -573,10 +621,36 @@ const Empresa = () => {
                     </div>
                     <div className="memberConfe-info">
                       <h5>Guillermo Rivera</h5>
-                      <h6>
-                        Líder de Transformación Estratégica en Orienta 
-                      </h6>
+                      <h6>Líder de Transformación Estratégica en Orienta</h6>
                       <h7>Orienta Pae</h7>
+                    </div>
+                  </div>
+                  <div className="memberConfe">
+                    <div className="memberConfe-img">
+                      <img
+                        src="/img/conferencistas/RoxanaCastilloDiazdeLeon.png"
+                        alt="memberConfe"
+                      />
+                      <div className="memberConfe-overlay">
+                        <div className="memberConfe-social">
+                          <div className=" pos-vertical-center">
+                            <p
+                              style={{
+                                color: "white",
+                                fontFamily: "Palatino, serif",
+                                fontSize: "15px",
+                              }}
+                            >
+                              "Pendiente"
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="memberConfe-info">
+                      <h5>Roxana Castillo Díaz de León</h5>
+                      <h6>Pendiente Puesto de Trabajo</h6>
+                      <h7>Pentiende Empresa</h7>
                     </div>
                   </div>
                 </div>

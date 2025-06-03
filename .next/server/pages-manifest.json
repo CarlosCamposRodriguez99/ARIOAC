@@ -2,6 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/servicios": "pages/servicios.js",
-  "/patrocinadores": "pages/patrocinadores.js"
+  "/patrocinadores": "pages/patrocinadores.js",
+  "/servicios": "pages/servicios.js"
 }
