@@ -113,32 +113,20 @@
     "image": "/img/patrocinadores/ConexionRH.png",
     "links": [
       {
-        "type": "web",
-        "url": "",
-        "icon": "/img/iconos/www.svg",
-        "alt": "Sitio web"
-      },
-      {
-        "type": "linkedin",
-        "url": "",
-        "icon": "/img/iconos/linke.svg",
-        "alt": "LinkedIn"
-      },
-      {
         "type": "instagram",
-        "url": "",
+        "url": "https://www.instagram.com/revistaconexionrh/",
         "icon": "/img/iconos/insta.svg",
         "alt": "Instagram"
       },
       {
         "type": "facebook",
-        "url": "",
+        "url": "https://www.facebook.com/RevistaConexionRH",
         "icon": "/img/iconos/face.svg",
         "alt": "Facebook"
       },
       {
         "type": "whatsapp",
-        "url": "",
+        "url": "https://wa.me/+523312194508",
         "icon": "/img/iconos/whats.svg",
         "alt": "WhatsApp"
       }
@@ -149,40 +137,22 @@
     "image": "/img/patrocinadores/IdealJobs.png",
     "links": [
       {
-        "type": "web",
-        "url": "",
-        "icon": "/img/iconos/www.svg",
-        "alt": "Sitio web"
-      },
-      {
-        "type": "linkedin",
-        "url": "",
-        "icon": "/img/iconos/linke.svg",
-        "alt": "LinkedIn"
-      },
-      {
         "type": "instagram",
-        "url": "",
+        "url": "https://www.instagram.com/idealjobs_arioac/",
         "icon": "/img/iconos/insta.svg",
         "alt": "Instagram"
       },
       {
         "type": "facebook",
-        "url": "",
+        "url": "https://www.facebook.com/Arioacidealjobs",
         "icon": "/img/iconos/face.svg",
         "alt": "Facebook"
-      },
-      {
-        "type": "whatsapp",
-        "url": "",
-        "icon": "/img/iconos/whats.svg",
-        "alt": "WhatsApp"
       }
     ]
   },
   {
     "name": "MIdot PENDIENTE DE FOTO",
-    "image": "/img/patrocinadores/MIdot.png",
+    "image": "/img/patrocinadores/Midot.png",
     "links": [
       {
         "type": "web",

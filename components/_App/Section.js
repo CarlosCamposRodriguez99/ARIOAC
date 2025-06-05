@@ -40,7 +40,7 @@ const Section = () => {
           <div>
             <div>
               <div>
-                <Image width={960} height={680} src='/img/section/zac.jpg' alt='arioac' loading='lazy'/>
+                <Image width={960} height={680} src='/img/section/motivosParaNoPerdertelo.png' alt='arioac' loading='lazy'/>
               </div>
             </div>
           </div>
@@ -55,7 +55,7 @@ const Section = () => {
         <div style={{padding: "0", margin: "0"}}>
           <div style={{padding: "0", margin: "0"}}>
             <div style={{padding: "0", marginBottom: "auto"}}>
-              <Image width={960} height={680} src='/img/section/ari.jpg' alt='arioac' loading='lazy'/>
+              <Image width={960} height={680} src='/img/section/20Coference.png' alt='arioac' loading='lazy'/>
             </div>
           </div>
         </div>
@@ -74,16 +74,17 @@ const Section = () => {
                                                                                   PARTES DEL MUNDO
                                                                                   Y DE MÉXICO</h1>
             <div style={{borderBottom: "3px solid #696969", width: "57px", marginBottom: "25px", marginTop: "15px"}}></div>
-            <h3 style={{fontFamily: 'Roboto, sans-serif', fontSize: "24px", color: "#00BFFF"}}>5 países participantes, Espacio de interacción y vinculación ejecutiva, Problemática, sinergia y networking, Metrics & Analytics. </h3>
+            <h3 style={{fontFamily: 'Roboto, sans-serif', fontSize: "24px", color: "#00BFFF"}}>6 países participantes, Espacio de interacción y vinculación ejecutiva, Problemática, sinergia y networking, Metrics & Analytics. </h3>
             <div style={{borderBottom: "3px solid #808080", marginBottom: "25px", marginTop: "25px"}}></div>
           </div>
           <div>
             <p style={{fontFamily: 'Roboto, sans-serif', fontSize: "17px", textAlign: "justify"}}> 
             <img width="48" height="48" src="https://img.icons8.com/emoji/48/mexico-emoji.png" alt="mexico-emoji"/> México <br/>
-            <img width="48" height="48" src="https://img.icons8.com/?size=100&id=oBEl4fKQY7gE&format=png&color=000000" alt="chile-emoji"/> Chile <br/>
             <img width="48" height="48" src="https://img.icons8.com/?size=100&id=Halaubi1vvya&format=png&color=000000" alt="eua-emoji"/> E.U.A <br/>
+            <img width="48" height="48" src="https://img.icons8.com/?size=100&id=oBEl4fKQY7gE&format=png&color=000000" alt="chile-emoji"/> Chile <br/>
             <img width="48" height="48" src="https://img.icons8.com/?size=100&id=ZGEFKpJoPdJQ&format=png&color=000000" alt="españa-emoji"/> España <br/>
             <img width="48" height="48" src="https://img.icons8.com/?size=100&id=ibqKXaaqCBHo&format=png&color=000000" alt="argentina-emoji"/> Argentina <br/>
+            <img width="48" height="48" src="https://img.icons8.com/?size=100&id=15495&format=png&color=000000" alt="colombia-emoji"/> Colombia <br/>
             </p>
            </div>
 
