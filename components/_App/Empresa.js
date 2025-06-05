@@ -1,35 +1,6 @@
 import React, { useState, useEffect, useRef, useCallback } from "react";
-// import Link from "next/link"; // No se usa actualmente
+import conferencistasFila1 from "../../utils/data/conferencistas.json";
 
-// --- Datos de los Conferencistas ---
-const conferencistasFila1 = [
-  { id: "c1-1", imgSrc: "/img/conferencistas/AlmaJessicaSouleAngeles .png", name: "Alma Jessica Soulé Angeles", title: "Directora General de Talento & Legado, Coach de Directivos, líderes y equipos.", company: "Talento & Legado" },
-  { id: "c1-2", imgSrc: "/img/conferencistas/MarlenTrevino.png", name: "Marlen Treviño", title: "Psicóloga y Conferencista, especialista en desarrollo personal y organizacional", company: "Marlen Treviño" },
-  { id: "c1-3", imgSrc: "/img/conferencistas/JuanCarlosPaezNunez.png", name: "Juan Carlos Páez Núñez", title: "CEO en PhemSoft y Especialista en Medición del Talento", company: "PhemSoft" },
-  { id: "c1-4", imgSrc: "/img/conferencistas/IvonneBorden.jpg", name: "Ivonne Borden", title: "Pendiente Puesto de Trabajo", company: "Pendiente empresa" },
-  { id: "c1-5", imgSrc: "/img/conferencistas/LeslieCooper.png", name: "Leslie Cooper", title: "Partner en HK Human Capital expertos en Capital Humano, Inclusión y Negocios", company: "HK Human Capital" },
-  { id: "c1-6", imgSrc: "/img/conferencistas/SalvadorRomero.png", name: "Salvador Romero", title: "HR Manager, North America Region at Whirlpool Corporation", company: "Whirlpool" },
-  { id: "c1-7", imgSrc: "/img/conferencistas/MariaJoseSanchezYago .png", name: "María José Sánchez Yago", title: "CEO de Creatia Human y co-fundadora de Lidero", company: "Creatia Human" },
-  { id: "c1-8", imgSrc: "/img/conferencistas/PabloInfanta .png", name: "Pablo Infanta", title: "Director y Consultor Senior en Desarrollo Organizacional y Gestión de Recursos Humanos", company: "Adapt Consultores Spa" },
-  { id: "c1-9", imgSrc: "/img/conferencistas/AndreaGrobocopatel.png", name: "Andrea Grobocopatel", title: "Economista y fundadora de Ampatel, Resiliencia SGR y Fundación FLOR", company: "Fundación FLOR Argentina" },
-  { id: "c2-1", imgSrc: "/img/conferencistas/MarianaIturbeDesentis.png", name: "Mariana Iturbe Desentis", title: "Conferencista y desarrolladora de proyectos de Salud Mental", company: "Inteliteam" },
-  { id: "c2-2", imgSrc: "/img/conferencistas/AnwarBuereVillegas.png", name: "Anwar Buere Villegas", title: "Socio Director de Humancore", company: "Humancore Empresarial" },
-  { id: "c2-3", imgSrc: "/img/conferencistas/GabrielLucianoPietrafesa.png", name: "Gabriel Luciano Pietrafesa", title: "People Analytics Lead", company: "Scopely" },
-  { id: "c2-4", imgSrc: "/img/conferencistas/WendyPacheco.png", name: "Wendy Pacheco", title: "Socia Consultora en CD Consultores y conferencista internacional especializada en temas de gestión humana", company: "CD Consultores" },
-  { id: "c2-5", imgSrc: "/img/conferencistas/MariaLuisaGarza.png", name: "María Luisa Garza", title: "Dirección Administratival", company: "Psicotest" },
-  { id: "c2-6", imgSrc: "/img/conferencistas/Ricardo Carreon.png", name: "Ricardo Carréon", title: "Especialista IA y Top Voice Linkedin", company: "Consultor IA" },
-  { id: "c2-7", imgSrc: "/img/conferencistas/DianaMilenaLemusQuimbayo.png", name: "Diana Milena Lemus Quimbayo", title: "Human Resources Manager at Capgemini", company: "Capgemini" },
-  { id: "c2-8", imgSrc: "/img/conferencistas/Tergum.png", name: "Raúl Montero Jauregui y Gamaliel Santiago", title: "Socio Director Tergum Jalisco Socio Directo Tergum Puebla", company: "Tergum" },
-  { id: "c2-9", imgSrc: "/img/conferencistas/GuillermoRivera.png", name: "Guillermo Rivera", title: "Líder de Transformación Estratégica en Orienta", company: "Orienta Pae" },
-  { id: "c2-10", imgSrc: "/img/conferencistas/RoxanaCastilloDiazdeLeon.png", name: "Roxana Castillo Díaz de León", title: "Pendiente Puesto de Trabajo", company: "Pentiende Empresa" },
-];
-
-const conferencistasFila2 = [
-
-];
-
-
-// --- Sub-componente: ConferencistaCard ---
 const ConferencistaCard = ({ imgSrc, name, title, company, overlayText }) => {
   return (
     <div className="new-carousel-card">
@@ -52,7 +23,6 @@ const ConferencistaCard = ({ imgSrc, name, title, company, overlayText }) => {
   );
 };
 
-// --- Sub-componente: ModernCarousel ---
 const ModernCarousel = ({ items, itemsVisible = 3, carouselId }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [itemWidth, setItemWidth] = useState(0);
@@ -65,13 +35,11 @@ const ModernCarousel = ({ items, itemsVisible = 3, carouselId }) => {
       const style = window.getComputedStyle(firstItemRef.current);
       const marginRight = parseFloat(style.marginRight) || 0;
       const marginLeft = parseFloat(style.marginLeft) || 0;
-      // Usar getBoundingClientRect().width es a menudo más fiable que offsetWidth si hay transforms
       setItemWidth(firstItemRef.current.getBoundingClientRect().width + marginLeft + marginRight);
     }
   }, []);
 
   useEffect(() => {
-    // Pequeña demora para asegurar que el DOM está listo, especialmente si hay CSS complejo
     const timer = setTimeout(calculateItemWidth, 50);
     window.addEventListener("resize", calculateItemWidth);
     return () => {
@@ -219,7 +187,7 @@ const Empresa = () => {
           left: 0;
           width: 100%;
           height: 100%;
-          background: linear-gradient(to top, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0) 70%);
+          background: linear-gradient(to top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 80%);
           opacity: 0;
           transition: opacity 0.3s ease-out;
           display: flex;
@@ -231,12 +199,12 @@ const Empresa = () => {
 
         .new-carousel-card:hover .new-carousel-card-overlay {
           opacity: 1;
+  background: linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.5) 70%, rgba(0,0,0,0.3) 100%);
         }
 
         .new-carousel-card-overlay-content p {
           color: white;
-          font-family: "Palatino", "Palatino Linotype", "Book Antiqua", Georgia, serif;
-          font-size: 14px;
+          font-size: 16px;
           text-align: center;
           margin: 0;
         }
