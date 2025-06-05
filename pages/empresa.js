@@ -4,7 +4,8 @@ import Footer from '../components/_App/Footer';
 import WhatsAppIcon from '../components/_App/WhatsAppIcon';
 import PageBanner from '../components/Common/PageBanner';
 import Empresa from '../components/_App/Empresa';
- 
+import EmpresaSecondHalf from '../components/_App/EmpresaSecondHalf';
+
 const empresa = () => {
     return (
         <React.Fragment>
@@ -14,6 +15,7 @@ const empresa = () => {
                 imgClass="bg-1"
             />
             <Empresa />
+            <EmpresaSecondHalf />
             <WhatsAppIcon />
             <Footer />
         </React.Fragment>

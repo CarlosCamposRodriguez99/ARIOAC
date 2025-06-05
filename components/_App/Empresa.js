@@ -1,722 +1,447 @@
-import React, { useState, useEffect, useRef } from "react";
-import Link from "next/link";
-import Image from "next/image";
+import React, { useState, useEffect, useRef, useCallback } from "react";
+// import Link from "next/link"; // No se usa actualmente
 
-const Empresa = () => {
-  const carouselRef = useRef(null);
-  const contentRef = useRef(null);
+// --- Datos de los Conferencistas ---
+const conferencistasFila1 = [
+  { id: "c1-1", imgSrc: "/img/conferencistas/AlmaJessicaSouleAngeles .png", name: "Alma Jessica Soulé Angeles", title: "Directora General de Talento & Legado, Coach de Directivos, líderes y equipos.", company: "Talento & Legado" },
+  { id: "c1-2", imgSrc: "/img/conferencistas/MarlenTrevino.png", name: "Marlen Treviño", title: "Psicóloga y Conferencista, especialista en desarrollo personal y organizacional", company: "Marlen Treviño" },
+  { id: "c1-3", imgSrc: "/img/conferencistas/JuanCarlosPaezNunez.png", name: "Juan Carlos Páez Núñez", title: "CEO en PhemSoft y Especialista en Medición del Talento", company: "PhemSoft" },
+  { id: "c1-4", imgSrc: "/img/conferencistas/IvonneBorden.jpg", name: "Ivonne Borden", title: "Pendiente Puesto de Trabajo", company: "Pendiente empresa" },
+  { id: "c1-5", imgSrc: "/img/conferencistas/LeslieCooper.png", name: "Leslie Cooper", title: "Partner en HK Human Capital expertos en Capital Humano, Inclusión y Negocios", company: "HK Human Capital" },
+  { id: "c1-6", imgSrc: "/img/conferencistas/SalvadorRomero.png", name: "Salvador Romero", title: "HR Manager, North America Region at Whirlpool Corporation", company: "Whirlpool" },
+  { id: "c1-7", imgSrc: "/img/conferencistas/MariaJoseSanchezYago .png", name: "María José Sánchez Yago", title: "CEO de Creatia Human y co-fundadora de Lidero", company: "Creatia Human" },
+  { id: "c1-8", imgSrc: "/img/conferencistas/PabloInfanta .png", name: "Pablo Infanta", title: "Director y Consultor Senior en Desarrollo Organizacional y Gestión de Recursos Humanos", company: "Adapt Consultores Spa" },
+  { id: "c1-9", imgSrc: "/img/conferencistas/AndreaGrobocopatel.png", name: "Andrea Grobocopatel", title: "Economista y fundadora de Ampatel, Resiliencia SGR y Fundación FLOR", company: "Fundación FLOR Argentina" },
+  { id: "c2-1", imgSrc: "/img/conferencistas/MarianaIturbeDesentis.png", name: "Mariana Iturbe Desentis", title: "Conferencista y desarrolladora de proyectos de Salud Mental", company: "Inteliteam" },
+  { id: "c2-2", imgSrc: "/img/conferencistas/AnwarBuereVillegas.png", name: "Anwar Buere Villegas", title: "Socio Director de Humancore", company: "Humancore Empresarial" },
+  { id: "c2-3", imgSrc: "/img/conferencistas/GabrielLucianoPietrafesa.png", name: "Gabriel Luciano Pietrafesa", title: "People Analytics Lead", company: "Scopely" },
+  { id: "c2-4", imgSrc: "/img/conferencistas/WendyPacheco.png", name: "Wendy Pacheco", title: "Socia Consultora en CD Consultores y conferencista internacional especializada en temas de gestión humana", company: "CD Consultores" },
+  { id: "c2-5", imgSrc: "/img/conferencistas/MariaLuisaGarza.png", name: "María Luisa Garza", title: "Dirección Administratival", company: "Psicotest" },
+  { id: "c2-6", imgSrc: "/img/conferencistas/Ricardo Carreon.png", name: "Ricardo Carréon", title: "Especialista IA y Top Voice Linkedin", company: "Consultor IA" },
+  { id: "c2-7", imgSrc: "/img/conferencistas/DianaMilenaLemusQuimbayo.png", name: "Diana Milena Lemus Quimbayo", title: "Human Resources Manager at Capgemini", company: "Capgemini" },
+  { id: "c2-8", imgSrc: "/img/conferencistas/Tergum.png", name: "Raúl Montero Jauregui y Gamaliel Santiago", title: "Socio Director Tergum Jalisco Socio Directo Tergum Puebla", company: "Tergum" },
+  { id: "c2-9", imgSrc: "/img/conferencistas/GuillermoRivera.png", name: "Guillermo Rivera", title: "Líder de Transformación Estratégica en Orienta", company: "Orienta Pae" },
+  { id: "c2-10", imgSrc: "/img/conferencistas/RoxanaCastilloDiazdeLeon.png", name: "Roxana Castillo Díaz de León", title: "Pendiente Puesto de Trabajo", company: "Pentiende Empresa" },
+];
 
-  useEffect(() => {
-    const carousel = carouselRef.current;
-    const content = contentRef.current;
+const conferencistasFila2 = [
 
-    // Duplicar el contenido para un desplazamiento continuo
-    content.innerHTML += content.innerHTML;
+];
 
-    let step = 1; // Cantidad de píxeles a desplazar por intervalo
-    let maxScrollLeft = content.scrollWidth / 2;
 
-    function scrollCarousel() {
-      if (carousel) {
-        carousel.scrollLeft += step;
-        if (carousel.scrollLeft >= maxScrollLeft) {
-          carousel.scrollLeft = 0; // Reiniciar el desplazamiento
-        }
-      }
+// --- Sub-componente: ConferencistaCard ---
+const ConferencistaCard = ({ imgSrc, name, title, company, overlayText }) => {
+  return (
+    <div className="new-carousel-card">
+      <div className="new-carousel-card-img-wrapper">
+        <img src={imgSrc} alt={name} className="new-carousel-card-img" />
+        <div className="new-carousel-card-overlay">
+          <div className="new-carousel-card-overlay-content">
+            <p>
+              {overlayText || '"Pendiente"'}
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="new-carousel-card-info">
+        <h5 className="new-carousel-card-name">{name}</h5>
+        <h6 className="new-carousel-card-title">{title}</h6>
+        <h7 className="new-carousel-card-company">{company}</h7>
+      </div>
+    </div>
+  );
+};
+
+// --- Sub-componente: ModernCarousel ---
+const ModernCarousel = ({ items, itemsVisible = 3, carouselId }) => {
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [itemWidth, setItemWidth] = useState(0);
+
+  const trackRef = useRef(null);
+  const firstItemRef = useRef(null);
+
+  const calculateItemWidth = useCallback(() => {
+    if (firstItemRef.current) {
+      const style = window.getComputedStyle(firstItemRef.current);
+      const marginRight = parseFloat(style.marginRight) || 0;
+      const marginLeft = parseFloat(style.marginLeft) || 0;
+      // Usar getBoundingClientRect().width es a menudo más fiable que offsetWidth si hay transforms
+      setItemWidth(firstItemRef.current.getBoundingClientRect().width + marginLeft + marginRight);
     }
-
-    const interval = setInterval(scrollCarousel, 20); // Ajusta la velocidad aquí
-
-    // Limpiar el intervalo cuando el componente se desmonte
-    return () => clearInterval(interval);
   }, []);
 
-  const [imageIndex, setImageIndex] = useState(0);
-  const images = [
-    "/img/section/1.jpg",
-    "/img/section/2.jpg",
-    "/img/section/3.jpg",
-  ];
+  useEffect(() => {
+    // Pequeña demora para asegurar que el DOM está listo, especialmente si hay CSS complejo
+    const timer = setTimeout(calculateItemWidth, 50);
+    window.addEventListener("resize", calculateItemWidth);
+    return () => {
+      clearTimeout(timer);
+      window.removeEventListener("resize", calculateItemWidth);
+    }
+  }, [calculateItemWidth, items]);
 
   useEffect(() => {
-    const interval = setInterval(() => {
-      setImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 5000); // Cambia este valor (en milisegundos) para ajustar el intervalo de cambio de imagen
+    if (trackRef.current && itemWidth > 0) {
+      const offset = currentIndex * itemWidth;
+      trackRef.current.style.transform = `translateX(-${offset}px)`;
+    }
+  }, [currentIndex, itemWidth]);
 
-    return () => clearInterval(interval);
-  }, [images.length]);
+  if (!items || items.length === 0) {
+    return <p>No hay elementos para mostrar.</p>;
+  }
+
+  const numTotalItems = items.length;
+  // Cuantos "pasos" de scroll hay. Si se muestran 3 items, y hay 5 items:
+  // Paso 0: items 1,2,3
+  // Paso 1: items 2,3,4
+  // Paso 2: items 3,4,5
+  // Entonces, numScrollSteps es 5 - 3 + 1 = 3. Índices 0, 1, 2.
+  const numScrollSteps = Math.max(1, numTotalItems - itemsVisible + 1);
+  // El último índice válido para currentIndex
+  const maxIndex = numScrollSteps - 1;
+
+
+  const goToSlide = (index) => {
+    setCurrentIndex(Math.min(Math.max(0, index), maxIndex));
+  };
+
+  const handleNext = () => {
+    setCurrentIndex((prev) => Math.min(prev + 1, maxIndex));
+  };
+
+  const handlePrev = () => {
+    setCurrentIndex((prev) => Math.max(prev - 1, 0));
+  };
+
+  // Ajuste para que `itemsVisible` se use en la clase `new-carousel-item`
+  // Esto permite que el CSS controle cuántos ítems se muestran visualmente.
+  // La lógica de JS (numScrollSteps) debe estar al tanto de esto.
+  // Por ahora, asumimos que CSS está alineado con `itemsVisible`.
+
+  return (
+    <div className="new-carousel-container">
+      <div className="new-carousel-viewport">
+        <div className="new-carousel-track" ref={trackRef}>
+          {items.map((item, index) => (
+            <div
+              key={`${carouselId}-item-${item.id || index}`}
+              className={`new-carousel-item new-carousel-item-visible-${itemsVisible}`} // Clase para controlar visibilidad
+              ref={index === 0 ? firstItemRef : null}
+            >
+              <ConferencistaCard {...item} />
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {numTotalItems > itemsVisible && ( // Solo mostrar controles si hay más items que los visibles a la vez
+        <>
+          <div className="new-carousel-arrow-controls">
+            <button
+              onClick={handlePrev}
+              disabled={currentIndex === 0}
+              className="new-carousel-arrow prev"
+              aria-label="Anterior"
+            >
+              ❮
+            </button>
+            <button
+              onClick={handleNext}
+              disabled={currentIndex >= maxIndex}
+              className="new-carousel-arrow next"
+              aria-label="Siguiente"
+            >
+              ❯
+            </button>
+          </div>
+
+          <div className="new-carousel-dots-container">
+            {Array.from({ length: numScrollSteps }).map((_, idx) => (
+              <button
+                key={`${carouselId}-dot-${idx}`}
+                className={`new-carousel-dot ${currentIndex === idx ? "active" : ""}`}
+                onClick={() => goToSlide(idx)}
+                aria-label={`Ir al slide ${idx + 1}`}
+              />
+            ))}
+          </div>
+        </>
+      )}
+    </div>
+  );
+};
+
+
+// --- Componente Principal: Empresa ---
+const Empresa = () => {
+  const ITEMS_PER_VIEW = 3; // Configura cuántos ítems quieres visibles por defecto
 
   return (
     <React.Fragment>
-      <section id="team2" className="team team-2 bg-white">
+      {/* Estilos Globales para el Carrusel */}
+      <style jsx global>{`
+        /* --- Estilos para ConferencistaCard --- */
+        .new-carousel-card {
+          background-color: #ffffff;
+          border: 1px solid #e0e0e0;
+          border-radius: 8px;
+          box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+          text-align: left;
+          display: flex;
+          flex-direction: column;
+          height: 100%;
+          overflow: hidden;
+        }
+
+        .new-carousel-card-img-wrapper {
+          position: relative;
+          width: 100%;
+          aspect-ratio: 4 / 3.2; /* Un poco más alto */
+          overflow: hidden;
+        }
+
+        .new-carousel-card-img {
+          display: block;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          transition: transform 0.3s ease-out;
+        }
+
+        .new-carousel-card:hover .new-carousel-card-img {
+          transform: scale(1.03);
+        }
+
+        .new-carousel-card-overlay {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: linear-gradient(to top, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0) 70%);
+          opacity: 0;
+          transition: opacity 0.3s ease-out;
+          display: flex;
+          align-items: flex-end;
+          justify-content: center;
+          padding: 10px;
+          box-sizing: border-box;
+        }
+
+        .new-carousel-card:hover .new-carousel-card-overlay {
+          opacity: 1;
+        }
+
+        .new-carousel-card-overlay-content p {
+          color: white;
+          font-family: "Palatino", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+          font-size: 14px;
+          text-align: center;
+          margin: 0;
+        }
+
+        .new-carousel-card-info {
+          padding: 12px 15px;
+          flex-grow: 1;
+        }
+
+        .new-carousel-card-name {
+          font-size: 1rem;
+          font-weight: 600;
+          margin-bottom: 5px;
+          color: #2c3e50; /* Un azul oscuro */
+          line-height: 1.3;
+        }
+
+        .new-carousel-card-title {
+          font-size: 0.8rem;
+          color: #34495e; /* Un gris azulado */
+          margin-bottom: 4px;
+          line-height: 1.4;
+          min-height: 3.2em; /* Aproximadamente 2-3 líneas */
+          display: -webkit-box;
+          -webkit-line-clamp: 3; /* Limita a 3 líneas */
+          -webkit-box-orient: vertical;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+        .new-carousel-card-company {
+          font-size: 0.75rem;
+          color: #7f8c8d; /* Un gris claro */
+          font-style: italic;
+        }
+
+
+        /* --- Estilos del Carrusel Moderno --- */
+        .new-carousel-container {
+          width: 100%;
+          position: relative;
+          margin-bottom: 40px;
+        }
+
+        .new-carousel-viewport {
+          overflow: hidden;
+          width: 100%;
+        }
+
+        .new-carousel-track {
+          display: flex;
+          transition: transform 0.45s cubic-bezier(0.23, 1, 0.32, 1);
+        }
+
+        .new-carousel-item {
+          min-width: 0;
+          box-sizing: border-box;
+          padding: 0 10px; /* Espacio entre items (gutter) */
+        }
+        
+        /* Control de cuántos items son visibles */
+        .new-carousel-item-visible-1 { flex: 0 0 100%; }
+        .new-carousel-item-visible-2 { flex: 0 0 50%; }
+        .new-carousel-item-visible-3 { flex: 0 0 calc(100% / 3); }
+        .new-carousel-item-visible-4 { flex: 0 0 25%; }
+        /* ...y así sucesivamente si necesitas más opciones */
+
+
+        /* --- Controles de Flechas --- */
+        .new-carousel-arrow-controls {
+          display: flex;
+          justify-content: center; /* Centra las flechas si están debajo */
+          align-items: center;
+          margin-top: 15px; /* Espacio entre track y flechas */
+        }
+
+        /* Si quieres las flechas superpuestas, usa esto y ajusta: */
+        /*
+        .new-carousel-arrow-controls {
+          position: absolute;
+          top: calc(50% - 30px); // Ajusta según la altura de la tarjeta y flechas
+          left: -15px; // Para que estén un poco fuera
+          right: -15px;
+          width: calc(100% + 30px);
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          pointer-events: none; // Para que no bloqueen
+        }
+        .new-carousel-arrow { pointer-events: all; } // Reactivar para las flechas
+        */
+        
+
+        .new-carousel-arrow {
+          background-color: #fff;
+          border: 1px solid #ccc;
+          color: #333;
+          cursor: pointer;
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          font-size: 1.1rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin: 0 8px;
+          box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+          transition: all 0.2s ease-in-out;
+        }
+
+        .new-carousel-arrow:hover:not(:disabled) {
+          background-color: #f1f1f1;
+          transform: scale(1.05);
+        }
+
+        .new-carousel-arrow:disabled {
+          opacity: 0.3;
+          cursor: not-allowed;
+          transform: scale(1);
+        }
+
+
+        /* --- Controles de Puntos --- */
+        .new-carousel-dots-container {
+          text-align: center;
+          padding-top: 20px;
+        }
+
+        .new-carousel-dot {
+          display: inline-block;
+          width: 9px;
+          height: 9px;
+          border-radius: 50%;
+          background-color: #cccccc;
+          border: none;
+          margin: 0 5px;
+          padding: 0;
+          cursor: pointer;
+          transition: background-color 0.2s ease, transform 0.2s ease;
+        }
+
+        .new-carousel-dot:hover {
+          background-color: #aaaaaa;
+        }
+
+        .new-carousel-dot.active {
+          background-color: #007bff; /* Tu color primario */
+          transform: scale(1.2);
+        }
+        
+        /* --- Media Queries para Responsividad --- */
+        @media (max-width: 991.98px) { /* Tablets (Bootstrap md breakpoint) */
+          .new-carousel-item-visible-3 { flex: 0 0 50%; } /* Muestra 2 en tablet si eran 3 */
+          .new-carousel-item-visible-4 { flex: 0 0 50%; } /* Muestra 2 en tablet si eran 4 */
+          
+          /* Si quieres una configuración diferente para ITEMS_PER_VIEW en tablet, 
+             tendrías que pasarla como prop y tener clases como .new-carousel-item-visible-tablet-2 */
+        }
+
+        @media (max-width: 767.98px) { /* Móviles (Bootstrap sm breakpoint) */
+          .new-carousel-item { /* Aplica a todos por defecto */
+            padding: 0 5px; /* Menos padding en móvil */
+          }
+          .new-carousel-item-visible-2,
+          .new-carousel-item-visible-3,
+          .new-carousel-item-visible-4 { 
+            flex: 0 0 100%; /* Muestra 1 en móvil */
+          }
+          .new-carousel-card-name { font-size: 0.95rem; }
+          .new-carousel-card-title { font-size: 0.75rem; min-height: 3em; -webkit-line-clamp: 2; }
+          .new-carousel-arrow { width: 36px; height: 36px; font-size: 1rem;}
+        }
+      `}</style>
+
+      <section id="team2-row1" className="team-2 team bg-white">
         <div className="container">
           <div className="row">
             <div className="col-xs-12 col-sm-12 col-md-12">
-              <div className="heading heading-2 text-center mb-50">
-                <p className="heading--subtitle"></p>
+              <div className="heading heading-2 text-center mb-50"> {/* Tus clases originales */}
                 <h2 className="heading--title">CONFERENCISTAS</h2>
               </div>
             </div>
           </div>
           <div className="row">
             <div className="col-xs-12 col-sm-12 col-md-12">
-              <div className="carousel-dots" ref={carouselRef}>
-                <div className="carousel-content" ref={contentRef}>
-                  <div className="memberConfe">
-                    <div className="memberConfe-img">
-                      <img
-                        src="/img/conferencistas/AlmaJessicaSouleAngeles .png"
-                        alt="memberConfe"
-                      />
-                      <div className="memberConfe-overlay">
-                        <div className="memberConfe-social">
-                          <div className=" pos-vertical-center">
-                            <p
-                              style={{
-                                color: "white",
-                                fontFamily: "Palatino, serif",
-                                fontSize: "15px",
-                              }}
-                            >
-                              "Pendiente"
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="memberConfe-info">
-                      <h5>Alma Jessica Soulé Angeles</h5>
-                      <h6>
-                        Directora General de Talento & Legado, Coach de
-                        Directivos, líderes y equipos.
-                      </h6>
-                      <h7>Talento & Legado</h7>
-                    </div>
-                  </div>
-
-                  <div className="memberConfe">
-                    <div className="memberConfe-img">
-                      <img
-                        src="/img/conferencistas/MarlenTrevino.png"
-                        alt="memberConfe"
-                      />
-                      <div className="memberConfe-overlay">
-                        <div className="memberConfe-social">
-                          <div className=" pos-vertical-center">
-                            <p
-                              style={{
-                                color: "white",
-                                fontFamily: "Palatino, serif",
-                                fontSize: "15px",
-                              }}
-                            >
-                              "Pendiente"
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="memberConfe-info">
-                      <h5>Marlen Treviño</h5>
-                      <h6>
-                        Psicóloga y Conferencista, especialista en desarrollo
-                        personal y organizacional
-                      </h6>
-                      <h7>Marlen Treviño</h7>
-                    </div>
-                  </div>
-
-                  <div className="memberConfe">
-                    <div className="memberConfe-img">
-                      <img
-                        src="/img/conferencistas/JuanCarlosPaezNunez.png"
-                        alt="memberConfe"
-                      />
-                      <div className="memberConfe-overlay">
-                        <div className="memberConfe-social">
-                          <div className="pos-vertical-center">
-                            <p
-                              style={{
-                                color: "white",
-                                fontFamily: "Palatino, serif",
-                                fontSize: "15px",
-                              }}
-                            >
-                              "Pendiente"
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="memberConfe-info">
-                      <h5>Juan Carlos Páez Núñez</h5>
-                      <h6>
-                        CEO en PhemSoft y Especialista en Medición del Talento
-                      </h6>
-                      <h7>PhemSoft</h7>
-                    </div>
-                  </div>
-
-                  <div className="memberConfe">
-                    <div className="memberConfe-img">
-                      <img
-                        src="/img/conferencistas/IvonneBorden.jpg"
-                        alt="memberConfe"
-                      />
-                      <div className="memberConfe-overlay">
-                        <div className="memberConfe-social">
-                          <div className="pos-vertical-center">
-                            <p
-                              style={{
-                                color: "white",
-                                fontFamily: "Palatino, serif",
-                                fontSize: "15px",
-                              }}
-                            >
-                              "Pendiente"
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="memberConfe-info">
-                      <h5>Ivonne Borden</h5>
-                      <h6>Pendiente Puesto de Trabajo</h6>
-                      <h7>Pendiente empresa</h7>
-                    </div>
-                  </div>
-
-                  <div className="memberConfe">
-                    <div className="memberConfe-img">
-                      <img
-                        src="/img/conferencistas/LeslieCooper.png"
-                        alt="memberConfe"
-                      />
-                      <div className="memberConfe-overlay">
-                        <div className="memberConfe-social">
-                          <div className=" pos-vertical-center">
-                            <p
-                              style={{
-                                color: "white",
-                                fontFamily: "Palatino, serif",
-                                fontSize: "15px",
-                              }}
-                            >
-                              "Pendiente"
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="memberConfe-info">
-                      <h5>Leslie Cooper</h5>
-                      <h6>
-                        Partner en HK Human Capital expertos en Capital Humano,
-                        Inclusión y Negocios
-                      </h6>
-                      <h7>HK Human Capital</h7>
-                    </div>
-                  </div>
-
-                  <div className="memberConfe">
-                    <div className="memberConfe-img">
-                      <img
-                        src="/img/conferencistas/SalvadorRomero.png"
-                        alt="memberConfe"
-                      />
-                      <div className="memberConfe-overlay">
-                        <div className="memberConfe-social">
-                          <div className=" pos-vertical-center">
-                            <p
-                              style={{
-                                color: "white",
-                                fontFamily: "Palatino, serif",
-                                fontSize: "15px",
-                              }}
-                            >
-                              "Pendiente"
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="memberConfe-info">
-                      <h5>Salvador Romero</h5>
-                      <h6>
-                        HR Manager, North America Region at Whirlpool
-                        Corporation
-                      </h6>
-                      <h7>Whirlpool</h7>
-                    </div>
-                  </div>
-
-                  <div className="memberConfe">
-                    <div className="memberConfe-img">
-                      <img
-                        src="/img/conferencistas/MariaJoseSanchezYago .png"
-                        alt="memberConfe"
-                      />
-                      <div className="memberConfe-overlay">
-                        <div className="memberConfe-social">
-                          <div className=" pos-vertical-center">
-                            <p
-                              style={{
-                                color: "white",
-                                fontFamily: "Palatino, serif",
-                                fontSize: "15px",
-                              }}
-                            >
-                              "Pendiente"
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="memberConfe-info">
-                      <h5>María José Sánchez Yago </h5>
-                      <h6>CEO de Creatia Human y co-fundadora de Lidero</h6>
-                      <h7></h7>Creatia Human
-                    </div>
-                  </div>
-                  <div className="memberConfe">
-                    <div className="memberConfe-img">
-                      <img
-                        src="/img/conferencistas/PabloInfanta .png"
-                        alt="memberConfe"
-                      />
-                      <div className="memberConfe-overlay">
-                        <div className="memberConfe-social">
-                          <div className=" pos-vertical-center">
-                            <p
-                              style={{
-                                color: "white",
-                                fontFamily: "Palatino, serif",
-                                fontSize: "15px",
-                              }}
-                            >
-                              "Pendiente"
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="memberConfe-info">
-                      <h5>Pablo Infanta</h5>
-                      <h6>
-                        Director y Consultor Senior en Desarrollo Organizacional
-                        y Gestión de Recursos Humanos
-                      </h6>
-                      <h7>Adapt Consultores Spa</h7>
-                    </div>
-                  </div>
-                  <div className="memberConfe">
-                    <div className="memberConfe-img">
-                      <img
-                        src="/img/conferencistas/AndreaGrobocopatel.png"
-                        alt="memberConfe"
-                      />
-                      <div className="memberConfe-overlay">
-                        <div className="memberConfe-social">
-                          <div className=" pos-vertical-center">
-                            <p
-                              style={{
-                                color: "white",
-                                fontFamily: "Palatino, serif",
-                                fontSize: "15px",
-                              }}
-                            >
-                              "Pendiente"
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="memberConfe-info">
-                      <h5>Andrea Grobocopatel</h5>
-                      <h6>
-                        Economista y fundadora de Ampatel, Resiliencia SGR y
-                        Fundación FLOR
-                      </h6>
-                      <h7>Fundación FLOR Argentina</h7>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <ModernCarousel
+                carouselId="fila1"
+                items={conferencistasFila1}
+                itemsVisible={ITEMS_PER_VIEW}
+              />
             </div>
           </div>
         </div>
       </section>
 
-      <section id="team2" className="team team-2 bg-white">
+      <section id="team2-row2" className=" bg-white" style={{ marginTop: "30px" }}>
         <div className="container">
           <div className="row">
-            <div className="col-xs-12 col-sm-12 col-md-12"></div>
-          </div>
-          <div className="row">
             <div className="col-xs-12 col-sm-12 col-md-12">
-              <div className="carousel-dots" ref={carouselRef}>
-                <div className="carousel-content" ref={contentRef}>
-                  <div className="memberConfe">
-                    <div className="memberConfe-img">
-                      <img
-                        src="/img/conferencistas/MarianaIturbeDesentis.png"
-                        alt="memberConfe"
-                      />
-                      <div className="memberConfe-overlay">
-                        <div className="memberConfe-social">
-                          <div className=" pos-vertical-center">
-                            <p
-                              style={{
-                                color: "white",
-                                fontFamily: "Palatino, serif",
-                                fontSize: "15px",
-                              }}
-                            >
-                              "Pendiente"
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="memberConfe-info">
-                      <h5>Mariana Iturbe Desentis </h5>
-                      <h6>
-                        Conferencista y desarrolladora de proyectos de Salud
-                        Mental{" "}
-                      </h6>
-                      <h7>Inteliteam</h7>
-                    </div>
-                  </div>
-
-                  <div className="memberConfe">
-                    <div className="memberConfe-img">
-                      <img
-                        src="/img/conferencistas/AnwarBuereVillegas.png"
-                        alt="memberConfe"
-                      />
-                      <div className="memberConfe-overlay">
-                        <div className="memberConfe-social">
-                          <div className=" pos-vertical-center">
-                            <p
-                              style={{
-                                color: "white",
-                                fontFamily: "Palatino, serif",
-                                fontSize: "15px",
-                              }}
-                            >
-                              "Pendiente"
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="memberConfe-info">
-                      <h5>Anwar Buere Villegas</h5>
-                      <h6>Socio Director de Humancore</h6>
-                      <h7>Humancore Empresarial</h7>
-                    </div>
-                  </div>
-
-                  <div className="memberConfe">
-                    <div className="memberConfe-img">
-                      <img
-                        src="/img/conferencistas/GabrielLucianoPietrafesa.png"
-                        alt="memberConfe"
-                      />
-                      <div className="memberConfe-overlay">
-                        <div className="memberConfe-social">
-                          <div className="pos-vertical-center">
-                            <p
-                              style={{
-                                color: "white",
-                                fontFamily: "Palatino, serif",
-                                fontSize: "15px",
-                              }}
-                            >
-                              "Pendiente"
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="memberConfe-info">
-                      <h5>Gabriel Luciano Pietrafesa</h5>
-                      <h6>People Analytics Lead</h6>
-                      <h7>Scopely</h7>
-                    </div>
-                  </div>
-
-                  <div className="memberConfe">
-                    <div className="memberConfe-img">
-                      <img
-                        src="/img/conferencistas/WendyPacheco.png"
-                        alt="memberConfe"
-                      />
-                      <div className="memberConfe-overlay">
-                        <div className="memberConfe-social">
-                          <div className="pos-vertical-center">
-                            <p
-                              style={{
-                                color: "white",
-                                fontFamily: "Palatino, serif",
-                                fontSize: "15px",
-                              }}
-                            >
-                              "Pendiente"
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="memberConfe-info">
-                      <h5>Wendy Pacheco</h5>
-                      <h6>
-                        Socia Consultora en CD Consultores y conferencista
-                        internacional especializada en temas de gestión humana
-                      </h6>
-                      <h7>CD Consultores</h7>
-                    </div>
-                  </div>
-
-                  <div className="memberConfe">
-                    <div className="memberConfe-img">
-                      <img
-                        src="/img/conferencistas/MariaLuisaGarza.png"
-                        alt="memberConfe"
-                      />
-                      <div className="memberConfe-overlay">
-                        <div className="memberConfe-social">
-                          <div className=" pos-vertical-center">
-                            <p
-                              style={{
-                                color: "white",
-                                fontFamily: "Palatino, serif",
-                                fontSize: "15px",
-                              }}
-                            >
-                              "Pendiente"
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="memberConfe-info">
-                      <h5>María Luisa Garza</h5>
-                      <h6>Dirección Administratival</h6>
-                      <h7>Psicotest</h7>
-                    </div>
-                  </div>
-
-                  <div className="memberConfe">
-                    <div className="memberConfe-img">
-                      <img
-                        src="/img/conferencistas/Ricardo Carreon.png"
-                        alt="memberConfe"
-                      />
-                      <div className="memberConfe-overlay">
-                        <div className="memberConfe-social">
-                          <div className=" pos-vertical-center">
-                            <p
-                              style={{
-                                color: "white",
-                                fontFamily: "Palatino, serif",
-                                fontSize: "15px",
-                              }}
-                            >
-                              "Pendiente"
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="memberConfe-info">
-                      <h5>Ricardo Carréon</h5>
-                      <h6>Especialista IA y Top Voice Linkedin</h6>
-                      <h7>Consultor IA</h7>
-                    </div>
-                  </div>
-
-
-                  <div className="memberConfe">
-                    <div className="memberConfe-img">
-                      <img
-                        src="/img/conferencistas/DianaMilenaLemusQuimbayo.png"
-                        alt="memberConfe"
-                      />
-                      <div className="memberConfe-overlay">
-                        <div className="memberConfe-social">
-                          <div className=" pos-vertical-center">
-                            <p
-                              style={{
-                                color: "white",
-                                fontFamily: "Palatino, serif",
-                                fontSize: "15px",
-                              }}
-                            >
-                              "Pendiente"
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="memberConfe-info">
-                      <h5>Diana Milena Lemus Quimbayo</h5>
-                      <h6>Human Resources Manager at Capgemini</h6>
-                      <h7>Capgemini</h7>
-                    </div>
-                  </div>
-
-                  <div className="memberConfe">
-                    <div className="memberConfe-img">
-                      <img
-                        src="/img/conferencistas/Tergum.png"
-                        alt="memberConfe"
-                      />
-                      <div className="memberConfe-overlay">
-                        <div className="memberConfe-social">
-                          <div className=" pos-vertical-center">
-                            <p
-                              style={{
-                                color: "white",
-                                fontFamily: "Palatino, serif",
-                                fontSize: "15px",
-                              }}
-                            >
-                              "Pendiente"
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="memberConfe-info">
-                      <h5>Raúl Montero Jauregui y Gamaliel Santiago</h5>
-                      <h6>
-                        Socio Director Tergum Jalisco Socio Directo Tergum
-                        Puebla
-                      </h6>
-                      <h7>Tergum</h7>
-                    </div>
-                  </div>
-                  <div className="memberConfe">
-                    <div className="memberConfe-img">
-                      <img
-                        src="/img/conferencistas/GuillermoRivera.png"
-                        alt="memberConfe"
-                      />
-                      <div className="memberConfe-overlay">
-                        <div className="memberConfe-social">
-                          <div className=" pos-vertical-center">
-                            <p
-                              style={{
-                                color: "white",
-                                fontFamily: "Palatino, serif",
-                                fontSize: "15px",
-                              }}
-                            >
-                              "Pendiente"
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="memberConfe-info">
-                      <h5>Guillermo Rivera</h5>
-                      <h6>Líder de Transformación Estratégica en Orienta</h6>
-                      <h7>Orienta Pae</h7>
-                    </div>
-                  </div>
-                  <div className="memberConfe">
-                    <div className="memberConfe-img">
-                      <img
-                        src="/img/conferencistas/RoxanaCastilloDiazdeLeon.png"
-                        alt="memberConfe"
-                      />
-                      <div className="memberConfe-overlay">
-                        <div className="memberConfe-social">
-                          <div className=" pos-vertical-center">
-                            <p
-                              style={{
-                                color: "white",
-                                fontFamily: "Palatino, serif",
-                                fontSize: "15px",
-                              }}
-                            >
-                              "Pendiente"
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="memberConfe-info">
-                      <h5>Roxana Castillo Díaz de León</h5>
-                      <h6>Pendiente Puesto de Trabajo</h6>
-                      <h7>Pentiende Empresa</h7>
-                    </div>
-                  </div>
-                </div>
+              <div className="heading heading-2 text-center mb-50"> {/* Tus clases originales */}
+                {/* <h2 className="heading--title">MÁS CONFERENCISTAS</h2> */}
               </div>
             </div>
           </div>
         </div>
       </section>
-
-      <div className="element-container">
-        <section className="element-section">
-          <div className="element-image">
-            <Image
-              width={1920}
-              height={700}
-              className="imageYoutube"
-              decoding="async"
-              src={images[imageIndex]}
-              alt="suplementos-alimenticios-youtube"
-              loading="lazy"
-            />
-            <div
-              className="element-content"
-              style={{
-                textAlign: "centert",
-                maxWidth: "100%",
-                marginRight: "30px",
-              }}
-            >
-              <h3
-                className="titleYoutube"
-                style={{
-                  color: "#000",
-                  marginBottom: "5px",
-                  marginTop: "50px",
-                }}
-              ></h3>
-              <img
-                src="/img/redes-sociales/tik-02.svg"
-                alt="youtube"
-                width="300px"
-                height="100px"
-              />
-              <p
-                className="noneYoutube"
-                style={{
-                  textAlign: "left",
-                  fontFamily: "Montserrat, sans-serif",
-                  marginTop: "20px",
-                  marginBottom: "40px",
-                  fontSize: "16px",
-                }}
-              >
-                <br />
-              </p>
-              <a
-                href="https://www.tiktok.com/@arioac"
-                target="_blank"
-                className="element-button"
-              >
-                Visitar TikTok
-              </a>
-            </div>
-          </div>
-        </section>
-      </div>
     </React.Fragment>
   );
 };
