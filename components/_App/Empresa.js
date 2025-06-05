@@ -625,6 +625,7 @@ const Empresa = () => {
                       <h7>Orienta Pae</h7>
                     </div>
                   </div>
+
                   <div className="memberConfe">
                     <div className="memberConfe-img">
                       <img
@@ -651,6 +652,35 @@ const Empresa = () => {
                       <h5>Roxana Castillo Díaz de León</h5>
                       <h6>Pendiente Puesto de Trabajo</h6>
                       <h7>Pentiende Empresa</h7>
+                    </div>
+                  </div>
+
+                  <div className="memberConfe">
+                    <div className="memberConfe-img">
+                      <img
+                        src="/img/conferencistas/CarolinaAguilar.png"
+                        alt="memberConfe"
+                      />
+                      <div className="memberConfe-overlay">
+                        <div className="memberConfe-social">
+                          <div className=" pos-vertical-center">
+                            <p
+                              style={{
+                                color: "white",
+                                fontFamily: "Palatino, serif",
+                                fontSize: "15px",
+                              }}
+                            >
+                              "Pendiente"
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="memberConfe-info">
+                      <h5>Carolina Aguilar</h5>
+                      <h6>Consultor de Recursos Humanos</h6>
+                      <h7>Agal consultores</h7>
                     </div>
                   </div>
                 </div>

@@ -219,5 +219,44 @@
     "colorCategoria": "#347cf6",
     "colorIcono": "#5bc6fd",
     "colorBoton": "linear-gradient(90deg, #36b9fc 0%, #37d0fa 100%)"
+  },
+  {
+    "categoria": "26 de Junio del 2025",
+    "hora": "11:00 am",
+    "duracion": "60 min",
+    "titulo": " La NOM-035 no es el problema, es el espejo",
+    "descripcion": "",
+    "ponente": "Ivonne Borden",
+    "sala": "-",
+    "enlace": "https://meet.google.com/abc-defg-hij",
+    "colorCategoria": "#347cf6",
+    "colorIcono": "#5bc6fd",
+    "colorBoton": "linear-gradient(90deg, #36b9fc 0%, #37d0fa 100%)"
+  },
+  {
+    "categoria": "27 de Junio del 2025",
+    "hora": "12:00 pm",
+    "duracion": "60 min",
+    "titulo": "Salud mental en el trabajo",
+    "descripcion": "La herramienta oculta para empresas que crecen.",
+    "ponente": "Roxana Catillo Díaz de León",
+    "sala": "-",
+    "enlace": "https://meet.google.com/abc-defg-hij",
+    "colorCategoria": "#347cf6",
+    "colorIcono": "#5bc6fd",
+    "colorBoton": "linear-gradient(90deg, #36b9fc 0%, #37d0fa 100%)"
+  },
+  {
+    "categoria": "27 de Junio del 2025",
+    "hora": "11:00 am",
+    "duracion": "60 min",
+    "titulo": "Inclusión Laboral: El rol clave de Recursos Humanos en la construcción de organizaciones más justas, innovadoras y productivas.",
+    "descripcion": "• Sensibilización, conocimiento del entorno y su cultura. • Acompañamiento y aprendizajes. • Costos de un proceso de inclusión deficiente.",
+    "ponente": "Carolina Aguilar",
+    "sala": "-",
+    "enlace": "https://meet.google.com/abc-defg-hij",
+    "colorCategoria": "#347cf6",
+    "colorIcono": "#5bc6fd",
+    "colorBoton": "linear-gradient(90deg, #36b9fc 0%, #37d0fa 100%)"
   }
 ]
