@@ -51,4 +51,4 @@ build/
 .cache/
 .serve/
 .vercel
-.next/
+.next/*
