@@ -7,7 +7,7 @@
     "descripcion": "",
     "ponente": "Alma Jessica Soulé Angeles",
     "sala": "-",
-    "enlace": "https://meet.google.com/abc-defg-hij",
+    "enlace": "https://us06web.zoom.us/j/87516983449",
     "colorCategoria": "#347cf6",
     "colorIcono": "#5bc6fd",
     "colorBoton": "linear-gradient(90deg, #36b9fc 0%, #37d0fa 100%)"
@@ -20,7 +20,7 @@
     "descripcion": "",
     "ponente": "Marlen Treviño",
     "sala": "-",
-    "enlace": "https://meet.google.com/abc-defg-hij",
+    "enlace": "https://us06web.zoom.us/j/87516983449",
     "colorCategoria": "#347cf6",
     "colorIcono": "#5bc6fd",
     "colorBoton": "linear-gradient(90deg, #36b9fc 0%, #37d0fa 100%)"
@@ -33,7 +33,7 @@
     "descripcion": "",
     "ponente": "Juan Carlos Páez Núñez",
     "sala": "-",
-    "enlace": "https://meet.google.com/abc-defg-hij",
+    "enlace": "https://us06web.zoom.us/j/87516983449",
     "colorCategoria": "#347cf6",
     "colorIcono": "#5bc6fd",
     "colorBoton": "linear-gradient(90deg, #36b9fc 0%, #37d0fa 100%)"
@@ -46,7 +46,7 @@
     "descripcion": "",
     "ponente": "Leslie Cooper",
     "sala": "-",
-    "enlace": "https://meet.google.com/abc-defg-hij",
+    "enlace": "https://us06web.zoom.us/j/87516983449",
     "colorCategoria": "#347cf6",
     "colorIcono": "#5bc6fd",
     "colorBoton": "linear-gradient(90deg, #36b9fc 0%, #37d0fa 100%)"
@@ -59,7 +59,7 @@
     "descripcion": "",
     "ponente": "Salvador Romero",
     "sala": "-",
-    "enlace": "https://meet.google.com/abc-defg-hij",
+    "enlace": "https://us06web.zoom.us/j/87516983449",
     "colorCategoria": "#347cf6",
     "colorIcono": "#5bc6fd",
     "colorBoton": "linear-gradient(90deg, #36b9fc 0%, #37d0fa 100%)"
@@ -72,7 +72,7 @@
     "descripcion": "",
     "ponente": "María José Sánchez Yago ",
     "sala": "-",
-    "enlace": "https://meet.google.com/abc-defg-hij",
+    "enlace": "https://us06web.zoom.us/j/87516983449",
     "colorCategoria": "#347cf6",
     "colorIcono": "#5bc6fd",
     "colorBoton": "linear-gradient(90deg, #36b9fc 0%, #37d0fa 100%)"
@@ -85,7 +85,7 @@
     "descripcion": "",
     "ponente": "Andrea Grobocopatel",
     "sala": "-",
-    "enlace": "https://meet.google.com/abc-defg-hij",
+    "enlace": "https://us06web.zoom.us/j/87516983449",
     "colorCategoria": "#347cf6",
     "colorIcono": "#5bc6fd",
     "colorBoton": "linear-gradient(90deg, #36b9fc 0%, #37d0fa 100%)"
@@ -93,12 +93,25 @@
   {
     "categoria": "24 de Junio del 2025",
     "hora": "12:00 pm",
-    "duracion": "60 min",
+    "duracion": "30 min",
     "titulo": "El Poder del Flow en una Vida con Propósito",
     "descripcion": "Estrategias para Salir del Modo Supervivencia",
     "ponente": "Mariana Iturbe Desentis ",
     "sala": "-",
-    "enlace": "https://meet.google.com/abc-defg-hij",
+    "enlace": "https://us06web.zoom.us/j/87516983449",
+    "colorCategoria": "#347cf6",
+    "colorIcono": "#5bc6fd",
+    "colorBoton": "linear-gradient(90deg, #36b9fc 0%, #37d0fa 100%)"
+  },
+  {
+    "categoria": "24 de Junio del 2025",
+    "hora": "12:30 pm",
+    "duracion": "60 min",
+    "titulo": "Tecnología en innovación en la gestión de talento",
+    "descripcion": "",
+    "ponente": "Fernando Calderón ",
+    "sala": "-",
+    "enlace": "https://us06web.zoom.us/j/87516983449",
     "colorCategoria": "#347cf6",
     "colorIcono": "#5bc6fd",
     "colorBoton": "linear-gradient(90deg, #36b9fc 0%, #37d0fa 100%)"
@@ -108,10 +121,10 @@
     "hora": "9:00 am",
     "duracion": "60 min",
     "titulo": "Vida y Trabajo en Balance",
-    "descripcion": ".",
+    "descripcion": "",
     "ponente": "Anwar Buere Villegas",
     "sala": "-",
-    "enlace": "https://meet.google.com/abc-defg-hij",
+    "enlace": "https://us06web.zoom.us/j/87516983449",
     "colorCategoria": "#347cf6",
     "colorIcono": "#5bc6fd",
     "colorBoton": "linear-gradient(90deg, #36b9fc 0%, #37d0fa 100%)"
@@ -121,10 +134,10 @@
     "hora": "10:00 am",
     "duracion": "60 min",
     "titulo": "De la intuición al impacto",
-    "descripcion": "cómo RRHH se transforma con IA y People Analytics",
+    "descripcion": "RRHH se transforma con IA y People Analytics",
     "ponente": "Gabriel Luciano Pietrafesa",
     "sala": "-",
-    "enlace": "https://meet.google.com/abc-defg-hij",
+    "enlace": "https://us06web.zoom.us/j/87516983449",
     "colorCategoria": "#347cf6",
     "colorIcono": "#5bc6fd",
     "colorBoton": "linear-gradient(90deg, #36b9fc 0%, #37d0fa 100%)"
@@ -137,7 +150,7 @@
     "descripcion": "",
     "ponente": "Wendy Pacheco",
     "sala": "-",
-    "enlace": "https://meet.google.com/abc-defg-hij",
+    "enlace": "https://us06web.zoom.us/j/87516983449",
     "colorCategoria": "#347cf6",
     "colorIcono": "#5bc6fd",
     "colorBoton": "linear-gradient(90deg, #36b9fc 0%, #37d0fa 100%)"
@@ -150,7 +163,7 @@
     "descripcion": "",
     "ponente": "María Luisa Garza",
     "sala": "-",
-    "enlace": "https://meet.google.com/abc-defg-hij",
+    "enlace": "https://us06web.zoom.us/j/87516983449",
     "colorCategoria": "#347cf6",
     "colorIcono": "#5bc6fd",
     "colorBoton": "linear-gradient(90deg, #36b9fc 0%, #37d0fa 100%)"
@@ -163,7 +176,7 @@
     "descripcion": "",
     "ponente": "Ricardo Carréon",
     "sala": "-",
-    "enlace": "https://meet.google.com/abc-defg-hij",
+    "enlace": "https://us06web.zoom.us/j/87516983449",
     "colorCategoria": "#347cf6",
     "colorIcono": "#5bc6fd",
     "colorBoton": "linear-gradient(90deg, #36b9fc 0%, #37d0fa 100%)"
@@ -176,7 +189,7 @@
     "descripcion": "",
     "ponente": "Diana Milena Lemus Quimbayo",
     "sala": "-",
-    "enlace": "https://meet.google.com/abc-defg-hij",
+    "enlace": "https://us06web.zoom.us/j/87516983449",
     "colorCategoria": "#347cf6",
     "colorIcono": "#5bc6fd",
     "colorBoton": "linear-gradient(90deg, #36b9fc 0%, #37d0fa 100%)"
@@ -189,7 +202,7 @@
     "descripcion": "",
     "ponente": "Raúl Montero Jauregui y Gamaliel Santiago",
     "sala": "-",
-    "enlace": "https://meet.google.com/abc-defg-hij",
+    "enlace": "https://us06web.zoom.us/j/87516983449",
     "colorCategoria": "#347cf6",
     "colorIcono": "#5bc6fd",
     "colorBoton": "linear-gradient(90deg, #36b9fc 0%, #37d0fa 100%)"
@@ -202,7 +215,7 @@
     "descripcion": "Claves para una Organización Productiva e Innovadora",
     "ponente": "Guillermo Rivera",
     "sala": "-",
-    "enlace": "https://meet.google.com/abc-defg-hij",
+    "enlace": "https://us06web.zoom.us/j/87516983449",
     "colorCategoria": "#347cf6",
     "colorIcono": "#5bc6fd",
     "colorBoton": "linear-gradient(90deg, #36b9fc 0%, #37d0fa 100%)"
@@ -215,7 +228,7 @@
     "descripcion": "Focos para la Gestión de RRHH y Desarrollo Organizacional",
     "ponente": " Pablo Infanta ",
     "sala": "-",
-    "enlace": "https://meet.google.com/abc-defg-hij",
+    "enlace": "https://us06web.zoom.us/j/87516983449",
     "colorCategoria": "#347cf6",
     "colorIcono": "#5bc6fd",
     "colorBoton": "linear-gradient(90deg, #36b9fc 0%, #37d0fa 100%)"
@@ -228,7 +241,7 @@
     "descripcion": "",
     "ponente": "Ivonne Borden",
     "sala": "-",
-    "enlace": "https://meet.google.com/abc-defg-hij",
+    "enlace": "https://us06web.zoom.us/j/87516983449",
     "colorCategoria": "#347cf6",
     "colorIcono": "#5bc6fd",
     "colorBoton": "linear-gradient(90deg, #36b9fc 0%, #37d0fa 100%)"
@@ -241,7 +254,7 @@
     "descripcion": "La herramienta oculta para empresas que crecen.",
     "ponente": "Roxana Catillo Díaz de León",
     "sala": "-",
-    "enlace": "https://meet.google.com/abc-defg-hij",
+    "enlace": "https://us06web.zoom.us/j/87516983449",
     "colorCategoria": "#347cf6",
     "colorIcono": "#5bc6fd",
     "colorBoton": "linear-gradient(90deg, #36b9fc 0%, #37d0fa 100%)"
@@ -254,7 +267,7 @@
     "descripcion": "• Sensibilización, conocimiento del entorno y su cultura. • Acompañamiento y aprendizajes. • Costos de un proceso de inclusión deficiente.",
     "ponente": "Carolina Aguilar",
     "sala": "-",
-    "enlace": "https://meet.google.com/abc-defg-hij",
+    "enlace": "https://us06web.zoom.us/j/87516983449",
     "colorCategoria": "#347cf6",
     "colorIcono": "#5bc6fd",
     "colorBoton": "linear-gradient(90deg, #36b9fc 0%, #37d0fa 100%)"

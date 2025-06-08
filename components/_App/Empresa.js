@@ -23,7 +23,7 @@ const ConferencistaCard = ({ imgSrc, name, title, company, overlayText }) => {
   );
 };
 
-const ModernCarousel = ({ items, itemsVisible = 3, carouselId }) => {
+const ModernCarousel = ({ items, itemsVisible = 4, carouselId }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [itemWidth, setItemWidth] = useState(0);
 
