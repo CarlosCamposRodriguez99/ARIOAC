@@ -8291,3 +8291,120 @@ Page-navigation Area Style*/
 }
 /*# sourceMappingURL=style.css.map */
 
+.contact-bg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 10px 40px 10px;
+}
+
+/* .contact-container {
+  background: rgba(255,255,255,0.75);
+  box-shadow: 0 8px 32px 0 rgba(31,38,135,0.08);
+  border-radius: 24px;
+  
+  width: 100%;
+  padding: 42px 36px 32px 36px;
+} */
+
+.contact-title {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #743984;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.contact-desc {
+  text-align: center;
+  color: #333;
+  margin-bottom: 36px;
+  font-size: 1.08rem;
+  font-weight: 500;
+}
+
+.contact-form {
+  width: 100%;
+}
+
+.contact-row {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 18px;
+  flex-wrap: wrap;
+}
+
+.contact-field {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 210px;
+}
+
+.field-full {
+  flex: 2;
+}
+
+.contact-field label {
+  font-size: 0.97rem;
+  margin-bottom: 7px;
+  font-weight: 600;
+  color: #743984;
+}
+
+.contact-field input,
+.contact-field textarea {
+  border: none;
+  border-radius: 13px;
+  padding: 13px 16px;
+  font-size: 1rem;
+  background: #f6f2fa;
+  margin-bottom: 0;
+  outline: none;
+  transition: box-shadow 0.2s;
+  box-shadow: 0 2px 10px 0 rgba(123, 97, 255, 0.04);
+  color: #5f4280;
+  resize: none;
+}
+
+.contact-field input:focus,
+.contact-field textarea:focus {
+  box-shadow: 0 0 0 2px #7439848c;
+}
+
+.contact-btn {
+  margin-top: 16px;
+  background: linear-gradient(90deg, #b472e6 0%, #9747ff 100%);
+  color: #fff;
+  padding: 14px 36px;
+  border: none;
+  border-radius: 25px;
+  font-size: 1.16rem;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 6px 20px 0 #b372e633;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: transform 0.09s;
+}
+
+.contact-btn:hover {
+  transform: translateY(-2px) scale(1.03);
+  background: linear-gradient(90deg, #9747ff 0%, #b472e6 100%);
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  background: #48b87b;
+  border-radius: 50%;
+  display: inline-block;
+}
