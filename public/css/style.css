@@ -257,9 +257,7 @@ textarea.form-control {
 
 .member-social-links a {
   display: inline-block;
-  margin: 0 10px;
   color: #fff;
-  font-size: 20px;
   transition: color 0.3s ease;
 }
 
@@ -1155,6 +1153,7 @@ textarea.form-control {
 /* conferencistas*/
 /* Estilos para el contenedor del carousel */
 
+
 #team-carousel {
   display: flex;
   overflow-x: auto;
@@ -1167,7 +1166,7 @@ textarea.form-control {
 .carousel-content {
   display: flex;
   width: calc(300px * 6); /* Ajustar el ancho según el número de elementos memberConfe */
-  animation: slide 20s linear infinite; /* Animación para el desplazamiento automático */
+   animation: slide 20s linear infinite;/*  Animación para el desplazamiento automático */
   margin: 0; /* Eliminar el margen */
   background: #fff; /* Agregamos un fondo blanco al contenedor */
   justify-content: space-between; /* Distribuir uniformemente los elementos */
@@ -1295,7 +1294,7 @@ textarea.form-control {
 
 /* Estilos para los íconos, títulos y números de contador */
 .count-box .count-icon {
-  color: #dd543d;
+  color: #00BFFF;
   font-size: 40px;
   margin-bottom: 10px;
   line-height: 1;
@@ -1580,15 +1579,19 @@ textarea.form-control {
 }
 
 .team-4 .member-social {
-  display: flex;
-  flex-direction: column;
+ display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
+  justify-items: center;
   align-items: center;
+  gap: 10px;
 }
 
 .team-4 .member-social-links {
-  display: flex;
-  gap: 1px;
-  margin-bottom: 10px;
+ display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
+  justify-items: center;
+  align-items: center;
+  gap: 10px;
 }
 
 .team-4 .member-social-links a {
@@ -2638,7 +2641,7 @@ Hero Slider Area Style
 }
 
 .hero-slider-area .slider-item.slider-item-bg-2 {
-  background-image: url(/img/home-slider/1.jpg);
+  background-image: url(/img/home-slider/slider1.png);
 }
 
 .hero-slider-area .slider-item.slider-item-bg-3 {
@@ -8287,3 +8290,121 @@ Page-navigation Area Style*/
   width: 100%;
 }
 /*# sourceMappingURL=style.css.map */
+
+.contact-bg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 10px 40px 10px;
+}
+
+/* .contact-container {
+  background: rgba(255,255,255,0.75);
+  box-shadow: 0 8px 32px 0 rgba(31,38,135,0.08);
+  border-radius: 24px;
+  
+  width: 100%;
+  padding: 42px 36px 32px 36px;
+} */
+
+.contact-title {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #743984;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.contact-desc {
+  text-align: center;
+  color: #333;
+  margin-bottom: 36px;
+  font-size: 1.08rem;
+  font-weight: 500;
+}
+
+.contact-form {
+  width: 100%;
+}
+
+.contact-row {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 18px;
+  flex-wrap: wrap;
+}
+
+.contact-field {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 210px;
+}
+
+.field-full {
+  flex: 2;
+}
+
+.contact-field label {
+  font-size: 0.97rem;
+  margin-bottom: 7px;
+  font-weight: 600;
+  color: #743984;
+}
+
+.contact-field input,
+.contact-field textarea {
+  border: none;
+  border-radius: 13px;
+  padding: 13px 16px;
+  font-size: 1rem;
+  background: #f6f2fa;
+  margin-bottom: 0;
+  outline: none;
+  transition: box-shadow 0.2s;
+  box-shadow: 0 2px 10px 0 rgba(123, 97, 255, 0.04);
+  color: #5f4280;
+  resize: none;
+}
+
+.contact-field input:focus,
+.contact-field textarea:focus {
+  box-shadow: 0 0 0 2px #7439848c;
+}
+
+.contact-btn {
+  margin-top: 16px;
+  background: linear-gradient(90deg, #b472e6 0%, #9747ff 100%);
+  color: #fff;
+  padding: 14px 36px;
+  border: none;
+  border-radius: 25px;
+  font-size: 1.16rem;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 6px 20px 0 #b372e633;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: transform 0.09s;
+}
+
+.contact-btn:hover {
+  transform: translateY(-2px) scale(1.03);
+  background: linear-gradient(90deg, #9747ff 0%, #b472e6 100%);
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  background: #48b87b;
+  border-radius: 50%;
+  display: inline-block;
+}

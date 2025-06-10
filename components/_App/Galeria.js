@@ -21,7 +21,7 @@ const Galeria = () => {
 	  };
   
 	  startCounting($(countingRefSpeakers.current), 20);
-	  startCounting($(countingRefPremios.current), 10);
+	  startCounting($(countingRefPremios.current), 15);
 	  startCounting($(countingRefConfe.current), 20);
 	}, []);
 
@@ -36,15 +36,15 @@ const Galeria = () => {
 		  }, 850); // Adjust the speed of counting here
 		};
 	
-		startCountingSlower($(countingRefPaises.current), 5);
+		startCountingSlower($(countingRefPaises.current), 6);
 		startCountingSlower($(countingRefDays.current), 5);
-		startCountingSlower($(countingRefAño.current), 4);
+		startCountingSlower($(countingRefAño.current), 5);
 	  }, []);
 
   return (
     <React.Fragment>
 
-		<section id="counter3" className="counter counter-dark bg-overlay bg-overlay-dark2 bg-section text-center" style={{backgroundColor: "#000"}}>
+		<section id="counter3" className="counter counter-dark bg-overlay bg-overlay-dark2 bg-section text-center" style={{backgroundColor: "#061F3A"}}>
 			
 		<div className="container mx-auto">
 		<div className="row justify-content-center">

@@ -18,7 +18,7 @@ const Layout = ({ children }) => {
             <Head>
                 <title>Arioac</title>
                 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-                <meta name="description" content="¡Únete al RH WEEK y celebra con nosotros 4 años de excelencia en recursos humanos! Descubre las últimas tendencias y mejores prácticas en la gestión del talento. Con la participación de reconocidos speakers internacionales, exploraremos temas actuales que están transformando el mundo de los recursos humanos. Además, tendrás la oportunidad de ganar 10 premios exclusivos. ¡No te lo pierdas y sé parte de este emocionante evento en línea!" />
+                <meta name="description" content="¡Únete al RH WEEK y celebra con nosotros 5 años de excelencia en recursos humanos! Descubre las últimas tendencias y mejores prácticas en la gestión del talento. Con la participación de reconocidos speakers internacionales, exploraremos temas actuales que están transformando el mundo de los recursos humanos. Además, tendrás la oportunidad de ganar 10 premios exclusivos. ¡No te lo pierdas y sé parte de este emocionante evento en línea!" />
                 <meta name="og:title" property="og:title" content="ARIOAC"></meta>
                 <meta property="og:locale" content="es_MX"></meta>
                 <meta property="og:type" content="website"></meta>
