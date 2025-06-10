@@ -2,8 +2,8 @@
   {
     "categoria": "24 de Junio del 2025",
     "hora": "9:00 am",
-    "duracion": "60 min",
-    "titulo": "Liderar para Trascender",
+    "duracion": "40 min",
+    "titulo": "Equipos que dejan huella: liderar para Trascender",
     "descripcion": "",
     "ponente": "Alma Jessica Soulé Angeles",
     "sala": "-",
@@ -15,7 +15,7 @@
   {
     "categoria": "23 de Junio del 2025",
     "hora": "9:00 am",
-    "duracion": "60 min",
+    "duracion": "40 min",
     "titulo": "Maestros del Tiempo: Domina tu Tiempo, Domina tu Vida",
     "descripcion": "",
     "ponente": "Marlen Treviño",
@@ -28,7 +28,7 @@
   {
     "categoria": "23 de Junio del 2025",
     "hora": "10:00 am",
-    "duracion": "60 min",
+    "duracion": "40 min",
     "titulo": "¿Cómo medir y mostrar el Valor que aporta RRHH a tu negocio?",
     "descripcion": "",
     "ponente": "Juan Carlos Páez Núñez",
@@ -41,7 +41,7 @@
   {
     "categoria": "23 de Junio del 2025",
     "hora": "11:00 am",
-    "duracion": "60 min",
+    "duracion": "40 min",
     "titulo": "Contratación con impacto: cómo la inclusión transforma el talento y el negocio",
     "descripcion": "",
     "ponente": "Leslie Cooper",
@@ -54,7 +54,7 @@
   {
     "categoria": "23 de Junio del 2025",
     "hora": "12:00 pm",
-    "duracion": "60 min",
+    "duracion": "40 min",
     "titulo": "Liderando el Mañana: Estrategias de Sucesión y Desarrollo de Talento para el Futuro",
     "descripcion": "",
     "ponente": "Salvador Romero",
@@ -67,7 +67,7 @@
   {
     "categoria": "24 de Junio del 2025",
     "hora": "10:00 am",
-    "duracion": "60 min",
+    "duracion": "40 min",
     "titulo": "Haz tu vida ascendente",
     "descripcion": "",
     "ponente": "María José Sánchez Yago ",
@@ -80,7 +80,7 @@
   {
     "categoria": "24 de Junio del 2025",
     "hora": "11:00 am",
-    "duracion": "60 min",
+    "duracion": "40 min",
     "titulo": "Liderazgos que transforman",
     "descripcion": "",
     "ponente": "Andrea Grobocopatel",
@@ -106,7 +106,7 @@
   {
     "categoria": "24 de Junio del 2025",
     "hora": "12:30 pm",
-    "duracion": "60 min",
+    "duracion": "40 min",
     "titulo": "Tecnología en innovación en la gestión de talento",
     "descripcion": "",
     "ponente": "Fernando Calderón ",
@@ -119,7 +119,7 @@
   {
     "categoria": "25 de Junio del 2025",
     "hora": "9:00 am",
-    "duracion": "60 min",
+    "duracion": "40 min",
     "titulo": "Vida y Trabajo en Balance",
     "descripcion": "",
     "ponente": "Anwar Buere Villegas",
@@ -132,9 +132,8 @@
   {
     "categoria": "25 de Junio del 2025",
     "hora": "10:00 am",
-    "duracion": "60 min",
-    "titulo": "De la intuición al impacto",
-    "descripcion": "RRHH se transforma con IA y People Analytics",
+    "duracion": "40 min",
+    "titulo": "De la intuición al impacto: cómo RRHH se transforma con IA y People Analytics",
     "ponente": "Gabriel Luciano Pietrafesa",
     "sala": "-",
     "enlace": "https://us06web.zoom.us/j/87516983449",
@@ -145,7 +144,7 @@
   {
     "categoria": "25 de Junio del 2025",
     "hora": "11:00 am",
-    "duracion": "60 min",
+    "duracion": "40 min",
     "titulo": "Congruencia Organizacional, pagando dignamente",
     "descripcion": "",
     "ponente": "Wendy Pacheco",
@@ -158,7 +157,7 @@
   {
     "categoria": "25 de Junio del 2025",
     "hora": "12:00 pm",
-    "duracion": "60 min",
+    "duracion": "30 min",
     "titulo": "Tres errores silenciosos en entrevistas",
     "descripcion": "",
     "ponente": "María Luisa Garza",
@@ -171,8 +170,8 @@
   {
     "categoria": "26 de Junio del 2025",
     "hora": "9:00 am",
-    "duracion": "60 min",
-    "titulo": "Cómo la IA está rediseñando el futuro de Recursos Humanos",
+    "duracion": "40 min",
+    "titulo": "Tendencias 2025: Cómo la IA está rediseñando el futuro de Recursos Humanos",
     "descripcion": "",
     "ponente": "Ricardo Carréon",
     "sala": "-",
@@ -184,7 +183,7 @@
   {
     "categoria": "26 de Junio del 2025",
     "hora": "10:00 am",
-    "duracion": "60 min",
+    "duracion": "40 min",
     "titulo": "Vivir en Coherencia y en la felicidad verdadera: sentido de vida y felicidad",
     "descripcion": "",
     "ponente": "Diana Milena Lemus Quimbayo",
@@ -197,7 +196,7 @@
   {
     "categoria": "26 de Junio del 2025",
     "hora": "12:00 pm",
-    "duracion": "60 min",
+    "duracion": "30 min",
     "titulo": "Más Allá del Sueldo: Compensaciones Equitativas y Sostenibles",
     "descripcion": "",
     "ponente": "Raúl Montero Jauregui y Gamaliel Santiago",
@@ -210,7 +209,7 @@
   {
     "categoria": "27 de Junio del 2025",
     "hora": "9:00 am",
-    "duracion": "60 min",
+    "duracion": "40 min",
     "titulo": "Liderazgo Humano, Bienestar y Employer Branding",
     "descripcion": "Claves para una Organización Productiva e Innovadora",
     "ponente": "Guillermo Rivera",
@@ -223,7 +222,7 @@
   {
     "categoria": "27 de Junio del 2025",
     "hora": "10:00 am",
-    "duracion": "60 min",
+    "duracion": "40 min",
     "titulo": "Transformación organizacional en épocas de cambio. ",
     "descripcion": "Focos para la Gestión de RRHH y Desarrollo Organizacional",
     "ponente": " Pablo Infanta ",
@@ -236,7 +235,7 @@
   {
     "categoria": "26 de Junio del 2025",
     "hora": "11:00 am",
-    "duracion": "60 min",
+    "duracion": "40 min",
     "titulo": " La NOM-035 no es el problema, es el espejo",
     "descripcion": "",
     "ponente": "Ivonne Borden",
@@ -249,7 +248,7 @@
   {
     "categoria": "27 de Junio del 2025",
     "hora": "12:00 pm",
-    "duracion": "60 min",
+    "duracion": "40 min",
     "titulo": "Salud mental en el trabajo",
     "descripcion": "La herramienta oculta para empresas que crecen.",
     "ponente": "Roxana Catillo Díaz de León",
@@ -262,9 +261,9 @@
   {
     "categoria": "27 de Junio del 2025",
     "hora": "11:00 am",
-    "duracion": "60 min",
+    "duracion": "40 min",
     "titulo": "Inclusión Laboral: El rol clave de Recursos Humanos en la construcción de organizaciones más justas, innovadoras y productivas.",
-    "descripcion": "• Sensibilización, conocimiento del entorno y su cultura. • Acompañamiento y aprendizajes. • Costos de un proceso de inclusión deficiente.",
+    "descripcion": "",
     "ponente": "Carolina Aguilar",
     "sala": "-",
     "enlace": "https://us06web.zoom.us/j/87516983449",
